@@ -1,0 +1,94 @@
+TAP version 13
+# Subtest: role detail modal and section counts cover every role
+ok 1 - role detail modal and section counts cover every role
+  ---
+  duration_ms: 8234.268681
+  type: 'test'
+  ...
+# Subtest: Wolf Pup death lets the pack choose two targets
+ok 2 - Wolf Pup death lets the pack choose two targets
+  ---
+  duration_ms: 1372.814283
+  type: 'test'
+  ...
+# Subtest: Rabid and Hypnotizer Wolf settings save in their role details
+ok 3 - Rabid and Hypnotizer Wolf settings save in their role details
+  ---
+  duration_ms: 646.707834
+  type: 'test'
+  ...
+# Subtest: Hypnotist gets configured uses across nights, then runs out
+ok 4 - Hypnotist gets configured uses across nights, then runs out
+  ---
+  duration_ms: 1818.386232
+  type: 'test'
+  ...
+# Subtest: Police notice remains configurable while the Pup and Hypnotist rules are permanent
+ok 5 - Police notice remains configurable while the Pup and Hypnotist rules are permanent
+  ---
+  duration_ms: 815.438713
+  type: 'test'
+  ...
+# Subtest: Hypnotist and Pup never attack even with old saved settings
+ok 6 - Hypnotist and Pup never attack even with old saved settings
+  ---
+  duration_ms: 754.643171
+  type: 'test'
+  ...
+# Subtest: passive Wolf Pup revenge also follows execution
+ok 7 - passive Wolf Pup revenge also follows execution
+  ---
+  duration_ms: 1278.479638
+  type: 'test'
+  ...
+# Subtest: a Police-blocked Hypnotist keeps the use for the next night
+ok 8 - a Police-blocked Hypnotist keeps the use for the next night
+  ---
+  duration_ms: 903.9762
+  type: 'test'
+  ...
+# Subtest: Hypnotizer Wolf settings save 1–5 uses or every night and 1–5 nights or the whole game
+ok 9 - Hypnotizer Wolf settings save 1–5 uses or every night and 1–5 nights or the whole game
+  ---
+  duration_ms: 552.761738
+  type: 'test'
+  ...
+# Subtest: Infecting Wolf brings Lone Wolf into the known team without changing its role
+ok 10 - Infecting Wolf brings Lone Wolf into the known team without changing its role
+  ---
+  duration_ms: 921.965314
+  type: 'test'
+  ...
+# Subtest: Lone Wolf failed 25% attack does not kill while another wolf can attack
+ok 11 - Lone Wolf failed 25% attack does not kill while another wolf can attack
+  ---
+  duration_ms: 877.70963
+  type: 'test'
+  ...
+# Subtest: role power reacts to ability settings on details and cards including Wolf Pup
+ok 12 - role power reacts to ability settings on details and cards including Wolf Pup
+  ---
+  duration_ms: 1545.714353
+  type: 'test'
+  ...
+# Subtest: renamed roles appear in selection, role details and searchable rulebook
+ok 13 - renamed roles appear in selection, role details and searchable rulebook
+  ---
+  duration_ms: 856.366426
+  type: 'test'
+  ...
+# Subtest: smart first-batch descriptions use dealt roles, not the full catalogue
+ok 14 - smart first-batch descriptions use dealt roles, not the full catalogue
+  ---
+  duration_ms: 3045.876875
+  type: 'test'
+  ...
+1..14
+# tests 14
+# suites 0
+# pass 14
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 24135.961376

@@ -1,0 +1,1258 @@
+TAP version 13
+# Subtest: selecting an occupied avatar transfers it and replaces the old owner with an unused one
+ok 1 - selecting an occupied avatar transfers it and replaces the old owner with an unused one
+  ---
+  duration_ms: 1.366279
+  type: 'test'
+  ...
+# Subtest: library additions can transfer a custom photo without reusing an occupied built-in
+ok 2 - library additions can transfer a custom photo without reusing an occupied built-in
+  ---
+  duration_ms: 0.164708
+  type: 'test'
+  ...
+# Subtest: when all built-ins are used the displaced player falls back to initials
+ok 3 - when all built-ins are used the displaced player falls back to initials
+  ---
+  duration_ms: 0.253901
+  type: 'test'
+  ...
+# Subtest: old duplicate avatars are repaired while keeping all current assignments unique
+ok 4 - old duplicate avatars are repaired while keeping all current assignments unique
+  ---
+  duration_ms: 0.257185
+  type: 'test'
+  ...
+# Subtest: selecting no image does not take other players avatars
+ok 5 - selecting no image does not take other players avatars
+  ---
+  duration_ms: 0.196264
+  type: 'test'
+  ...
+# Subtest: every built-in avatar is available and uses the shared frame rules
+ok 6 - every built-in avatar is available and uses the shared frame rules
+  ---
+  duration_ms: 1.143237
+  type: 'test'
+  ...
+# Subtest: all player counts get playable lineups with stronger villagers on Easy and stronger wolves on Hard
+ok 7 - all player counts get playable lineups with stronger villagers on Easy and stronger wolves on Hard
+  ---
+  duration_ms: 137.211084
+  type: 'test'
+  ...
+# Subtest: distribution respects zero and relative chances only when requested
+ok 8 - distribution respects zero and relative chances only when requested
+  ---
+  duration_ms: 1.379999
+  type: 'test'
+  ...
+# Subtest: distribution provides enough eligible roles for configured Madmen or explains failure
+ok 9 - distribution provides enough eligible roles for configured Madmen or explains failure
+  ---
+  duration_ms: 3.744569
+  type: 'test'
+  ...
+# Subtest: Neutral roles follow chances in games of five or more and are never needed for four
+ok 10 - Neutral roles follow chances in games of five or more and are never needed for four
+  ---
+  duration_ms: 1.951982
+  type: 'test'
+  ...
+# Subtest: distribution no-repeat mode assigns each role at most once for every player count
+ok 11 - distribution no-repeat mode assigns each role at most once for every player count
+  ---
+  duration_ms: 192.80225
+  type: 'test'
+  ...
+# Subtest: no-repeat distribution fails rather than silently selecting excluded or repeated roles
+ok 12 - no-repeat distribution fails rather than silently selecting excluded or repeated roles
+  ---
+  duration_ms: 0.438581
+  type: 'test'
+  ...
+# Subtest: disabled roles are excluded from all automatic distribution modes even when chances are ignored
+ok 13 - disabled roles are excluded from all automatic distribution modes even when chances are ignored
+  ---
+  duration_ms: 5.120111
+  type: 'test'
+  ...
+# Subtest: reply can be sent once, then the composer disappears while the message stays open
+ok 14 - reply can be sent once, then the composer disappears while the message stays open
+  ---
+  duration_ms: 713.247772
+  type: 'test'
+  ...
+# Subtest: empty replies cannot send or consume the reply allowance
+ok 15 - empty replies cannot send or consume the reply allowance
+  ---
+  duration_ms: 20.73273
+  type: 'test'
+  ...
+# Subtest: non-replyable messages never show a reply composer
+ok 16 - non-replyable messages never show a reply composer
+  ---
+  duration_ms: 4.270303
+  type: 'test'
+  ...
+# Subtest: a distinct later message resets the local reply UI and clears the previous draft
+ok 17 - a distinct later message resets the local reply UI and clears the previous draft
+  ---
+  duration_ms: 21.694792
+  type: 'test'
+  ...
+# Subtest: secret betrayal is one-sided and still protects the actual friend
+ok 18 - secret betrayal is one-sided and still protects the actual friend
+  ---
+  duration_ms: 1.178782
+  type: 'test'
+  ...
+# Subtest: Friends prevent wolf parity and a permanent two-wolf stalemate awards both teams
+ok 19 - Friends prevent wolf parity and a permanent two-wolf stalemate awards both teams
+  ---
+  duration_ms: 1.051026
+  type: 'test'
+  ...
+# Subtest: Lone Wolf can attack the Friends Maker’s Werewolf but not its own friend
+ok 20 - Lone Wolf can attack the Friends Maker’s Werewolf but not its own friend
+  ---
+  duration_ms: 0.221754
+  type: 'test'
+  ...
+# Subtest: infection recruits a Lone Wolf without changing their role or independent team logic
+ok 21 - infection recruits a Lone Wolf without changing their role or independent team logic
+  ---
+  duration_ms: 0.485252
+  type: 'test'
+  ...
+# Subtest: Gambler credits a real pack death at dawn
+ok 22 - Gambler credits a real pack death at dawn
+  ---
+  duration_ms: 1.949503
+  type: 'test'
+  ...
+# Subtest: Gambler credits a real sheriff death at dawn
+ok 23 - Gambler credits a real sheriff death at dawn
+  ---
+  duration_ms: 0.218127
+  type: 'test'
+  ...
+# Subtest: Gambler credits a real serialkiller death at dawn
+ok 24 - Gambler credits a real serialkiller death at dawn
+  ---
+  duration_ms: 0.139751
+  type: 'test'
+  ...
+# Subtest: Gambler credits a real illness death at dawn
+ok 25 - Gambler credits a real illness death at dawn
+  ---
+  duration_ms: 0.188099
+  type: 'test'
+  ...
+# Subtest: night successes cannot be credited twice or turn into debt after a tied day vote
+ok 26 - night successes cannot be credited twice or turn into debt after a tied day vote
+  ---
+  duration_ms: 0.445202
+  type: 'test'
+  ...
+# Subtest: protected targets remain pending and can still succeed by being voted out that day
+ok 27 - protected targets remain pending and can still succeed by being voted out that day
+  ---
+  duration_ms: 0.192111
+  type: 'test'
+  ...
+# Subtest: a surviving target becomes a wrong bet only after the following vote; Doctor can still pay debt
+ok 28 - a surviving target becomes a wrong bet only after the following vote; Doctor can still pay debt
+  ---
+  duration_ms: 0.166317
+  type: 'test'
+  ...
+# Subtest: revival, previous deaths and an escaped target are not new night deaths
+ok 29 - revival, previous deaths and an escaped target are not new night deaths
+  ---
+  duration_ms: 0.133911
+  type: 'test'
+  ...
+# Subtest: dead or converted Gamblers cannot collect a night success: {"alive":false}
+ok 30 - dead or converted Gamblers cannot collect a night success: {"alive":false}
+  ---
+  duration_ms: 0.318093
+  type: 'test'
+  ...
+# Subtest: dead or converted Gamblers cannot collect a night success: {"role":"werewolf"}
+ok 31 - dead or converted Gamblers cannot collect a night success: {"role":"werewolf"}
+  ---
+  duration_ms: 0.307099
+  type: 'test'
+  ...
+# Subtest: a new threshold success must survive the following night, and Friends cannot escape independently
+ok 32 - a new threshold success must survive the following night, and Friends cannot escape independently
+  ---
+  duration_ms: 0.326841
+  type: 'test'
+  ...
+# Subtest: multiple Gamblers settle their own bets, leaving only surviving-target wagers pending
+ok 33 - multiple Gamblers settle their own bets, leaving only surviving-target wagers pending
+  ---
+  duration_ms: 0.186911
+  type: 'test'
+  ...
+# Subtest: every role has usable instructions and bounded power across contrasting settings
+ok 34 - every role has usable instructions and bounded power across contrasting settings
+  ---
+  duration_ms: 2.669882
+  type: 'test'
+  ...
+# Subtest: infection checks every role and never changes an already known wolf
+ok 35 - infection checks every role and never changes an already known wolf
+  ---
+  duration_ms: 1.048398
+  type: 'test'
+  ...
+# Subtest: friendship still determines team and winner after any role is infected
+ok 36 - friendship still determines team and winner after any role is infected
+  ---
+  duration_ms: 0.491335
+  type: 'test'
+  ...
+# Subtest: partners are protected against every direct lethal attack and a raven curse
+ok 37 - partners are protected against every direct lethal attack and a raven curse
+  ---
+  duration_ms: 0.909813
+  type: 'test'
+  ...
+# Subtest: normal teammates cannot attack a recruited Lone Wolf but a friend can betray secretly
+ok 38 - normal teammates cannot attack a recruited Lone Wolf but a friend can betray secretly
+  ---
+  duration_ms: 0.177754
+  type: 'test'
+  ...
+# Subtest: character limit caps a single long word as well as multiple words and spaces
+ok 39 - character limit caps a single long word as well as multiple words and spaces
+  ---
+  duration_ms: 352.50357
+  type: 'test'
+  ...
+# Subtest: ten-character headline shows its limit and publishes unchanged
+ok 40 - ten-character headline shows its limit and publishes unchanged
+  ---
+  duration_ms: 76.949402
+  type: 'test'
+  ...
+# Subtest: an eleventh character is rejected; replacing and deleting still work
+ok 41 - an eleventh character is rejected; replacing and deleting still work
+  ---
+  duration_ms: 9.772062
+  type: 'test'
+  ...
+# Subtest: pasting a long headline retains and publishes only its first ten characters
+ok 42 - pasting a long headline retains and publishes only its first ten characters
+  ---
+  duration_ms: 13.025281
+  type: 'test'
+  ...
+# Subtest: Unicode characters count without breaking emoji surrogate pairs
+ok 43 - Unicode characters count without breaking emoji surrogate pairs
+  ---
+  duration_ms: 9.180663
+  type: 'test'
+  ...
+# Subtest: spaces and punctuation count; skipping discards the headline
+ok 44 - spaces and punctuation count; skipping discards the headline
+  ---
+  duration_ms: 8.182873
+  type: 'test'
+  ...
+# Subtest: verdict shows the voted player, revealed artwork, death badge and final weighted vote count
+ok 45 - verdict shows the voted player, revealed artwork, death badge and final weighted vote count
+  ---
+  duration_ms: 682.085381
+  type: 'test'
+  ...
+# Subtest: hidden death roles do not leak into verdict text, image URLs or accessible descriptions
+ok 46 - hidden death roles do not leak into verdict text, image URLs or accessible descriptions
+  ---
+  duration_ms: 18.36326
+  type: 'test'
+  ...
+# Subtest: tied or skipped votes show no dead player or role card
+ok 47 - tied or skipped votes show no dead player or role card
+  ---
+  duration_ms: 11.268391
+  type: 'test'
+  ...
+# Subtest: end cards distinguish actual winners, eliminated players, escape and Madman disclosure
+ok 48 - end cards distinguish actual winners, eliminated players, escape and Madman disclosure
+  ---
+  duration_ms: 17.386489
+  type: 'test'
+  ...
+# Subtest: night rankings are reversible, use supplied winners, and never change saved standings
+ok 49 - night rankings are reversible, use supplied winners, and never change saved standings
+  ---
+  duration_ms: 36.375297
+  type: 'test'
+  ...
+# Subtest: dead faction winners retain WON while showing eliminated status; menu and storage errors work
+ok 50 - dead faction winners retain WON while showing eliminated status; menu and storage errors work
+  ---
+  duration_ms: 18.877681
+  type: 'test'
+  ...
+# Subtest: all roles have simple instructions for the current game
+ok 51 - all roles have simple instructions for the current game
+  ---
+  duration_ms: 2.512293
+  type: 'test'
+  ...
+# Subtest: doctor instructions follow doctorSelfProtect
+ok 52 - doctor instructions follow doctorSelfProtect
+  ---
+  duration_ms: 0.151448
+  type: 'test'
+  ...
+# Subtest: doctor instructions follow doctorRepeatProtect
+ok 53 - doctor instructions follow doctorRepeatProtect
+  ---
+  duration_ms: 0.161936
+  type: 'test'
+  ...
+# Subtest: seer instructions follow seerShowExactRole
+ok 54 - seer instructions follow seerShowExactRole
+  ---
+  duration_ms: 0.08461
+  type: 'test'
+  ...
+# Subtest: chef instructions follow chefNeutralsTogether
+ok 55 - chef instructions follow chefNeutralsTogether
+  ---
+  duration_ms: 0.084412
+  type: 'test'
+  ...
+# Subtest: mayor instructions follow mayorDoubleVote
+ok 56 - mayor instructions follow mayorDoubleVote
+  ---
+  duration_ms: 0.073328
+  type: 'test'
+  ...
+# Subtest: templar instructions follow templarUses
+ok 57 - templar instructions follow templarUses
+  ---
+  duration_ms: 0.064322
+  type: 'test'
+  ...
+# Subtest: necromancer instructions follow necromancerUses
+ok 58 - necromancer instructions follow necromancerUses
+  ---
+  duration_ms: 0.063006
+  type: 'test'
+  ...
+# Subtest: bodyguard instructions follow bodyguardProtectAll
+ok 59 - bodyguard instructions follow bodyguardProtectAll
+  ---
+  duration_ms: 0.204244
+  type: 'test'
+  ...
+# Subtest: sheriff instructions follow sheriffEveryNight
+ok 60 - sheriff instructions follow sheriffEveryNight
+  ---
+  duration_ms: 0.329498
+  type: 'test'
+  ...
+# Subtest: serialkiller instructions follow serialKillerInterval
+ok 61 - serialkiller instructions follow serialKillerInterval
+  ---
+  duration_ms: 0.12506
+  type: 'test'
+  ...
+# Subtest: survivor instructions follow survivorShieldCount
+ok 62 - survivor instructions follow survivorShieldCount
+  ---
+  duration_ms: 0.076264
+  type: 'test'
+  ...
+# Subtest: visitor instructions follow visitorDangerousRoles
+ok 63 - visitor instructions follow visitorDangerousRoles
+  ---
+  duration_ms: 0.834906
+  type: 'test'
+  ...
+# Subtest: visitor instructions follow visitorAttackedTarget
+ok 64 - visitor instructions follow visitorAttackedTarget
+  ---
+  duration_ms: 0.062564
+  type: 'test'
+  ...
+# Subtest: psychic instructions follow psychicShowFriends
+ok 65 - psychic instructions follow psychicShowFriends
+  ---
+  duration_ms: 0.048264
+  type: 'test'
+  ...
+# Subtest: celebrity instructions follow celebrityAudience
+ok 66 - celebrity instructions follow celebrityAudience
+  ---
+  duration_ms: 0.046205
+  type: 'test'
+  ...
+# Subtest: detective instructions follow detectiveShowNames
+ok 67 - detective instructions follow detectiveShowNames
+  ---
+  duration_ms: 0.045285
+  type: 'test'
+  ...
+# Subtest: instigator instructions follow instigatorMaxUses
+ok 68 - instigator instructions follow instigatorMaxUses
+  ---
+  duration_ms: 0.048403
+  type: 'test'
+  ...
+# Subtest: sickman instructions follow sickStartingNights
+ok 69 - sickman instructions follow sickStartingNights
+  ---
+  duration_ms: 0.052472
+  type: 'test'
+  ...
+# Subtest: sickman instructions follow sickDoctorBonus
+ok 70 - sickman instructions follow sickDoctorBonus
+  ---
+  duration_ms: 0.046442
+  type: 'test'
+  ...
+# Subtest: journalist instructions follow journalistDrawing
+ok 71 - journalist instructions follow journalistDrawing
+  ---
+  duration_ms: 0.044885
+  type: 'test'
+  ...
+# Subtest: raven instructions follow ravenReflectAttackers
+ok 72 - raven instructions follow ravenReflectAttackers
+  ---
+  duration_ms: 0.090489
+  type: 'test'
+  ...
+# Subtest: gambler instructions follow gamblerPredictions
+ok 73 - gambler instructions follow gamblerPredictions
+  ---
+  duration_ms: 0.057086
+  type: 'test'
+  ...
+# Subtest: gambler instructions follow gamblerBetProtection
+ok 74 - gambler instructions follow gamblerBetProtection
+  ---
+  duration_ms: 0.048772
+  type: 'test'
+  ...
+# Subtest: mindflayer instructions follow mindStartingParasites
+ok 75 - mindflayer instructions follow mindStartingParasites
+  ---
+  duration_ms: 0.127344
+  type: 'test'
+  ...
+# Subtest: mindflayer instructions follow mindRegenPercent
+ok 76 - mindflayer instructions follow mindRegenPercent
+  ---
+  duration_ms: 0.050791
+  type: 'test'
+  ...
+# Subtest: intelligence instructions follow intelligenceInterval
+ok 77 - intelligence instructions follow intelligenceInterval
+  ---
+  duration_ms: 0.047145
+  type: 'test'
+  ...
+# Subtest: thief instructions follow thiefAttackInterval
+ok 78 - thief instructions follow thiefAttackInterval
+  ---
+  duration_ms: 0.048037
+  type: 'test'
+  ...
+# Subtest: police instructions follow policeNotifyBlocked
+ok 79 - police instructions follow policeNotifyBlocked
+  ---
+  duration_ms: 0.046851
+  type: 'test'
+  ...
+# Subtest: police instructions follow policeRepeatTarget
+ok 80 - police instructions follow policeRepeatTarget
+  ---
+  duration_ms: 0.04362
+  type: 'test'
+  ...
+# Subtest: charmer instructions follow charmerMessages
+ok 81 - charmer instructions follow charmerMessages
+  ---
+  duration_ms: 0.047661
+  type: 'test'
+  ...
+# Subtest: charmer instructions follow charmerFirstNight
+ok 82 - charmer instructions follow charmerFirstNight
+  ---
+  duration_ms: 0.044744
+  type: 'test'
+  ...
+# Subtest: whitewolf instructions follow whiteWolfBetrayPack
+ok 83 - whitewolf instructions follow whiteWolfBetrayPack
+  ---
+  duration_ms: 0.045913
+  type: 'test'
+  ...
+# Subtest: hypnowolf instructions follow hypnoMaxUses
+ok 84 - hypnowolf instructions follow hypnoMaxUses
+  ---
+  duration_ms: 0.093168
+  type: 'test'
+  ...
+# Subtest: hypnowolf instructions follow hypnoDuration
+ok 85 - hypnowolf instructions follow hypnoDuration
+  ---
+  duration_ms: 0.158672
+  type: 'test'
+  ...
+# Subtest: rabidwolf instructions follow rabidCanInfect
+ok 86 - rabidwolf instructions follow rabidCanInfect
+  ---
+  duration_ms: 0.092433
+  type: 'test'
+  ...
+# Subtest: wolfpup instructions follow rabidCanInfect
+ok 87 - wolfpup instructions follow rabidCanInfect
+  ---
+  duration_ms: 0.061895
+  type: 'test'
+  ...
+# Subtest: lonewolf instructions follow loneWolfInterval
+ok 88 - lonewolf instructions follow loneWolfInterval
+  ---
+  duration_ms: 0.082375
+  type: 'test'
+  ...
+# Subtest: lonewolf instructions follow rabidCanInfect
+ok 89 - lonewolf instructions follow rabidCanInfect
+  ---
+  duration_ms: 0.061643
+  type: 'test'
+  ...
+# Subtest: werewolf instructions follow wolfRandomTies
+ok 90 - werewolf instructions follow wolfRandomTies
+  ---
+  duration_ms: 0.064167
+  type: 'test'
+  ...
+# Subtest: strongwolf instructions follow firstNightSafe
+ok 91 - strongwolf instructions follow firstNightSafe
+  ---
+  duration_ms: 0.055195
+  type: 'test'
+  ...
+# Subtest: mayor instructions follow firstNightSafe
+ok 92 - mayor instructions follow firstNightSafe
+  ---
+  duration_ms: 0.051323
+  type: 'test'
+  ...
+# Subtest: survivor instructions follow firstNightSafe
+ok 93 - survivor instructions follow firstNightSafe
+  ---
+  duration_ms: 0.053883
+  type: 'test'
+  ...
+# Subtest: visitor instructions follow firstNightSafe
+ok 94 - visitor instructions follow firstNightSafe
+  ---
+  duration_ms: 0.053287
+  type: 'test'
+  ...
+# Subtest: villager instructions follow roleWaitSeconds
+ok 95 - villager instructions follow roleWaitSeconds
+  ---
+  duration_ms: 0.052025
+  type: 'test'
+  ...
+# Subtest: combined settings keep all important rules in the same explanation
+ok 96 - combined settings keep all important rules in the same explanation
+  ---
+  duration_ms: 0.25468
+  type: 'test'
+  ...
+# Subtest: first-night attack warning is not repeated in role descriptions
+ok 97 - first-night attack warning is not repeated in role descriptions
+  ---
+  duration_ms: 0.384918
+  type: 'test'
+  ...
+# Subtest: role descriptions avoid full stops and the Pup wording is clear
+ok 98 - role descriptions avoid full stops and the Pup wording is clear
+  ---
+  duration_ms: 0.355916
+  type: 'test'
+  ...
+# Subtest: Visitor wording is clear for every combination of visit dangers
+ok 99 - Visitor wording is clear for every combination of visit dangers
+  ---
+  duration_ms: 0.415702
+  type: 'test'
+  ...
+# Subtest: instructions separate ideas without chaining and between every sentence
+ok 100 - instructions separate ideas without chaining and between every sentence
+  ---
+  duration_ms: 0.392862
+  type: 'test'
+  ...
+# Subtest: Strong Werewolf gets simple night-specific instructions without exposing hidden wolves or blocks
+ok 101 - Strong Werewolf gets simple night-specific instructions without exposing hidden wolves or blocks
+  ---
+  duration_ms: 0.32482
+  type: 'test'
+  ...
+# Subtest: renamed display names keep the original role IDs and teams
+ok 102 - renamed display names keep the original role IDs and teams
+  ---
+  duration_ms: 0.683485
+  type: 'test'
+  ...
+# Subtest: renamed roles preserve artwork paths and stored preference keys
+ok 103 - renamed roles preserve artwork paths and stored preference keys
+  ---
+  duration_ms: 0.157359
+  type: 'test'
+  ...
+# Subtest: investigations and descriptions use the updated names
+ok 104 - investigations and descriptions use the updated names
+  ---
+  duration_ms: 0.882606
+  type: 'test'
+  ...
+# Subtest: active rulebook, role names and role-settings strings have no old display names
+ok 105 - active rulebook, role names and role-settings strings have no old display names
+  ---
+  duration_ms: 0.770089
+  type: 'test'
+  ...
+# Subtest: default ratings have one 10 per team and stay within 1 to 10
+ok 106 - default ratings have one 10 per team and stay within 1 to 10
+  ---
+  duration_ms: 1.271742
+  type: 'test'
+  ...
+# Subtest: settings change ratings in the expected direction
+ok 107 - settings change ratings in the expected direction
+  ---
+  duration_ms: 0.37802
+  type: 'test'
+  ...
+# Subtest: distribution considers updated power and supports 10-point candidates
+ok 108 - distribution considers updated power and supports 10-point candidates
+  ---
+  duration_ms: 1.794289
+  type: 'test'
+  ...
+# Subtest: Random cards use current power together with chances, exclusions and uniqueness
+ok 109 - Random cards use current power together with chances, exclusions and uniqueness
+  ---
+  duration_ms: 1.449704
+  type: 'test'
+  ...
+# Subtest: Wolf Pup is weaker than an attacking wolf and its revenge settings affect its estimate
+ok 110 - Wolf Pup is weaker than an attacking wolf and its revenge settings affect its estimate
+  ---
+  duration_ms: 0.183173
+  type: 'test'
+  ...
+# Subtest: strength-changing role settings move points in the right direction
+ok 111 - strength-changing role settings move points in the right direction
+  ---
+  duration_ms: 0.323837
+  type: 'test'
+  ...
+# Subtest: non-strength settings do not change points and changed points feed Random cards
+ok 112 - non-strength settings do not change points and changed points feed Random cards
+  ---
+  duration_ms: 0.228321
+  type: 'test'
+  ...
+# Subtest: both randomizers use changed Hypnotizer Wolf strength
+ok 113 - both randomizers use changed Hypnotizer Wolf strength
+  ---
+  duration_ms: 0.629636
+  type: 'test'
+  ...
+# Subtest: offline worker installs complete shell, cleans old revisions and keeps unrelated caches
+ok 114 - offline worker installs complete shell, cleans old revisions and keeps unrelated caches
+  ---
+  duration_ms: 21.501998
+  type: 'test'
+  ...
+# Subtest: navigation prefers the network and cached assets work under a Pages subdirectory
+ok 115 - navigation prefers the network and cached assets work under a Pages subdirectory
+  ---
+  duration_ms: 1.043667
+  type: 'test'
+  ...
+# Subtest: first batch contains exactly five roles; the other thirty retain the existing writer
+ok 116 - first batch contains exactly five roles; the other thirty retain the existing writer
+  ---
+  duration_ms: 1.783404
+  type: 'test'
+  ...
+# Subtest: Werewolf ties explain only the enabled result and do not promise nobody can die from other attacks
+ok 117 - Werewolf ties explain only the enabled result and do not promise nobody can die from other attacks
+  ---
+  duration_ms: 0.740246
+  type: 'test'
+  ...
+# Subtest: absent Wolf Pup is never mentioned; present or dead Pup retains its next-night rule
+ok 118 - absent Wolf Pup is never mentioned; present or dead Pup retains its next-night rule
+  ---
+  duration_ms: 0.438361
+  type: 'test'
+  ...
+# Subtest: Infecting Wolf only explains Lone Wolf when present, and infection when enabled
+ok 119 - Infecting Wolf only explains Lone Wolf when present, and infection when enabled
+  ---
+  duration_ms: 0.270911
+  type: 'test'
+  ...
+# Subtest: Hypnotizer Wolf keeps limits, timing and duration; spent hypnosis never promises another use
+ok 120 - Hypnotizer Wolf keeps limits, timing and duration; spent hypnosis never promises another use
+  ---
+  duration_ms: 0.282904
+  type: 'test'
+  ...
+# Subtest: Lone Wolf filters absent interactions but keeps attack odds and interval without leaking secret blocks
+ok 121 - Lone Wolf filters absent interactions but keeps attack odds and interval without leaking secret blocks
+  ---
+  duration_ms: 0.343868
+  type: 'test'
+  ...
+# Subtest: Wolf Pup explains only bonuses usable by the roles in the match
+ok 122 - Wolf Pup explains only bonuses usable by the roles in the match
+  ---
+  duration_ms: 0.271321
+  type: 'test'
+  ...
+# Subtest: automatic whole-line shortening stays within both limits for settings, match combinations and private turns
+ok 123 - automatic whole-line shortening stays within both limits for settings, match combinations and private turns
+  ---
+  duration_ms: 328.322165
+  type: 'test'
+  ...
+# Subtest: private descriptions use public night and own state without changing Strong Wolf logic
+ok 124 - private descriptions use public night and own state without changing Strong Wolf logic
+  ---
+  duration_ms: 1.186856
+  type: 'test'
+  ...
+# Subtest: every implemented role has its own artwork and is cached for offline play
+ok 125 - every implemented role has its own artwork and is cached for offline play
+  ---
+  duration_ms: 1.173651
+  type: 'test'
+  ...
+# Subtest: optional phase sounds are present and available offline
+ok 126 - optional phase sounds are present and available offline
+  ---
+  duration_ms: 0.180007
+  type: 'test'
+  ...
+# Subtest: all Celebrity skin artwork is included for offline play
+ok 127 - all Celebrity skin artwork is included for offline play
+  ---
+  duration_ms: 0.186266
+  type: 'test'
+  ...
+# Subtest: all Friends Maker skin artwork is included for offline play
+ok 128 - all Friends Maker skin artwork is included for offline play
+  ---
+  duration_ms: 0.188019
+  type: 'test'
+  ...
+# Subtest: remaining new character portraits are distinct, selectable and cached offline
+ok 129 - remaining new character portraits are distinct, selectable and cached offline
+  ---
+  duration_ms: 2.07638
+  type: 'test'
+  ...
+# Subtest: the offline tap sound is available when Web Audio is not supported
+ok 130 - the offline tap sound is available when Web Audio is not supported
+  ---
+  duration_ms: 0.284706
+  type: 'test'
+  ...
+# Subtest: removed avatar 18 is now a cached Friends Maker skin
+ok 131 - removed avatar 18 is now a cached Friends Maker skin
+  ---
+  duration_ms: 3.698385
+  type: 'test'
+  ...
+# Subtest: tally handles skips and ties without executing
+ok 132 - tally handles skips and ties without executing
+  ---
+  duration_ms: 1.243572
+  type: 'test'
+  ...
+# Subtest: village wins at zero wolves, wolves at parity
+ok 133 - village wins at zero wolves, wolves at parity
+  ---
+  duration_ms: 0.303097
+  type: 'test'
+  ...
+# Subtest: deal respects counts and rejects invalid games
+ok 134 - deal respects counts and rejects invalid games
+  ---
+  duration_ms: 1.15159
+  type: 'test'
+  ...
+# Subtest: shuffle preserves elements
+ok 135 - shuffle preserves elements
+  ---
+  duration_ms: 0.199854
+  type: 'test'
+  ...
+# Subtest: mayor protection stops wolf attack but not holy water
+ok 136 - mayor protection stops wolf attack but not holy water
+  ---
+  duration_ms: 2.324441
+  type: 'test'
+  ...
+# Subtest: jester wins only when executed by the vote
+ok 137 - jester wins only when executed by the vote
+  ---
+  duration_ms: 0.208036
+  type: 'test'
+  ...
+# Subtest: invalid role counts are rejected
+ok 138 - invalid role counts are rejected
+  ---
+  duration_ms: 0.222399
+  type: 'test'
+  ...
+# Subtest: bodyguard takes a lethal attack for their target; sheriff hits selected target
+ok 139 - bodyguard takes a lethal attack for their target; sheriff hits selected target
+  ---
+  duration_ms: 0.258705
+  type: 'test'
+  ...
+# Subtest: bodyguard cannot protect a non-village player, without exposing targets at selection
+ok 140 - bodyguard cannot protect a non-village player, without exposing targets at selection
+  ---
+  duration_ms: 0.420255
+  type: 'test'
+  ...
+# Subtest: serial killer and survivor win rules
+ok 141 - serial killer and survivor win rules
+  ---
+  duration_ms: 0.395554
+  type: 'test'
+  ...
+# Subtest: visitor dies on dangerous visits; survivor shield blocks a hit
+ok 142 - visitor dies on dangerous visits; survivor shield blocks a hit
+  ---
+  duration_ms: 0.241008
+  type: 'test'
+  ...
+# Subtest: detective visitor list deduplicates actors and isolates the selected target
+ok 143 - detective visitor list deduplicates actors and isolates the selected target
+  ---
+  duration_ms: 0.119341
+  type: 'test'
+  ...
+# Subtest: strong wolf counts for its team and attacks independently of pack vote
+ok 144 - strong wolf counts for its team and attacks independently of pack vote
+  ---
+  duration_ms: 0.169579
+  type: 'test'
+  ...
+# Subtest: sick man dies after three nights and doctor visits add two nights
+ok 145 - sick man dies after three nights and doctor visits add two nights
+  ---
+  duration_ms: 0.232751
+  type: 'test'
+  ...
+# Subtest: lone wolf stays hidden from pack and can attack a pack member before their vote
+ok 146 - lone wolf stays hidden from pack and can attack a pack member before their vote
+  ---
+  duration_ms: 0.204271
+  type: 'test'
+  ...
+# Subtest: enraged pack can attack two targets and protects tied cutoffs
+ok 147 - enraged pack can attack two targets and protects tied cutoffs
+  ---
+  duration_ms: 0.21864
+  type: 'test'
+  ...
+# Subtest: journalist is a village role that can be dealt
+ok 148 - journalist is a village role that can be dealt
+  ---
+  duration_ms: 0.14203
+  type: 'test'
+  ...
+# Subtest: raven is a neutral lone survivor and its activated curse kills marked players
+ok 149 - raven is a neutral lone survivor and its activated curse kills marked players
+  ---
+  duration_ms: 0.126302
+  type: 'test'
+  ...
+# Subtest: a marked attacker targeting Raven is reflected; unmarked attacks still hit
+ok 150 - a marked attacker targeting Raven is reflected; unmarked attacks still hit
+  ---
+  duration_ms: 0.207093
+  type: 'test'
+  ...
+# Subtest: rabid wolf converts a living non-wolf; victim joins and is known by the pack
+ok 151 - rabid wolf converts a living non-wolf; victim joins and is known by the pack
+  ---
+  duration_ms: 0.17291
+  type: 'test'
+  ...
+# Subtest: infections do not convert dead players, known wolves, or proceed from dead actors
+ok 152 - infections do not convert dead players, known wolves, or proceed from dead actors
+  ---
+  duration_ms: 0.213473
+  type: 'test'
+  ...
+# Subtest: white werewolf is known to the pack but may betray it
+ok 153 - white werewolf is known to the pack but may betray it
+  ---
+  duration_ms: 0.081168
+  type: 'test'
+  ...
+# Subtest: white werewolf wins alone and loses when real wolves reach parity
+ok 154 - white werewolf wins alone and loses when real wolves reach parity
+  ---
+  duration_ms: 0.090253
+  type: 'test'
+  ...
+# Subtest: white werewolf is neutral but appears as a werewolf to wolf-detecting abilities
+ok 155 - white werewolf is neutral but appears as a werewolf to wolf-detecting abilities
+  ---
+  duration_ms: 0.120414
+  type: 'test'
+  ...
+# Subtest: white werewolf does not satisfy the required wolf role count in the deck
+ok 156 - white werewolf does not satisfy the required wolf role count in the deck
+  ---
+  duration_ms: 0.270863
+  type: 'test'
+  ...
+# Subtest: gambler prepares after two correct bets and escapes only after surviving the next night
+ok 157 - gambler prepares after two correct bets and escapes only after surviving the next night
+  ---
+  duration_ms: 0.292838
+  type: 'test'
+  ...
+# Subtest: incorrect and tied predictions create debt, paid next night unless a doctor saves
+ok 158 - incorrect and tied predictions create debt, paid next night unless a doctor saves
+  ---
+  duration_ms: 0.169654
+  type: 'test'
+  ...
+# Subtest: a shielded villager does not cause a bodyguard to sacrifice themselves
+ok 159 - a shielded villager does not cause a bodyguard to sacrifice themselves
+  ---
+  duration_ms: 0.097623
+  type: 'test'
+  ...
+# Subtest: Mind Flayer wins only when every other living player is parasitized
+ok 160 - Mind Flayer wins only when every other living player is parasitized
+  ---
+  duration_ms: 0.25921
+  type: 'test'
+  ...
+# Subtest: a skipped Mind Flayer turn has a 20% parasite generation chance
+ok 161 - a skipped Mind Flayer turn has a 20% parasite generation chance
+  ---
+  duration_ms: 0.097241
+  type: 'test'
+  ...
+# Subtest: intelligence chief gets two distinct living non-self candidates and reports can be inaccurate
+ok 162 - intelligence chief gets two distinct living non-self candidates and reports can be inaccurate
+  ---
+  duration_ms: 0.251447
+  type: 'test'
+  ...
+# Subtest: thief steals the target role after a lethal attack and joins its team
+ok 163 - thief steals the target role after a lethal attack and joins its team
+  ---
+  duration_ms: 0.216376
+  type: 'test'
+  ...
+# Subtest: thief does not steal when a target survives or the thief is killed
+ok 164 - thief does not steal when a target survives or the thief is killed
+  ---
+  duration_ms: 0.128384
+  type: 'test'
+  ...
+# Subtest: a living thief prevents an immediate wolf or village victory before stealing
+ok 165 - a living thief prevents an immediate wolf or village victory before stealing
+  ---
+  duration_ms: 0.082167
+  type: 'test'
+  ...
+# Subtest: police cannot detain themselves, dead players or the previous target
+ok 166 - police cannot detain themselves, dead players or the previous target
+  ---
+  duration_ms: 0.213697
+  type: 'test'
+  ...
+# Subtest: hypnosis affects living villagers only, not wolves or neutral players
+ok 167 - hypnosis affects living villagers only, not wolves or neutral players
+  ---
+  duration_ms: 0.15836
+  type: 'test'
+  ...
+# Subtest: hypnotized sick man does not die from illness
+ok 168 - hypnotized sick man does not die from illness
+  ---
+  duration_ms: 0.081601
+  type: 'test'
+  ...
+# Subtest: chef can safely skip when fewer than two guests are alive
+ok 169 - chef can safely skip when fewer than two guests are alive
+  ---
+  duration_ms: 0.08711
+  type: 'test'
+  ...
+# Subtest: detained or hypnotized celebrity does not reveal their identity
+ok 170 - detained or hypnotized celebrity does not reveal their identity
+  ---
+  duration_ms: 0.195553
+  type: 'test'
+  ...
+# Subtest: a reflected thief attack cannot steal a Raven killed by another attacker
+ok 171 - a reflected thief attack cannot steal a Raven killed by another attacker
+  ---
+  duration_ms: 0.220183
+  type: 'test'
+  ...
+# Subtest: thief attacks stopped by shields and bodyguards do not count as successful
+ok 172 - thief attacks stopped by shields and bodyguards do not count as successful
+  ---
+  duration_ms: 0.166584
+  type: 'test'
+  ...
+# Subtest: a living Mind Flayer prevents ordinary team victory until its own condition resolves
+ok 173 - a living Mind Flayer prevents ordinary team victory until its own condition resolves
+  ---
+  duration_ms: 0.086626
+  type: 'test'
+  ...
+# Subtest: hypnosis no longer disables a villager after conversion to another team
+ok 174 - hypnosis no longer disables a villager after conversion to another team
+  ---
+  duration_ms: 0.083186
+  type: 'test'
+  ...
+# Subtest: lovers are an independent team and one surviving partner can win
+ok 175 - lovers are an independent team and one surviving partner can win
+  ---
+  duration_ms: 0.155421
+  type: 'test'
+  ...
+# Subtest: a vote-executed jester in love does not win separately
+ok 176 - a vote-executed jester in love does not win separately
+  ---
+  duration_ms: 0.079603
+  type: 'test'
+  ...
+# Subtest: attacks and pack ballots cannot harm a bonded partner
+ok 177 - attacks and pack ballots cannot harm a bonded partner
+  ---
+  duration_ms: 0.116806
+  type: 'test'
+  ...
+# Subtest: a bonded gambler cannot independently escape and a bonded mind flayer cannot win alone
+ok 178 - a bonded gambler cannot independently escape and a bonded mind flayer cannot win alone
+  ---
+  duration_ms: 0.204226
+  type: 'test'
+  ...
+# Subtest: Madmen are chosen only from eligible village roles without changing displayed roles
+ok 179 - Madmen are chosen only from eligible village roles without changing displayed roles
+  ---
+  duration_ms: 0.293837
+  type: 'test'
+  ...
+# Subtest: Sheriff bullets do not kill a Madman or cause a visitor to die from that shot
+ok 180 - Sheriff bullets do not kill a Madman or cause a visitor to die from that shot
+  ---
+  duration_ms: 0.13918
+  type: 'test'
+  ...
+# Subtest: a recruited werewolf who is bonded remains on the Friends team
+ok 181 - a recruited werewolf who is bonded remains on the Friends team
+  ---
+  duration_ms: 0.1056
+  type: 'test'
+  ...
+# Subtest: detained police do not detain others; mutual detention cancels both abilities
+ok 182 - detained police do not detain others; mutual detention cancels both abilities
+  ---
+  duration_ms: 0.190546
+  type: 'test'
+  ...
+# Subtest: automatic lineups follow the video for 6–16 and explicitly extrapolate outside it
+ok 183 - automatic lineups follow the video for 6–16 and explicitly extrapolate outside it
+  ---
+  duration_ms: 2.699215
+  type: 'test'
+  ...
+# Subtest: video-inspired roles are still randomly assigned to players
+ok 184 - video-inspired roles are still randomly assigned to players
+  ---
+  duration_ms: 0.239626
+  type: 'test'
+  ...
+# Subtest: Celebrity audience is distinct, excludes self, and respects blocks
+ok 185 - Celebrity audience is distinct, excludes self, and respects blocks
+  ---
+  duration_ms: 0.331118
+  type: 'test'
+  ...
+# Subtest: Seer can see exact roles or only werewolf appearance, preserving disguises
+ok 186 - Seer can see exact roles or only werewolf appearance, preserving disguises
+  ---
+  duration_ms: 0.215991
+  type: 'test'
+  ...
+# Subtest: Sick Man illness uses configurable starting nights and Doctor bonus
+ok 187 - Sick Man illness uses configurable starting nights and Doctor bonus
+  ---
+  duration_ms: 0.116183
+  type: 'test'
+  ...
+# Subtest: Chef neutral-team option respects independent players and Friends
+ok 188 - Chef neutral-team option respects independent players and Friends
+  ---
+  duration_ms: 0.066377
+  type: 'test'
+  ...
+# Subtest: Visitor danger options affect visits without stopping direct attacks
+ok 189 - Visitor danger options affect visits without stopping direct attacks
+  ---
+  duration_ms: 0.182764
+  type: 'test'
+  ...
+# Subtest: Bodyguard may protect other teams only when configured, including from Lone Wolf
+ok 190 - Bodyguard may protect other teams only when configured, including from Lone Wolf
+  ---
+  duration_ms: 0.218789
+  type: 'test'
+  ...
+# Subtest: Wolf Pup revenge resolves the configured number of pack targets
+ok 191 - Wolf Pup revenge resolves the configured number of pack targets
+  ---
+  duration_ms: 0.231631
+  type: 'test'
+  ...
+# Subtest: pack tie breaker chooses only among the tied cutoff when enabled
+ok 192 - pack tie breaker chooses only among the tied cutoff when enabled
+  ---
+  duration_ms: 0.106596
+  type: 'test'
+  ...
+# Subtest: Mind Flayer regeneration honors configured chance boundaries
+ok 193 - Mind Flayer regeneration honors configured chance boundaries
+  ---
+  duration_ms: 0.076342
+  type: 'test'
+  ...
+# Subtest: Gambler escape threshold is configurable without changing wrong-bet consequences
+ok 194 - Gambler escape threshold is configurable without changing wrong-bet consequences
+  ---
+  duration_ms: 0.114938
+  type: 'test'
+  ...
+# Subtest: Raven reflection can be disabled without disabling the activated curse
+ok 195 - Raven reflection can be disabled without disabling the activated curse
+  ---
+  duration_ms: 0.152339
+  type: 'test'
+  ...
+# Subtest: White Werewolf betrayal option changes pack targeting without revealing Lone Werewolves
+ok 196 - White Werewolf betrayal option changes pack targeting without revealing Lone Werewolves
+  ---
+  duration_ms: 0.065981
+  type: 'test'
+  ...
+# Subtest: Random cards use relative chance weights without changing manually added roles
+ok 197 - Random cards use relative chance weights without changing manually added roles
+  ---
+  duration_ms: 0.54226
+  type: 'test'
+  ...
+# Subtest: Random unique mode excludes manually selected roles and prior random draws
+ok 198 - Random unique mode excludes manually selected roles and prior random draws
+  ---
+  duration_ms: 0.200785
+  type: 'test'
+  ...
+# Subtest: disabled roles never appear on Random cards, independently of chances and manual picks
+ok 199 - disabled roles never appear on Random cards, independently of chances and manual picks
+  ---
+  duration_ms: 0.146785
+  type: 'test'
+  ...
+# Subtest: hypnosis duration counts future nights, keeps Madmen, and clears on team change
+ok 200 - hypnosis duration counts future nights, keeps Madmen, and clears on team change
+  ---
+  duration_ms: 0.728562
+  type: 'test'
+  ...
+# Subtest: new hypnosis can extend an existing spell without shortening permanent hypnosis
+ok 201 - new hypnosis can extend an existing spell without shortening permanent hypnosis
+  ---
+  duration_ms: 0.190249
+  type: 'test'
+  ...
+# Subtest: Madman cards use separate player slots and get secret village disguises
+ok 202 - Madman cards use separate player slots and get secret village disguises
+  ---
+  duration_ms: 0.409839
+  type: 'test'
+  ...
+# Subtest: a Madman remains corrupted after hypnosis expires or death and loses it after infection
+ok 203 - a Madman remains corrupted after hypnosis expires or death and loses it after infection
+  ---
+  duration_ms: 0.227854
+  type: 'test'
+  ...
+# Subtest: fake Celebrity and Sick Man abilities have no real effect
+ok 204 - fake Celebrity and Sick Man abilities have no real effect
+  ---
+  duration_ms: 0.12105
+  type: 'test'
+  ...
+# Subtest: Random village cards can pick or exclude the Madman card
+ok 205 - Random village cards can pick or exclude the Madman card
+  ---
+  duration_ms: 0.252083
+  type: 'test'
+  ...
+# Subtest: Lone Wolf has 25% success with an attacking ally and 100% when alone or unsupported
+ok 206 - Lone Wolf has 25% success with an attacking ally and 100% when alone or unsupported
+  ---
+  duration_ms: 4.897086
+  type: 'test'
+  ...
+# Subtest: Strong Wolf attacks on odd nights and on even nights only without another attacker
+ok 207 - Strong Wolf attacks on odd nights and on even nights only without another attacker
+  ---
+  duration_ms: 0.388247
+  type: 'test'
+  ...
+# Subtest: other-wolf capability does not count distant strong wolves on even nights against Lone Wolf
+ok 208 - other-wolf capability does not count distant strong wolves on even nights against Lone Wolf
+  ---
+  duration_ms: 0.186583
+  type: 'test'
+  ...
+1..208
+# tests 208
+# suites 0
+# pass 208
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5659.516419

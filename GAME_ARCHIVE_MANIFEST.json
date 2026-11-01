@@ -1,0 +1,1137 @@
+{
+  "drive_file_id": "19rslyKsCxr27ihiL73Q1PjBLSvX150TQ",
+  "archive_name": "Werewolf-Game.zip",
+  "archive_sha256": "3c4f96c65de52c959a90316249e3897239ae94b770eda6b091dd3a600f7bdafc",
+  "files": [
+    {
+      "path": "Werewolf-Game/Website/avatars/crew-12.jpg",
+      "bytes": 5152,
+      "sha256": "fd03872182537a0958bd3d8411faa2af45416ccd7da641a97b11a5628d7c626f"
+    },
+    {
+      "path": "Werewolf-Game/Website/avatars/crew-13.jpg",
+      "bytes": 6353,
+      "sha256": "68a252b41288c574fee1ad20a898d7543e60a9452e3c5bb455b0bf45674d71ad"
+    },
+    {
+      "path": "Werewolf-Game/Website/avatars/crew-14.jpg",
+      "bytes": 2784,
+      "sha256": "dd28c8ce674ed1dcebaa4bc304f1ca15d5ecde5aa2eeccf44062eac5b62fb812"
+    },
+    {
+      "path": "Werewolf-Game/Website/avatars/crew-15.png",
+      "bytes": 1771454,
+      "sha256": "712cc31b5b0a8ff5d78f24b54bdf1f4a0ce2dbb554da91beb994547683776e65"
+    },
+    {
+      "path": "Werewolf-Game/Website/icons/icon-512.png",
+      "bytes": 840591,
+      "sha256": "88e79d5d6a58baa01a5ec18e7912dd982b456f0b1ab1da64a9bdbba599795a54"
+    },
+    {
+      "path": "Werewolf-Game/Website/icons/werewolf-512.png",
+      "bytes": 287462,
+      "sha256": "3d1d6e8ab0b46d72ed1a8ada60e3165363ae89ebea5ea3998e001b7def49dd89"
+    },
+    {
+      "path": "Werewolf-Game/Website/index.html",
+      "bytes": 433659,
+      "sha256": "58dcc3208bf139e059bfab8d7eb8d8c21540c82115d7b12ca6078303b09e3adc"
+    },
+    {
+      "path": "Werewolf-Game/Website/manifest.webmanifest",
+      "bytes": 624,
+      "sha256": "38fa605b11a58925cce86316a4781867c187307a482cb678d81c847b1f1b23b7"
+    },
+    {
+      "path": "Werewolf-Game/Website/sw.js",
+      "bytes": 3327,
+      "sha256": "936ea02788ce86721a34f470736587d88401a9832e29fb91f2ad2183ca1e7ac9"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/audio/day.mp3",
+      "bytes": 1191984,
+      "sha256": "90ae614def126f7788149eaf2e2739d086224d020a7f92737b413701d152aaf2"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/audio/night.mp3",
+      "bytes": 1348589,
+      "sha256": "ea53e0e968b77a563909c269d8d1d7cd926df68a3397136cc3d94235731d621f"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/audio/tap.wav",
+      "bytes": 3792,
+      "sha256": "55613a12fe8fbcded52e7c2cf4f93323d8e4a8804ffb159a4ac49806692f6208"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/audio/vote.mp3",
+      "bytes": 286416,
+      "sha256": "e9a0806bf83f19e9817663a68a9f60b87940eb65c601ae5c1f1cfb2d3ebe707b"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player1.webp",
+      "bytes": 4654,
+      "sha256": "965cef57436a0100d67c59227253be6067d9790204450b6815dfd78699d26b33"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player11.webp",
+      "bytes": 3244,
+      "sha256": "98f4a557442b029cda5a44e17f8eebedd97924d2acaa195c4ce5c7e560b940c7"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player13.webp",
+      "bytes": 4868,
+      "sha256": "e9c1a01525847bad7c8a0755281312c2dbced0f7a520eb7f6462bf788e0b37b2"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player15.webp",
+      "bytes": 4916,
+      "sha256": "ae01abb8b645f62ea1f0c9ca653ffc972a77ff1061aab45a6325d40a281fe86b"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player16.webp",
+      "bytes": 4984,
+      "sha256": "d5753ec01efacbf222314c03d3d7171aac1eb99465945cee8d1bb28ee7ca9adb"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player17.webp",
+      "bytes": 4638,
+      "sha256": "a511925fee16e01562a86ab8f27bd9af45667267cfaf20a58d4604da9971c227"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player18.webp",
+      "bytes": 5390,
+      "sha256": "95048fd01e363bf54ad9ec53f5849bd3bcd1a821fc1aa18dc65c70251787c31d"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player19.webp",
+      "bytes": 4882,
+      "sha256": "4620bf0a0e8d255520b0347c421ac3077d1e2f39850a10bfd336cfa11e863439"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player2.webp",
+      "bytes": 3996,
+      "sha256": "a3331b3682f4aa3b603e80e71a07494a3eaeb474afbae0f38bee918eae25867b"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player20.webp",
+      "bytes": 56474,
+      "sha256": "9ea77dfa4a623b9f6a228b13008f5a50ceb712d78b6cc819e19f03f46525cce2"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player21.webp",
+      "bytes": 49180,
+      "sha256": "d31cbbc03105e3cd08c37604205be67d29743fe15f4c4504ac042241608b740e"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player23.webp",
+      "bytes": 65572,
+      "sha256": "28f3db86ed610874d59f9e6354d3b0a05ac259448b984aa7679b69b6b1a76955"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player24.webp",
+      "bytes": 66772,
+      "sha256": "b3512d44ae4121b379180356bc8b1f4149430825c150dd232e897c5832f98bdd"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player3.webp",
+      "bytes": 4382,
+      "sha256": "b8654759d0c9fc64bf9580ecbc587e60b272d26563394875e86e5a93e4e9501d"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player4.webp",
+      "bytes": 5952,
+      "sha256": "2f2eaedc89cff9b469bc442ad8dcc42f21bb54034348adaf0a1cce73a9d72d57"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player5.webp",
+      "bytes": 3930,
+      "sha256": "3fa263acb72e5c7756638c83969befd990ea9e32542aeee41692a7405e922011"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player7.webp",
+      "bytes": 3766,
+      "sha256": "70a03b79adabde2bc69c19a98dfb060ecf6dad93544b4512c701319914f7f038"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player8.webp",
+      "bytes": 3044,
+      "sha256": "e4ef80206b831cb50768e4640c892c00703f4be5449284a37decb754fbcc0cd3"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/avatars/player9.webp",
+      "bytes": 5212,
+      "sha256": "b767320e9d6ad0632fc089b122df7f83e474a3984402aecff78b3234f82a3a25"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/barlow.ttf",
+      "bytes": 108348,
+      "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/bodyguard.webp",
+      "bytes": 833652,
+      "sha256": "b3e3ef426f268bc97d68e28bf5fa813bc61336cf642187e5252dc896d23d6c4d"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/celebrity-gala.webp",
+      "bytes": 125308,
+      "sha256": "888bf2ffa2de74a199b2eacb6395bc014bb07ae2f79f0a4ba79909534c708264"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/celebrity-new.webp",
+      "bytes": 391650,
+      "sha256": "85366aa0efb156c82ebfa4409a7da97a367b958c385c327a9527f114c58c313e"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/celebrity-spotlight.webp",
+      "bytes": 914766,
+      "sha256": "361b41e20f45de58111dfd992287118786c251045a3cefdb800bf45c819ee014"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/celebrity.webp",
+      "bytes": 391650,
+      "sha256": "85366aa0efb156c82ebfa4409a7da97a367b958c385c327a9527f114c58c313e"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/charmer-moonlight.webp",
+      "bytes": 110744,
+      "sha256": "4ad30af9fa43181b3aea691b27052188cc7c5429ed78c0da97f6bc56f21ab122"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/charmer-new.webp",
+      "bytes": 555944,
+      "sha256": "2a0c362e23b6b036f5f21e4618a2aee68ae12c4efc40f64c9c9d60366a787f0a"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/charmer-sapphire.webp",
+      "bytes": 105056,
+      "sha256": "2e7fbb7005f8992d7999ff91f0449e1d5a554572ff1ffe913320acd9244b080a"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/charmer-starlight.webp",
+      "bytes": 131992,
+      "sha256": "44af7163d0e395182d2c3a275a5c9d020ee7414ea05e90e715c9106b489c9afa"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/charmer-sunrise.webp",
+      "bytes": 64932,
+      "sha256": "2f52d0196214ae54ef36dac2d0b22971d65a471e267103c071c2e723a7991de7"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/charmer.webp",
+      "bytes": 131992,
+      "sha256": "44af7163d0e395182d2c3a275a5c9d020ee7414ea05e90e715c9106b489c9afa"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/chef.webp",
+      "bytes": 1017646,
+      "sha256": "5389c94a6a9ba679e8b697fa1cf3683fdb37c7dd04ab0c785835980f48704484"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/condensed.ttf",
+      "bytes": 110828,
+      "sha256": "e74b750df582c608f35db467b711b2b60d2217618e85e60b72b42dfd00446cab"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/day.png",
+      "bytes": 1793383,
+      "sha256": "e317075fd8fc58af67299402f5c18396b516ba55d248bf78022a288b9f966e54"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/detective.webp",
+      "bytes": 989148,
+      "sha256": "0ca42504df0c9f6f161e6a3c58c604474276365d7a2c333135abc1b24c960f3a"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/doctor.webp",
+      "bytes": 969932,
+      "sha256": "11fbc9d608af15ca7e3b4d150a15b647e82a41cfeed73546cbe997b1dbc84f89"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/gambler.webp",
+      "bytes": 1086080,
+      "sha256": "d0c3693e98ba92af62bbbfbb2100f16ad35c70f4f6fd2798ca0b318c943f430f"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/home.png",
+      "bytes": 1489236,
+      "sha256": "0dad68c7588ca04dad15394b4337da4215ca842d013f1a3a30d08627450070f3"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/hypnowolf.webp",
+      "bytes": 995278,
+      "sha256": "c00e48e6d46223ef1022295f74c28ff7b0b260807bd7eb173b5b872a589fd0f8"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/instigator.webp",
+      "bytes": 1027874,
+      "sha256": "6591635b6a25da799f219a5e471c7d6eb1b18e18adac570ee5e5be81a4c77b87"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/intelligence.webp",
+      "bytes": 940054,
+      "sha256": "e9c0c5b453b6070c2b9425e2cd54874464f6abe5176effcfa1200a6626b55c08"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/jester.webp",
+      "bytes": 989708,
+      "sha256": "e46212ba1927ec55a378476dc2578c2457fd2c71ef15b8ca41cc786e1d5fb97b"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/journalist.webp",
+      "bytes": 1002300,
+      "sha256": "554e914977bc818986f048048c45673e302c291f2eeca87892097a9d8d1de9c2"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/lonewolf.webp",
+      "bytes": 79372,
+      "sha256": "4f10a368e15ef21958f6f7ccc2115827d0fb1f2af799543046ecfc43bd7966df"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/madman.webp",
+      "bytes": 962180,
+      "sha256": "00debe50fc4b49790218f98270b6c5a24a4a4424f00ad313acd161f7ec3ee31c"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/mayor.webp",
+      "bytes": 977478,
+      "sha256": "074a708f2c169c248596efca7fc88969ba4123b4f4de5c0afb2a9aad442b4ed9"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/mindflayer.webp",
+      "bytes": 1060820,
+      "sha256": "ddd91b726d62366927889ba8b9b8699349726a5a2121c3c68e07d101961ce2d6"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/muted.webp",
+      "bytes": 940108,
+      "sha256": "8fdaef071523fb06d0609fcca6a572330b96f7ab00d512364607761647f5afa1"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/necromancer.webp",
+      "bytes": 983858,
+      "sha256": "3d3c7013e0ce7c7d979abcf9e9b6930c60fbe7b5196f8fd3ed820ee3822994cc"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/night.png",
+      "bytes": 1689981,
+      "sha256": "59472006ee4b4d80384c27fbd1d49c3da0c1f49a812ff0d9362000e9fe5ec929"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/police.webp",
+      "bytes": 1081528,
+      "sha256": "6549862d274ff27bfb8a6beeb830e569b642bed521b6b79a5a78713e9ae0c47a"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/psychic.webp",
+      "bytes": 981766,
+      "sha256": "67be227b95ef2ae13b06174198cceb31d4fef391d9341ec42de2e266dcd39b15"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/rabidwolf.webp",
+      "bytes": 1044492,
+      "sha256": "1877c50b8b979c7993b76c3144885c27c7160f2de94d768ec191945ae1da76b9"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/raven.webp",
+      "bytes": 1039680,
+      "sha256": "411e0303d7307b64fe991521c01d98b1a826c0ed44023b2fc08cbb44f220acf1"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/seer.webp",
+      "bytes": 1006222,
+      "sha256": "03035c1b90e967923cc496b491110aad33aa8c29928217691c0fd78ba75caf6c"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/serialkiller.webp",
+      "bytes": 938592,
+      "sha256": "c6e96988b19a03b448729e5accb6c8f48757625c31ede5534707326721c0a6e7"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/sheriff.webp",
+      "bytes": 980856,
+      "sha256": "19683e619f0cc5e4c7c82afd1dcee3d5db597148b31f24a770be9e6e34c6ff00"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/sickman.webp",
+      "bytes": 994216,
+      "sha256": "3d6b1a1e714b764c70d01f937f2ee69258ecb57ff1dd1ae3288e947ac4a412c1"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/strongwolf.webp",
+      "bytes": 986432,
+      "sha256": "fb642b3172e24996f14aebc9e1e60640ca06c12145d2c3401f78fb85c215969e"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/survivor.webp",
+      "bytes": 962736,
+      "sha256": "bbf82c87d0a0ea95ba45dfe9f7c7f303f3cbadd3f7ed692e9e7e7425f7607647"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/templar.webp",
+      "bytes": 1014288,
+      "sha256": "14da6d2b13d5973339dbe9395d989797f3a47432483d49243c186cf5c8f03823"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/thief.webp",
+      "bytes": 968208,
+      "sha256": "527887a40e461cdd0d5ca1c3ce697ef47c7f905d3842b1c9980cebc14f77b324"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/villager.webp",
+      "bytes": 1015448,
+      "sha256": "c5a0c34062cd7c725e98ca253609da5e726f9d88b16b94ab42ab0b5eb6f5aaba"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/visitor.webp",
+      "bytes": 1025312,
+      "sha256": "a0ee53e56a4f8b4132cb80a6df3a0dff2fde96cc21c1bc8d5937f246787fc2ec"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/werewolf.webp",
+      "bytes": 898502,
+      "sha256": "db596c558c787af2713ea06651071e5a1e45935bbab4c5a047644624884348fb"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/whitewolf.webp",
+      "bytes": 1039022,
+      "sha256": "a75426f8deff0db3c1f59e19c4c94eafecbd7a4bcc8777c5f48027bb3821a36c"
+    },
+    {
+      "path": "Werewolf-Game/Website/werewolf/wolfpup.webp",
+      "bytes": 978178,
+      "sha256": "eb305e59b89130348fff32a7bc34bcf9b6b0a257a03ae2bb62eded7d91590d7e"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/App.tsx",
+      "bytes": 9424,
+      "sha256": "3e2ea8a8bf024a7b9a4934e482d49647c2279b9b5262464fe4f78fd35fed0447"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/avatar-assignment.ts",
+      "bytes": 2591,
+      "sha256": "127fb9a044b72157393c422b5f0b2ce84e1c88ad3ccf8705bc42ef428fc3243d"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/ChanceSlider.tsx",
+      "bytes": 1348,
+      "sha256": "b909b68b99a51316ce5cc4b07b15a4849eb2d16de6055805069451cee477a786"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/components/Avatar.tsx",
+      "bytes": 9202,
+      "sha256": "11f38cc5edf35bd0a286a3a5121550b4d0f9866b3ce34ee84af7dfc77f811f52"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/components/DayScreen.tsx",
+      "bytes": 10969,
+      "sha256": "941a7534adb56df6f9bc60e0c42b37766133558e707270a924f3fc7b88161239"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/components/GameOverScreen.tsx",
+      "bytes": 8425,
+      "sha256": "067923b64ef99a6098f47fdaf20bfed235db0d462488a8b71912075d2867dd39"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/components/LobbyScreen.tsx",
+      "bytes": 15367,
+      "sha256": "3e921bec9acb136112d09a9668a28669a13de35848fffce517a7ded9f1e0dd7b"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/components/NightScreen.tsx",
+      "bytes": 20152,
+      "sha256": "5d94e05353409b73598b0f6cc4fc68645d247bb17a65a34be3bbebc9a77c48c0"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/components/RevealScreen.tsx",
+      "bytes": 6547,
+      "sha256": "e356329eae1cef0f02700295dffa0c4eed7ca242f8b858fcb8049d20bc0b68e5"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/components/SettingsScreen.tsx",
+      "bytes": 12508,
+      "sha256": "f17b384dbffc38bf393b1ab84c36a40848d2197f5ba76fd9e15a2e763c9576b3"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/components/StartScreen.tsx",
+      "bytes": 8337,
+      "sha256": "e37e4186aa172ca37566ffb4e13da3d861afa54266127cb873e25cda1ed0b399"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/components/ui.tsx",
+      "bytes": 20510,
+      "sha256": "22bfb7019b1bb2418da99ca373a091f2026862e4442fd59222f8e90388541732"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/distribution.ts",
+      "bytes": 8028,
+      "sha256": "ef989b741569805b7c74dbf70f2ac5a582430506e37207f3555238ae813cdb12"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/HoldButton.tsx",
+      "bytes": 1457,
+      "sha256": "182b728e2e2da878312769edd894c43079569642b28ae3bbffedc7deb38555bc"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/index.css",
+      "bytes": 5776,
+      "sha256": "f84d2b0b1dd2f03cb75f9ea167837a4f211e71a8a861e31e1933716ac5ee0529"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/interaction-feedback.ts",
+      "bytes": 5215,
+      "sha256": "bd480dda389fd231f65aa498c86e2d49d1ea7e6e8cc332de03de98c73164bca6"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/JournalistEditor.tsx",
+      "bytes": 3306,
+      "sha256": "d4cf134665844d53264165f3009c1764b70be039ff46f6d4ac9f1ddebc075eae"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/lib/audio.ts",
+      "bytes": 5693,
+      "sha256": "a61c0cc544c41bd410f2a8eb23e082e6ccaf50f613574a70e7c38049c1f8fab3"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/lib/avatars.ts",
+      "bytes": 3579,
+      "sha256": "51388d267e349216be1a206081d3d66242f4c721d53d9f734db0c2286ea66ad8"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/lib/engine.ts",
+      "bytes": 13941,
+      "sha256": "eefd3472cec2adbdf5d8ff996fdc8304f718ba74e9fef7373cedf37c53a679fc"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/lib/fx.ts",
+      "bytes": 6374,
+      "sha256": "a769ffa38ba21f681d6c3ed878e407a800f0048ccc68fc5ab6d416fe3527ae97"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/lib/storage.ts",
+      "bytes": 1626,
+      "sha256": "4a584ab68b94f28ed5a94dda5e35c908b572d29885282e959623f68c85026fb0"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/lib/types.ts",
+      "bytes": 3121,
+      "sha256": "9e1249e4d7506974881aa2efe6d472f214635ca3ca11b5afccb07bc4b51d4584"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/main.tsx",
+      "bytes": 512,
+      "sha256": "ae45aff574f1bc2683c5aca9d92f9a770690a5d9351e8e952e858c870bdc8992"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/PlayerSetup.tsx",
+      "bytes": 19569,
+      "sha256": "b687a656e2b14502da29f0ae364af19c945626e02c8ffc41b71315b817031465"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/PrivateInfo.tsx",
+      "bytes": 2868,
+      "sha256": "0833ab27bb67cd99250efab6d32109c49c733ac501115ca19ce4cf273a45046f"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/RandomRoleDetails.tsx",
+      "bytes": 3215,
+      "sha256": "4cee2ac1f8d319b8d27ffd6f61eac47b245b6b193b95092986cc5c72de579c02"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/rankings.ts",
+      "bytes": 2496,
+      "sha256": "93e003036130b9096bd187b66a0f175a517aaff0a1d5fbc7e31007c81500766e"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/role-power.ts",
+      "bytes": 3759,
+      "sha256": "f3406693df271017908e08e628e7b635285067d5690bd70e3c28fbf682319761"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/role-skins.ts",
+      "bytes": 1644,
+      "sha256": "971833e427ce6e1ad4178b634164e4f46d4c287e83bed521ff421e71e32da867"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/RoleCard.tsx",
+      "bytes": 2407,
+      "sha256": "a61676ebe1d75a33f8d9c8113ec65c666987a3bb9a02521e2294d0ea35e3168a"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/RoleDetails.tsx",
+      "bytes": 18581,
+      "sha256": "0b3bae1e7f022cf1f60969f1ca891d2975f35dfb8ebd916883f8bf6aad665300"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/RoleRulebook.tsx",
+      "bytes": 2747,
+      "sha256": "742792082a254a23110eec3d272fc26eff58e82ab38a703dbe2f30b01da1e840"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/SettingCheckbox.tsx",
+      "bytes": 615,
+      "sha256": "9f4a0eef06deaeaa6ffd08f1d506b9ca7a463c0e354c80a519939af2169a8b9d"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/SettingsNumberInput.tsx",
+      "bytes": 1007,
+      "sha256": "0533e0b4c49648abd6a1d97b9d6fa14dcabc3a1efedaa9cd196931643ca97348"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/utils/cn.ts",
+      "bytes": 169,
+      "sha256": "d1f1e0d62cb8d8d1e04c26e14de842d8a151f75812d81b046c65b5d1fe8e4b27"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/werewolf-engine.ts",
+      "bytes": 52225,
+      "sha256": "4152b79c37a43369a86746c212ae0780efd537516144c79df6e6cbe19d4c093a"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/werewolf.css",
+      "bytes": 80416,
+      "sha256": "b561a6067f05938b3a84479836c636c99ed6d95a76af4d78c435d87cdf5aecef"
+    },
+    {
+      "path": "Werewolf-Game/Source/src/Werewolf.tsx",
+      "bytes": 89845,
+      "sha256": "9090795dc8c2780042a9b371b4a05007e6bd4fe55bf695f91121dd8e6c8d8f0b"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/avatars/crew-12.jpg",
+      "bytes": 5152,
+      "sha256": "fd03872182537a0958bd3d8411faa2af45416ccd7da641a97b11a5628d7c626f"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/avatars/crew-13.jpg",
+      "bytes": 6353,
+      "sha256": "68a252b41288c574fee1ad20a898d7543e60a9452e3c5bb455b0bf45674d71ad"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/avatars/crew-14.jpg",
+      "bytes": 2784,
+      "sha256": "dd28c8ce674ed1dcebaa4bc304f1ca15d5ecde5aa2eeccf44062eac5b62fb812"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/avatars/crew-15.png",
+      "bytes": 1771454,
+      "sha256": "712cc31b5b0a8ff5d78f24b54bdf1f4a0ce2dbb554da91beb994547683776e65"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/icons/icon-512.png",
+      "bytes": 840591,
+      "sha256": "88e79d5d6a58baa01a5ec18e7912dd982b456f0b1ab1da64a9bdbba599795a54"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/icons/werewolf-512.png",
+      "bytes": 287462,
+      "sha256": "3d1d6e8ab0b46d72ed1a8ada60e3165363ae89ebea5ea3998e001b7def49dd89"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/manifest.webmanifest",
+      "bytes": 624,
+      "sha256": "38fa605b11a58925cce86316a4781867c187307a482cb678d81c847b1f1b23b7"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/sw.js",
+      "bytes": 3333,
+      "sha256": "d02e5c78cd252e645b3166a2d9b759b49bad1997f2cd2a628f9ca685482331a5"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/audio/day.mp3",
+      "bytes": 1191984,
+      "sha256": "90ae614def126f7788149eaf2e2739d086224d020a7f92737b413701d152aaf2"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/audio/night.mp3",
+      "bytes": 1348589,
+      "sha256": "ea53e0e968b77a563909c269d8d1d7cd926df68a3397136cc3d94235731d621f"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/audio/tap.wav",
+      "bytes": 3792,
+      "sha256": "55613a12fe8fbcded52e7c2cf4f93323d8e4a8804ffb159a4ac49806692f6208"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/audio/vote.mp3",
+      "bytes": 286416,
+      "sha256": "e9a0806bf83f19e9817663a68a9f60b87940eb65c601ae5c1f1cfb2d3ebe707b"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player1.webp",
+      "bytes": 4654,
+      "sha256": "965cef57436a0100d67c59227253be6067d9790204450b6815dfd78699d26b33"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player11.webp",
+      "bytes": 3244,
+      "sha256": "98f4a557442b029cda5a44e17f8eebedd97924d2acaa195c4ce5c7e560b940c7"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player13.webp",
+      "bytes": 4868,
+      "sha256": "e9c1a01525847bad7c8a0755281312c2dbced0f7a520eb7f6462bf788e0b37b2"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player15.webp",
+      "bytes": 4916,
+      "sha256": "ae01abb8b645f62ea1f0c9ca653ffc972a77ff1061aab45a6325d40a281fe86b"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player16.webp",
+      "bytes": 4984,
+      "sha256": "d5753ec01efacbf222314c03d3d7171aac1eb99465945cee8d1bb28ee7ca9adb"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player17.webp",
+      "bytes": 4638,
+      "sha256": "a511925fee16e01562a86ab8f27bd9af45667267cfaf20a58d4604da9971c227"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player18.webp",
+      "bytes": 5390,
+      "sha256": "95048fd01e363bf54ad9ec53f5849bd3bcd1a821fc1aa18dc65c70251787c31d"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player19.webp",
+      "bytes": 4882,
+      "sha256": "4620bf0a0e8d255520b0347c421ac3077d1e2f39850a10bfd336cfa11e863439"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player2.webp",
+      "bytes": 3996,
+      "sha256": "a3331b3682f4aa3b603e80e71a07494a3eaeb474afbae0f38bee918eae25867b"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player20.webp",
+      "bytes": 56474,
+      "sha256": "9ea77dfa4a623b9f6a228b13008f5a50ceb712d78b6cc819e19f03f46525cce2"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player21.webp",
+      "bytes": 49180,
+      "sha256": "d31cbbc03105e3cd08c37604205be67d29743fe15f4c4504ac042241608b740e"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player23.webp",
+      "bytes": 65572,
+      "sha256": "28f3db86ed610874d59f9e6354d3b0a05ac259448b984aa7679b69b6b1a76955"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player24.webp",
+      "bytes": 66772,
+      "sha256": "b3512d44ae4121b379180356bc8b1f4149430825c150dd232e897c5832f98bdd"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player3.webp",
+      "bytes": 4382,
+      "sha256": "b8654759d0c9fc64bf9580ecbc587e60b272d26563394875e86e5a93e4e9501d"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player4.webp",
+      "bytes": 5952,
+      "sha256": "2f2eaedc89cff9b469bc442ad8dcc42f21bb54034348adaf0a1cce73a9d72d57"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player5.webp",
+      "bytes": 3930,
+      "sha256": "3fa263acb72e5c7756638c83969befd990ea9e32542aeee41692a7405e922011"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player7.webp",
+      "bytes": 3766,
+      "sha256": "70a03b79adabde2bc69c19a98dfb060ecf6dad93544b4512c701319914f7f038"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player8.webp",
+      "bytes": 3044,
+      "sha256": "e4ef80206b831cb50768e4640c892c00703f4be5449284a37decb754fbcc0cd3"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/avatars/player9.webp",
+      "bytes": 5212,
+      "sha256": "b767320e9d6ad0632fc089b122df7f83e474a3984402aecff78b3234f82a3a25"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/barlow.ttf",
+      "bytes": 108348,
+      "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/bodyguard.webp",
+      "bytes": 833652,
+      "sha256": "b3e3ef426f268bc97d68e28bf5fa813bc61336cf642187e5252dc896d23d6c4d"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/celebrity-gala.webp",
+      "bytes": 125308,
+      "sha256": "888bf2ffa2de74a199b2eacb6395bc014bb07ae2f79f0a4ba79909534c708264"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/celebrity-new.webp",
+      "bytes": 391650,
+      "sha256": "85366aa0efb156c82ebfa4409a7da97a367b958c385c327a9527f114c58c313e"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/celebrity-spotlight.webp",
+      "bytes": 914766,
+      "sha256": "361b41e20f45de58111dfd992287118786c251045a3cefdb800bf45c819ee014"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/celebrity.webp",
+      "bytes": 391650,
+      "sha256": "85366aa0efb156c82ebfa4409a7da97a367b958c385c327a9527f114c58c313e"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/charmer-moonlight.webp",
+      "bytes": 110744,
+      "sha256": "4ad30af9fa43181b3aea691b27052188cc7c5429ed78c0da97f6bc56f21ab122"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/charmer-new.webp",
+      "bytes": 555944,
+      "sha256": "2a0c362e23b6b036f5f21e4618a2aee68ae12c4efc40f64c9c9d60366a787f0a"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/charmer-sapphire.webp",
+      "bytes": 105056,
+      "sha256": "2e7fbb7005f8992d7999ff91f0449e1d5a554572ff1ffe913320acd9244b080a"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/charmer-starlight.webp",
+      "bytes": 131992,
+      "sha256": "44af7163d0e395182d2c3a275a5c9d020ee7414ea05e90e715c9106b489c9afa"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/charmer-sunrise.webp",
+      "bytes": 64932,
+      "sha256": "2f52d0196214ae54ef36dac2d0b22971d65a471e267103c071c2e723a7991de7"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/charmer.webp",
+      "bytes": 131992,
+      "sha256": "44af7163d0e395182d2c3a275a5c9d020ee7414ea05e90e715c9106b489c9afa"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/chef.webp",
+      "bytes": 1017646,
+      "sha256": "5389c94a6a9ba679e8b697fa1cf3683fdb37c7dd04ab0c785835980f48704484"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/condensed.ttf",
+      "bytes": 110828,
+      "sha256": "e74b750df582c608f35db467b711b2b60d2217618e85e60b72b42dfd00446cab"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/day.png",
+      "bytes": 1793383,
+      "sha256": "e317075fd8fc58af67299402f5c18396b516ba55d248bf78022a288b9f966e54"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/detective.webp",
+      "bytes": 989148,
+      "sha256": "0ca42504df0c9f6f161e6a3c58c604474276365d7a2c333135abc1b24c960f3a"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/doctor.webp",
+      "bytes": 969932,
+      "sha256": "11fbc9d608af15ca7e3b4d150a15b647e82a41cfeed73546cbe997b1dbc84f89"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/gambler.webp",
+      "bytes": 1086080,
+      "sha256": "d0c3693e98ba92af62bbbfbb2100f16ad35c70f4f6fd2798ca0b318c943f430f"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/home.png",
+      "bytes": 1489236,
+      "sha256": "0dad68c7588ca04dad15394b4337da4215ca842d013f1a3a30d08627450070f3"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/hypnowolf.webp",
+      "bytes": 995278,
+      "sha256": "c00e48e6d46223ef1022295f74c28ff7b0b260807bd7eb173b5b872a589fd0f8"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/instigator.webp",
+      "bytes": 1027874,
+      "sha256": "6591635b6a25da799f219a5e471c7d6eb1b18e18adac570ee5e5be81a4c77b87"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/intelligence.webp",
+      "bytes": 940054,
+      "sha256": "e9c0c5b453b6070c2b9425e2cd54874464f6abe5176effcfa1200a6626b55c08"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/jester.webp",
+      "bytes": 989708,
+      "sha256": "e46212ba1927ec55a378476dc2578c2457fd2c71ef15b8ca41cc786e1d5fb97b"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/journalist.webp",
+      "bytes": 1002300,
+      "sha256": "554e914977bc818986f048048c45673e302c291f2eeca87892097a9d8d1de9c2"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/lonewolf.webp",
+      "bytes": 79372,
+      "sha256": "4f10a368e15ef21958f6f7ccc2115827d0fb1f2af799543046ecfc43bd7966df"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/madman.webp",
+      "bytes": 962180,
+      "sha256": "00debe50fc4b49790218f98270b6c5a24a4a4424f00ad313acd161f7ec3ee31c"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/mayor.webp",
+      "bytes": 977478,
+      "sha256": "074a708f2c169c248596efca7fc88969ba4123b4f4de5c0afb2a9aad442b4ed9"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/mindflayer.webp",
+      "bytes": 1060820,
+      "sha256": "ddd91b726d62366927889ba8b9b8699349726a5a2121c3c68e07d101961ce2d6"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/muted.webp",
+      "bytes": 940108,
+      "sha256": "8fdaef071523fb06d0609fcca6a572330b96f7ab00d512364607761647f5afa1"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/necromancer.webp",
+      "bytes": 983858,
+      "sha256": "3d3c7013e0ce7c7d979abcf9e9b6930c60fbe7b5196f8fd3ed820ee3822994cc"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/night.png",
+      "bytes": 1689981,
+      "sha256": "59472006ee4b4d80384c27fbd1d49c3da0c1f49a812ff0d9362000e9fe5ec929"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/police.webp",
+      "bytes": 1081528,
+      "sha256": "6549862d274ff27bfb8a6beeb830e569b642bed521b6b79a5a78713e9ae0c47a"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/psychic.webp",
+      "bytes": 981766,
+      "sha256": "67be227b95ef2ae13b06174198cceb31d4fef391d9341ec42de2e266dcd39b15"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/rabidwolf.webp",
+      "bytes": 1044492,
+      "sha256": "1877c50b8b979c7993b76c3144885c27c7160f2de94d768ec191945ae1da76b9"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/raven.webp",
+      "bytes": 1039680,
+      "sha256": "411e0303d7307b64fe991521c01d98b1a826c0ed44023b2fc08cbb44f220acf1"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/seer.webp",
+      "bytes": 1006222,
+      "sha256": "03035c1b90e967923cc496b491110aad33aa8c29928217691c0fd78ba75caf6c"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/serialkiller.webp",
+      "bytes": 938592,
+      "sha256": "c6e96988b19a03b448729e5accb6c8f48757625c31ede5534707326721c0a6e7"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/sheriff.webp",
+      "bytes": 980856,
+      "sha256": "19683e619f0cc5e4c7c82afd1dcee3d5db597148b31f24a770be9e6e34c6ff00"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/sickman.webp",
+      "bytes": 994216,
+      "sha256": "3d6b1a1e714b764c70d01f937f2ee69258ecb57ff1dd1ae3288e947ac4a412c1"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/strongwolf.webp",
+      "bytes": 986432,
+      "sha256": "fb642b3172e24996f14aebc9e1e60640ca06c12145d2c3401f78fb85c215969e"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/survivor.webp",
+      "bytes": 962736,
+      "sha256": "bbf82c87d0a0ea95ba45dfe9f7c7f303f3cbadd3f7ed692e9e7e7425f7607647"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/templar.webp",
+      "bytes": 1014288,
+      "sha256": "14da6d2b13d5973339dbe9395d989797f3a47432483d49243c186cf5c8f03823"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/thief.webp",
+      "bytes": 968208,
+      "sha256": "527887a40e461cdd0d5ca1c3ce697ef47c7f905d3842b1c9980cebc14f77b324"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/villager.webp",
+      "bytes": 1015448,
+      "sha256": "c5a0c34062cd7c725e98ca253609da5e726f9d88b16b94ab42ab0b5eb6f5aaba"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/visitor.webp",
+      "bytes": 1025312,
+      "sha256": "a0ee53e56a4f8b4132cb80a6df3a0dff2fde96cc21c1bc8d5937f246787fc2ec"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/werewolf.webp",
+      "bytes": 898502,
+      "sha256": "db596c558c787af2713ea06651071e5a1e45935bbab4c5a047644624884348fb"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/whitewolf.webp",
+      "bytes": 1039022,
+      "sha256": "a75426f8deff0db3c1f59e19c4c94eafecbd7a4bcc8777c5f48027bb3821a36c"
+    },
+    {
+      "path": "Werewolf-Game/Source/public/werewolf/wolfpup.webp",
+      "bytes": 978178,
+      "sha256": "eb305e59b89130348fff32a7bc34bcf9b6b0a257a03ae2bb62eded7d91590d7e"
+    },
+    {
+      "path": "Werewolf-Game/Source/tests/avatar-assignment.test.mjs",
+      "bytes": 2182,
+      "sha256": "021aad7f0374cdba5ea5721fe0c4d8a1c6efffeda9803f1db6c287592addcc97"
+    },
+    {
+      "path": "Werewolf-Game/Source/tests/avatar-frame.test.mjs",
+      "bytes": 1154,
+      "sha256": "4804d3d81a45ce6268593e555218d5eee8de65e5ff0b2ad263771915b644a08b"
+    },
+    {
+      "path": "Werewolf-Game/Source/tests/browser-smoke.mjs",
+      "bytes": 11443,
+      "sha256": "fa54d334a04194a783c9ff86c0924b13cd09dbd2fe664fefafd3b6160ac4ed25"
+    },
+    {
+      "path": "Werewolf-Game/Source/tests/distribution.test.mjs",
+      "bytes": 6418,
+      "sha256": "92c7ea20def8beda71f99978849e71952aba1e1cf2f104492c5c61ad7d26e61b"
+    },
+    {
+      "path": "Werewolf-Game/Source/tests/friend-wolf.test.mjs",
+      "bytes": 3714,
+      "sha256": "a449bebd395f9d24e241e6ec35fca5e1b2bd86ee59fba7b4e71489184ee1e591"
+    },
+    {
+      "path": "Werewolf-Game/Source/tests/game-audit.test.mjs",
+      "bytes": 3809,
+      "sha256": "b8aa6322a4f9a7f7be09d343dceb75dce5df7676de54bdc342ff81c735d57720"
+    },
+    {
+      "path": "Werewolf-Game/Source/tests/role-description.test.mjs",
+      "bytes": 6354,
+      "sha256": "88526dc7971ede59cee8dd062464ec5109b577341aaa21688b62983851f82aa4"
+    },
+    {
+      "path": "Werewolf-Game/Source/tests/role-power.test.mjs",
+      "bytes": 7506,
+      "sha256": "95ca5b53218de47c126f46b3425cb1c9b589db33b0372d9b118616dce07f262a"
+    },
+    {
+      "path": "Werewolf-Game/Source/tests/service-worker.test.mjs",
+      "bytes": 3624,
+      "sha256": "21766c0a12e1cc571ad71360f7b79a05ac2d2628957731ca190cd0d436e6788d"
+    },
+    {
+      "path": "Werewolf-Game/Source/tests/werewolf-assets.test.mjs",
+      "bytes": 3172,
+      "sha256": "da8b60479c720f2884cbb6f8539effb3aa210f2c4555541e327e757c4055530a"
+    },
+    {
+      "path": "Werewolf-Game/Source/tests/werewolf-engine.test.mjs",
+      "bytes": 40017,
+      "sha256": "acc596f7a2b1150241b102d8bdb447e29101fc774522f1e5b00fbb383d2d7dd6"
+    },
+    {
+      "path": "Werewolf-Game/Source/tests/werewolf-ui.test.mjs",
+      "bytes": 224717,
+      "sha256": "d8889b09cd0270a28d5ad896657f8c27d5c510dab3e5e21ad972fe3290314ff4"
+    },
+    {
+      "path": "Werewolf-Game/Source/tests/wolf-nerf.test.mjs",
+      "bytes": 2783,
+      "sha256": "1c11673da03ac9b059f8af66977731e5549935cd156cbb8886ba2b9807a6a521"
+    },
+    {
+      "path": "Werewolf-Game/Source/scripts/create-download.mjs",
+      "bytes": 2784,
+      "sha256": "09f0e9a97621ac73d1e927963793b1ff43ea97703d2daf757822d1320e52db4c"
+    },
+    {
+      "path": "Werewolf-Game/Source/.github/workflows/deploy.yml",
+      "bytes": 937,
+      "sha256": "4a7f18aade51f111b4aa2655c553a1e9b8143c77ce39671a818c04d1c8476fb9"
+    },
+    {
+      "path": "Werewolf-Game/Source/index.html",
+      "bytes": 909,
+      "sha256": "12d1b1c9c8677998065ed1e6c22f53952828d7fe062feab580d2cf11f2b23625"
+    },
+    {
+      "path": "Werewolf-Game/Source/package.json",
+      "bytes": 940,
+      "sha256": "8505f39959c150a9ea1fa0dea3e1efff722216ec3b9b9218e39072d4157624b2"
+    },
+    {
+      "path": "Werewolf-Game/Source/package-lock.json",
+      "bytes": 110513,
+      "sha256": "5f84ba27d740acce944c50e1f6b8d3797e432a0a477bd897682a67ee91d583c1"
+    },
+    {
+      "path": "Werewolf-Game/Source/tsconfig.json",
+      "bytes": 681,
+      "sha256": "2a760f56fa49b96935783a2c3b4ce63d67e4547fdace88c4f4361a0c4fc10848"
+    },
+    {
+      "path": "Werewolf-Game/Source/vite.config.ts",
+      "bytes": 2356,
+      "sha256": "6a56aa2513c225dc2e5a3ff114cbefb5b3eba713ba925c3abcac00c382b0ff40"
+    },
+    {
+      "path": "Werewolf-Game/Source/README.md",
+      "bytes": 6401,
+      "sha256": "94ece64141eb4f797e3203204f82af44369dc80d799476964fbe6a7558fbc25c"
+    },
+    {
+      "path": "Werewolf-Game/Source/APK_INSPECTION.md",
+      "bytes": 17458,
+      "sha256": "2d0eb42264891c3ee5218c0b2c57505c13bcbbb03c9eeb5e52f8766f2300656d"
+    },
+    {
+      "path": "Werewolf-Game/Source/MADMAN_QA.md",
+      "bytes": 3223,
+      "sha256": "f151817354e06ff8b13de1184c1c5cf5b5d8806dfd020d7e067cec624bbba29a"
+    },
+    {
+      "path": "Werewolf-Game/Source/ROLE_AUDIT.md",
+      "bytes": 5708,
+      "sha256": "30d56a9c98728f8344efca31ab29648f7b73ed9632c45060a6af6aec369779fd"
+    },
+    {
+      "path": "Werewolf-Game/Source/ROLE_POWER.md",
+      "bytes": 6432,
+      "sha256": "d9bcb1e4145a8aa8c9d3399bc0b5d876e2bee84c020d31eacd16909e10e60ac7"
+    },
+    {
+      "path": "Werewolf-Game/Source/TESTING.md",
+      "bytes": 3417,
+      "sha256": "7c9b05ebd741df0b5e171f33d8a7281273082b9c7958142f664a51b1b50e310f"
+    },
+    {
+      "path": "Werewolf-Game/Source/.gitignore",
+      "bytes": 20,
+      "sha256": "790e3169bc19b046fe55ba1da6d13b976c28363c8c00462a2195fe5faf260910"
+    },
+    {
+      "path": "Werewolf-Game/START-HERE.txt",
+      "bytes": 660,
+      "sha256": "016b418c4cdfec05d5c7de87601ee280c59bb2357cb42d82b044ebf316645e49"
+    }
+  ]
+}

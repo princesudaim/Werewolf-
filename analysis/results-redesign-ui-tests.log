@@ -1,0 +1,46 @@
+TAP version 13
+# Subtest: show-dead-role setting reveals the eliminated role
+ok 1 - show-dead-role setting reveals the eliminated role
+  ---
+  duration_ms: 1834.652187
+  type: 'test'
+  ...
+# Subtest: rankings count faction, survivor, escaped Gambler and independent winners correctly
+ok 2 - rankings count faction, survivor, escaped Gambler and independent winners correctly
+  ---
+  duration_ms: 7.958714
+  type: 'test'
+  ...
+# Subtest: completed games are saved once and visible in local rankings
+ok 3 - completed games are saved once and visible in local rankings
+  ---
+  duration_ms: 915.708596
+  type: 'test'
+  ...
+# Subtest: rankings share sends only local standings after an explicit tap
+ok 4 - rankings share sends only local standings after an explicit tap
+  ---
+  duration_ms: 48.003941
+  type: 'test'
+  ...
+# Subtest: two-wolf stalemate awards both teams and counts the dead Charmer in rankings
+ok 5 - two-wolf stalemate awards both teams and counts the dead Charmer in rankings
+  ---
+  duration_ms: 1151.176568
+  type: 'test'
+  ...
+# Subtest: a dead Madman keeps the disguise in the morning and is revealed at game end
+ok 6 - a dead Madman keeps the disguise in the morning and is revealed at game end
+  ---
+  duration_ms: 714.843844
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5189.008279

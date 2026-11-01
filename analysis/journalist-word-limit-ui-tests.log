@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: a disguised Madman Journalist writes privately but publishes nothing
+ok 1 - a disguised Madman Journalist writes privately but publishes nothing
+  ---
+  duration_ms: 2008.75202
+  type: 'test'
+  ...
+# Subtest: Police silently blocks a Journalist regardless of turn order (random 0)
+ok 2 - Police silently blocks a Journalist regardless of turn order (random 0)
+  ---
+  duration_ms: 1252.817088
+  type: 'test'
+  ...
+# Subtest: Police silently blocks a Journalist regardless of turn order (random 0.999)
+ok 3 - Police silently blocks a Journalist regardless of turn order (random 0.999)
+  ---
+  duration_ms: 1265.925416
+  type: 'test'
+  ...
+# Subtest: Bodyguard, Police, Journalist and Team Checker options save in role details
+ok 4 - Bodyguard, Police, Journalist and Team Checker options save in role details
+  ---
+  duration_ms: 1149.34322
+  type: 'test'
+  ...
+# Subtest: Journalist can publish a headline without drawing when drawing is disabled
+ok 5 - Journalist can publish a headline without drawing when drawing is disabled
+  ---
+  duration_ms: 453.409488
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6668.549016

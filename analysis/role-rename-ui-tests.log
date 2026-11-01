@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: a disguised Madman News Maker writes privately but publishes nothing
+ok 1 - a disguised Madman News Maker writes privately but publishes nothing
+  ---
+  duration_ms: 2208.914728
+  type: 'test'
+  ...
+# Subtest: Police silently blocks a News Maker regardless of turn order (random 0)
+ok 2 - Police silently blocks a News Maker regardless of turn order (random 0)
+  ---
+  duration_ms: 1297.51667
+  type: 'test'
+  ...
+# Subtest: Police silently blocks a News Maker regardless of turn order (random 0.999)
+ok 3 - Police silently blocks a News Maker regardless of turn order (random 0.999)
+  ---
+  duration_ms: 1213.428638
+  type: 'test'
+  ...
+# Subtest: Bodyguard, Police, News Maker and Team Checker options save in role details
+ok 4 - Bodyguard, Police, News Maker and Team Checker options save in role details
+  ---
+  duration_ms: 1182.664513
+  type: 'test'
+  ...
+# Subtest: News Maker can publish a headline without drawing when drawing is disabled
+ok 5 - News Maker can publish a headline without drawing when drawing is disabled
+  ---
+  duration_ms: 569.49201
+  type: 'test'
+  ...
+# Subtest: Rabid and Hypnotizer Wolf settings save in their role details
+ok 6 - Rabid and Hypnotizer Wolf settings save in their role details
+  ---
+  duration_ms: 607.504594
+  type: 'test'
+  ...
+# Subtest: Hypnotizer Wolf settings save 1–5 uses or every night and 1–5 nights or the whole game
+ok 7 - Hypnotizer Wolf settings save 1–5 uses or every night and 1–5 nights or the whole game
+  ---
+  duration_ms: 682.619663
+  type: 'test'
+  ...
+# Subtest: Friends Maker messages arrive next night and friends can only reply (0)
+ok 8 - Friends Maker messages arrive next night and friends can only reply (0)
+  ---
+  duration_ms: 1515.655584
+  type: 'test'
+  ...
+# Subtest: Friends Maker messages arrive next night and friends can only reply (0.999)
+ok 9 - Friends Maker messages arrive next night and friends can only reply (0.999)
+  ---
+  duration_ms: 1725.99915
+  type: 'test'
+  ...
+# Subtest: renamed roles appear in selection, role details and searchable rulebook
+ok 10 - renamed roles appear in selection, role details and searchable rulebook
+  ---
+  duration_ms: 868.303689
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 12362.206311

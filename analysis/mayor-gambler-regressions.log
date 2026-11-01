@@ -1,0 +1,365 @@
+TAP version 13
+# Subtest: every implemented role can be selected and complete a night
+    # Subtest: Madman
+    ok 1 - Madman
+      ---
+      duration_ms: 1973.733519
+      type: 'test'
+      ...
+    # Subtest: Charmer
+    ok 2 - Charmer
+      ---
+      duration_ms: 1834.577389
+      type: 'test'
+      ...
+    # Subtest: Police
+    ok 3 - Police
+      ---
+      duration_ms: 1717.078446
+      type: 'test'
+      ...
+    # Subtest: Hypnosis Wolf
+    ok 4 - Hypnosis Wolf
+      ---
+      duration_ms: 1644.907001
+      type: 'test'
+      ...
+    # Subtest: Thief
+    ok 5 - Thief
+      ---
+      duration_ms: 1767.036322
+      type: 'test'
+      ...
+    # Subtest: Intelligence Chief
+    ok 6 - Intelligence Chief
+      ---
+      duration_ms: 1570.131149
+      type: 'test'
+      ...
+    # Subtest: Mind Flayer
+    ok 7 - Mind Flayer
+      ---
+      duration_ms: 1701.036877
+      type: 'test'
+      ...
+    # Subtest: Gambler
+    ok 8 - Gambler
+      ---
+      duration_ms: 1696.386778
+      type: 'test'
+      ...
+    # Subtest: White Werewolf
+    ok 9 - White Werewolf
+      ---
+      duration_ms: 1615.511995
+      type: 'test'
+      ...
+    # Subtest: Infecting Wolf
+    ok 10 - Infecting Wolf
+      ---
+      duration_ms: 1642.83184
+      type: 'test'
+      ...
+    # Subtest: Raven
+    ok 11 - Raven
+      ---
+      duration_ms: 1736.6698
+      type: 'test'
+      ...
+    # Subtest: Journalist
+    ok 12 - Journalist
+      ---
+      duration_ms: 1609.518488
+      type: 'test'
+      ...
+    # Subtest: Wolf Pup
+    ok 13 - Wolf Pup
+      ---
+      duration_ms: 1725.161067
+      type: 'test'
+      ...
+    # Subtest: Lone Werewolf
+    ok 14 - Lone Werewolf
+      ---
+      duration_ms: 1646.119768
+      type: 'test'
+      ...
+    # Subtest: Sick Man
+    ok 15 - Sick Man
+      ---
+      duration_ms: 1737.990471
+      type: 'test'
+      ...
+    # Subtest: Strong Werewolf
+    ok 16 - Strong Werewolf
+      ---
+      duration_ms: 1576.321344
+      type: 'test'
+      ...
+    # Subtest: Werewolf
+    ok 17 - Werewolf
+      ---
+      duration_ms: 1624.3998
+      type: 'test'
+      ...
+    # Subtest: Villager
+    ok 18 - Villager
+      ---
+      duration_ms: 1888.504332
+      type: 'test'
+      ...
+    # Subtest: Doctor
+    ok 19 - Doctor
+      ---
+      duration_ms: 1631.855093
+      type: 'test'
+      ...
+    # Subtest: Detective
+    ok 20 - Detective
+      ---
+      duration_ms: 1685.805628
+      type: 'test'
+      ...
+    # Subtest: Vote Marker
+    ok 21 - Vote Marker
+      ---
+      duration_ms: 1652.52704
+      type: 'test'
+      ...
+    # Subtest: Team Checker
+    ok 22 - Team Checker
+      ---
+      duration_ms: 1781.68455
+      type: 'test'
+      ...
+    # Subtest: Celebrity
+    ok 23 - Celebrity
+      ---
+      duration_ms: 1884.193353
+      type: 'test'
+      ...
+    # Subtest: Serial Killer
+    ok 24 - Serial Killer
+      ---
+      duration_ms: 1744.979222
+      type: 'test'
+      ...
+    # Subtest: Survivor
+    ok 25 - Survivor
+      ---
+      duration_ms: 1583.218018
+      type: 'test'
+      ...
+    # Subtest: Visitor
+    ok 26 - Visitor
+      ---
+      duration_ms: 1943.178113
+      type: 'test'
+      ...
+    # Subtest: Bodyguard
+    ok 27 - Bodyguard
+      ---
+      duration_ms: 1752.55584
+      type: 'test'
+      ...
+    # Subtest: Sheriff
+    ok 28 - Sheriff
+      ---
+      duration_ms: 1728.565226
+      type: 'test'
+      ...
+    # Subtest: Seer
+    ok 29 - Seer
+      ---
+      duration_ms: 1745.988892
+      type: 'test'
+      ...
+    # Subtest: Jester
+    ok 30 - Jester
+      ---
+      duration_ms: 1734.630657
+      type: 'test'
+      ...
+    # Subtest: Necromancer
+    ok 31 - Necromancer
+      ---
+      duration_ms: 1645.406361
+      type: 'test'
+      ...
+    # Subtest: Mayor
+    ok 32 - Mayor
+      ---
+      duration_ms: 1688.44658
+      type: 'test'
+      ...
+    # Subtest: Wolf Hunter
+    ok 33 - Wolf Hunter
+      ---
+      duration_ms: 1628.959096
+      type: 'test'
+      ...
+    # Subtest: Muted
+    ok 34 - Muted
+      ---
+      duration_ms: 1560.369671
+      type: 'test'
+      ...
+    # Subtest: Chef
+    ok 35 - Chef
+      ---
+      duration_ms: 1598.123159
+      type: 'test'
+      ...
+    1..35
+ok 1 - every implemented role can be selected and complete a night
+  ---
+  duration_ms: 60673.7158
+  type: 'test'
+  ...
+# Subtest: Police silently blocks the Doctor irrespective of action order: police-after-doctor
+ok 2 - Police silently blocks the Doctor irrespective of action order: police-after-doctor
+  ---
+  duration_ms: 964.606341
+  type: 'test'
+  ...
+# Subtest: Police silently blocks the Doctor irrespective of action order: police-before-doctor
+ok 3 - Police silently blocks the Doctor irrespective of action order: police-before-doctor
+  ---
+  duration_ms: 1229.469173
+  type: 'test'
+  ...
+# Subtest: a detained Mayor does not protect the village or consume the assembly
+ok 4 - a detained Mayor does not protect the village or consume the assembly
+  ---
+  duration_ms: 1407.134646
+  type: 'test'
+  ...
+# Subtest: rankings count faction, survivor, escaped Gambler and independent winners correctly
+ok 5 - rankings count faction, survivor, escaped Gambler and independent winners correctly
+  ---
+  duration_ms: 9.768721
+  type: 'test'
+  ...
+# Subtest: Police silently blocks a Journalist regardless of turn order (random 0)
+ok 6 - Police silently blocks a Journalist regardless of turn order (random 0)
+  ---
+  duration_ms: 1175.315502
+  type: 'test'
+  ...
+# Subtest: Police silently blocks a Journalist regardless of turn order (random 0.999)
+ok 7 - Police silently blocks a Journalist regardless of turn order (random 0.999)
+  ---
+  duration_ms: 1145.03517
+  type: 'test'
+  ...
+# Subtest: Gambler prepares after two votes and only escapes after surviving the following night
+ok 8 - Gambler prepares after two votes and only escapes after surviving the following night
+  ---
+  duration_ms: 2230.104711
+  type: 'test'
+  ...
+# Subtest: Mayor, Chef and Visitor settings save from role details
+ok 9 - Mayor, Chef and Visitor settings save from role details
+  ---
+  duration_ms: 946.249801
+  type: 'test'
+  ...
+# Subtest: Mayor double vote on changes the result
+ok 10 - Mayor double vote on changes the result
+  ---
+  duration_ms: 834.681123
+  type: 'test'
+  ...
+# Subtest: Mayor double vote off changes the result
+ok 11 - Mayor double vote off changes the result
+  ---
+  duration_ms: 913.156299
+  type: 'test'
+  ...
+# Subtest: Police silently refunds Mind Flayer stock and placement: police-first
+ok 12 - Police silently refunds Mind Flayer stock and placement: police-first
+  ---
+  duration_ms: 1011.285272
+  type: 'test'
+  ...
+# Subtest: Police silently refunds Mind Flayer stock and placement: police-last
+ok 13 - Police silently refunds Mind Flayer stock and placement: police-last
+  ---
+  duration_ms: 1238.913134
+  type: 'test'
+  ...
+# Subtest: Police silently cancels guaranteed Mind Flayer regeneration
+ok 14 - Police silently cancels guaranteed Mind Flayer regeneration
+  ---
+  duration_ms: 1187.010983
+  type: 'test'
+  ...
+# Subtest: Gambler betting protection prevents a night attack
+ok 15 - Gambler betting protection prevents a night attack
+  ---
+  duration_ms: 1319.218539
+  type: 'test'
+  ...
+# Subtest: Gambler betting protection does not prevent a night attack
+ok 16 - Gambler betting protection does not prevent a night attack
+  ---
+  duration_ms: 1309.291131
+  type: 'test'
+  ...
+# Subtest: Gambler configured for one prediction escapes only after the following night
+ok 17 - Gambler configured for one prediction escapes only after the following night
+  ---
+  duration_ms: 1955.678026
+  type: 'test'
+  ...
+# Subtest: Police silently prevents Thief attack in either turn order: police-first
+ok 18 - Police silently prevents Thief attack in either turn order: police-first
+  ---
+  duration_ms: 1025.863961
+  type: 'test'
+  ...
+# Subtest: Police silently prevents Thief attack in either turn order: police-last
+ok 19 - Police silently prevents Thief attack in either turn order: police-last
+  ---
+  duration_ms: 992.82418
+  type: 'test'
+  ...
+# Subtest: safe first night preserves Mayor and Survivor abilities, safe visit, and plays through village victory
+ok 20 - safe first night preserves Mayor and Survivor abilities, safe visit, and plays through village victory
+  ---
+  duration_ms: 1247.950125
+  type: 'test'
+  ...
+# Subtest: Mayor declaration waits for every action and private message, Mayor at index 0
+ok 21 - Mayor declaration waits for every action and private message, Mayor at index 0
+  ---
+  duration_ms: 1036.383998
+  type: 'test'
+  ...
+# Subtest: Mayor declaration waits for every action and private message, Mayor at index 6
+ok 22 - Mayor declaration waits for every action and private message, Mayor at index 6
+  ---
+  duration_ms: 1031.254835
+  type: 'test'
+  ...
+# Subtest: Police cancels a queued Mayor declaration without a public reveal or spent ability
+ok 23 - Police cancels a queued Mayor declaration without a public reveal or spent ability
+  ---
+  duration_ms: 956.972126
+  type: 'test'
+  ...
+# Subtest: Gambler night-death success is counted once, survives the day vote, and escapes only after the next night
+ok 24 - Gambler night-death success is counted once, survives the day vote, and escapes only after the next night
+  ---
+  duration_ms: 1375.253169
+  type: 'test'
+  ...
+1..24
+# tests 59
+# suites 0
+# pass 59
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 87792.188374

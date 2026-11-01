@@ -1,0 +1,9 @@
+WEREWOLF GAME
+
+Website contains the finished game. Upload its contents to a web host, or run python3 -m http.server 8000 in that folder and open http://localhost:8000
+
+To keep the menu download button working on a hosted copy, place the original Werewolf-Game.zip next to Website/index.html when uploading. The ZIP cannot contain a copy of itself.
+
+Source contains the editable source and tests. Install Node.js 22, run npm ci and npm run build. The new website and its download ZIP will be in dist.
+
+The game works offline after its first visit on HTTPS or localhost. Downloading the ZIP from the menu requires a connection unless the browser already has it.
