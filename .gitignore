@@ -1,0 +1,9 @@
+
+.cache/
+google_drive/
+node_modules/
+# GitHub stores shared runtime assets once in Website; restore before Source build.
+/Werewolf-Game/Source/public/*
+!/Werewolf-Game/Source/public/sw.js
+# Local QA receipts and synthetic browser artifacts are not launch assets.
+/analysis/

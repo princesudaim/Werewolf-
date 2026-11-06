@@ -1,0 +1,73 @@
+/* Gameplay presentation only. No timing, role-dependent motion or exit retention. */
+.game-header {
+  height: auto; min-height: 64px; flex-wrap: wrap;
+  padding: max(8px,env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) 8px calc(60px + env(safe-area-inset-left));
+}
+.game-header > span { flex: 1 1 6rem; min-width: 0; font-size: .875rem; overflow-wrap: anywhere; }
+.game-header .back { width: 44px; height: 44px; flex: 0 0 44px; }
+.game-header .game-audio-controls { margin-left: auto; max-width: 100%; }
+.game-header .sound-control { min-height: 44px; }
+:is(.player-pass,.night-intro,.discussion-screen,.action,.vote-page) { min-width: 0; }
+.player-pass h2,.voter-heading h2 { overflow-wrap: anywhere; max-width: 100%; }
+.player-pass > p,.discussion-screen > p,.action p,.vote-page p { overflow-wrap: anywhere; }
+.voter-heading > div { min-width: 0; }
+:is(.screen-nightIntro,.screen-pass,.screen-action,.screen-discussion,.screen-vote) .primary,
+.match-rankings-button { background: linear-gradient(#b74706,#963409); }
+:is(.screen-pass,.screen-nightIntro,.screen-discussion) .center {
+  padding-left: max(24px,env(safe-area-inset-left)); padding-right: max(24px,env(safe-area-inset-right));
+  padding-bottom: max(24px,env(safe-area-inset-bottom));
+}
+:is(.action,.vote-page) {
+  padding-left: max(16px,env(safe-area-inset-left)); padding-right: max(16px,env(safe-area-inset-right));
+  padding-bottom: max(35px,calc(16px + env(safe-area-inset-bottom)));
+}
+.action .targets,.vote-page .targets { grid-template-columns: repeat(auto-fit,minmax(min(100%,max(5rem,calc((100% - 24px)/4))),1fr)); }
+.vote-page .targets { grid-template-columns: repeat(auto-fit,minmax(min(100%,max(5rem,calc((100% - 16px)/3))),1fr)); }
+.action .target strong,.vote-page .target strong {
+  flex: 0 0 auto; height: auto; min-height: 26px; padding: 6px 3px;
+  white-space: normal; overflow: visible; text-overflow: clip; overflow-wrap: anywhere; line-height: 1.35;
+}
+.action .target small,.vote-page .target small { max-width: 100%; overflow-wrap: anywhere; }
+.role-power-game { height: auto; min-height: 25px; padding-block: .25em; }
+.friend-message-compose textarea,.friend-reply textarea { min-width: 0; max-width: 100%; }
+.friend-message-compose button,.friend-reply-send { max-width: 100%; overflow-wrap: anywhere; }
+/* Native top-layer inertness; keep explicit acknowledgement (including on Escape).
+   The existing backdrop covers immediately, before the dialog's entry animation. */
+dialog.private-info {
+  position: fixed; inset: 0; margin: auto; padding: 0; border: 0;
+  width: min(520px,calc(100dvw - 32px - env(safe-area-inset-left) - env(safe-area-inset-right)));
+  max-width: none; max-height: calc(100dvh - 36px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  overflow: auto; overscroll-behavior: contain; scroll-padding-block: 12px;
+}
+dialog.private-info::backdrop { background: transparent; }
+dialog.private-info::before { display: none; }
+.private-info-surface {
+  margin: 2px; background: #0a121b;
+  clip-path: polygon(13px 0,calc(100% - 13px) 0,100% 13px,100% calc(100% - 13px),calc(100% - 13px) 100%,13px 100%,0 calc(100% - 13px),0 13px);
+}
+.private-info header h2 { min-width: 0; overflow-wrap: anywhere; }
+.private-info footer { align-items: center; }
+.private-info footer button { max-width: 100%; overflow-wrap: anywhere; }
+.private-info-ok { color: #071019; }
+.private-info-body { min-width: 0; }
+.private-info-person { max-width: 100%; }
+.assembly-announcement { width: min(460px,calc(100dvw - 32px - env(safe-area-inset-left) - env(safe-area-inset-right))); max-height: calc(100dvh - 32px - env(safe-area-inset-top) - env(safe-area-inset-bottom)); }
+.mayor-declare { color: #111; }
+.discussion-screen .timer { width: min(100%,14rem); height: auto; aspect-ratio: 1; min-width: 0; font-size: 2.5rem; font-variant-numeric: tabular-nums; }
+.morning-report { padding-bottom: calc(var(--fixed-footer-space,calc(105px + env(safe-area-inset-bottom))) + 16px); }
+.morning-footer { padding-left: max(20px,env(safe-area-inset-left)); padding-right: max(20px,env(safe-area-inset-right)); }
+.morning-news { min-width: 0; }
+.morning-portraits,.verdict-portraits { flex-wrap: wrap; }
+.verdict-player,.verdict-inner,.match-player-card,.match-winner-banner { min-width: 0; }
+.vote-verdict { padding-left: max(20px,env(safe-area-inset-left)); padding-right: max(20px,env(safe-area-inset-right)); }
+.verdict-vote-count { max-width: 100%; overflow-wrap: anywhere; }
+.match-winner-banner h2 { min-width: 0; }
+.result-row .match-player-state { overflow-wrap: anywhere; }
+.outcome-badge { max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
+.outcome-dead-label { max-width: 100%; white-space: normal; }
+.match-result-actions button { min-width: 0; overflow-wrap: anywhere; }
+.vote-verdict .hold-button small { font-size: .75rem; color: #fff; line-height: 1.4; }
+.app .hold-button.holding { background: #8d3908; }
+:is(.night-intro,.discussion-screen,.action) h2 { max-width: 100%; overflow-wrap: anywhere; }
+.vote-verdict .hold-button { background: linear-gradient(#b74706,#963409); }
+.app .hold-button::before { background: #ffdc9d33; }

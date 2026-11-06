@@ -1,0 +1,77 @@
+{
+  "edition": "drive-morning-death-20261106-v1",
+  "sample_rate": 48000,
+  "channels": 2,
+  "policy": "One random nonrepeating shot only when a morning report shows one or more deaths. Leading dead air removed with a 10ms onset safety margin; full remaining recording, no padding, no intentional delay, no looping, no no-death-report or recovery replay.",
+  "cues": {
+    "morning-death-01": {
+      "file": "./werewolf/audio/morning-death/v1/morning-death-01.wav",
+      "source": "among us kill.mp3",
+      "source_md5": "f3b0dedf243efc4d02238124db3abd90",
+      "source_sha256": "cb21272869f4e9ce9d82cfc70d3078f461b398a85d4da53ad31bf214a66c7ed3",
+      "frames": 55158,
+      "source_frames": 57958,
+      "source_start_frame": 2800,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 1.149125,
+      "loop": false,
+      "bytes": 220676,
+      "sha256": "3ea89456c4d3f38718b582c9b06550a27e74d211fc023a2ac0a8afe8946e6782",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -17.135,
+        "max_100ms": -11.3,
+        "integrated": -13.768
+      },
+      "true_peak_db": -1.93
+    },
+    "morning-death-02": {
+      "file": "./werewolf/audio/morning-death/v1/morning-death-02.wav",
+      "source": "bell.mp3",
+      "source_md5": "36054ab08b1f6483265c593014e0ea16",
+      "source_sha256": "be74ccfc1b4d536464ebdb5b7e80bc549a807dcb56c5d153f84aab17762dd976",
+      "frames": 83975,
+      "source_frames": 89165,
+      "source_start_frame": 5190,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 1.7494791666666667,
+      "loop": false,
+      "bytes": 335944,
+      "sha256": "e947ddf3cbe37fcd05b160cf4f8f1b0d203f274e9d2744eef4c4c95530efd54d",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -15.158,
+        "max_100ms": -11.762,
+        "integrated": -14.465
+      },
+      "true_peak_db": -4.81
+    },
+    "morning-death-03": {
+      "file": "./werewolf/audio/morning-death/v1/morning-death-03.wav",
+      "source": "bone crack.mp3",
+      "source_md5": "ab70aad6c5b64baadc0f3ab317b231e2",
+      "source_sha256": "22162c9a410b05a2c6b087deeadc20b590b88d8b71451c35e7b60cfbcd5bc253",
+      "frames": 45849,
+      "source_frames": 48484,
+      "source_start_frame": 2635,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 0.9551875,
+      "loop": false,
+      "bytes": 183440,
+      "sha256": "0d08ef74fabefeae8d5bb29a183f7782a465ad6bd9c92a086ff0c82d5211ee62",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -16.67,
+        "max_100ms": -11.22,
+        "integrated": -15.914
+      },
+      "true_peak_db": -1.93
+    }
+  }
+}

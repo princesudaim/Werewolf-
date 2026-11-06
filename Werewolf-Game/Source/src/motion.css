@@ -1,0 +1,79 @@
+/* Entry-only motion. Never retain an outgoing screen, private card or message. */
+.app {
+  --motion-press: 100ms;
+  --motion-enter: 180ms;
+  --motion-public: 260ms;
+  --motion-private: 120ms;
+  --motion-ease: cubic-bezier(.2,.7,.2,1);
+}
+@keyframes ww-panel-in {
+  from { opacity: .4; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes ww-private-in {
+  from { opacity: .45; }
+  to { opacity: 1; }
+}
+@keyframes ww-sheet-in {
+  from { opacity: .5; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes ww-hold-progress {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+/* No transform on app/shell/role-page: they contain viewport-fixed controls. */
+.app :is(.night-intro .modal,.morning-title,.discussion-screen .timer,.verdict-frame,.match-winner-frame) {
+  animation: ww-panel-in var(--motion-public) var(--motion-ease) backwards;
+}
+.app .player-pass {
+  animation: ww-private-in var(--motion-private) ease-out backwards;
+}
+.app :is(.action,.voter-heading,.private-info) {
+  animation: ww-private-in var(--motion-private) ease-out backwards;
+}
+/* Backdrops cover content immediately. Only the actual panel enters. */
+.app :is(.role-details[open],.role-rulebook[open],.feedback-dialog[open],.assembly-announcement[open]) {
+  animation: ww-panel-in var(--motion-enter) var(--motion-ease) backwards;
+}
+.app .avatar-sheet[open] { animation: ww-sheet-in 220ms var(--motion-ease) backwards; }
+.app .picker-inner,.app dialog::backdrop { animation: none; }
+.app .distribution-options { animation: ww-private-in var(--motion-enter) ease-out backwards; }
+.app :is(.primary,.secondary,.home-button,.home-feedback,.feedback-preview,.feedback-done,.feedback-mute,.mayor-declare,.mayor-pass,.stepper button,.settings-number-control button,.target) {
+  transition: transform var(--motion-press) var(--motion-ease), filter var(--motion-press) ease-out,
+    border-color var(--motion-press) ease-out, background-color var(--motion-press) ease-out,
+    box-shadow var(--motion-press) ease-out;
+}
+.app :is(.primary,.secondary,.home-button,.home-feedback,.feedback-preview,.feedback-done,.feedback-mute,.mayor-declare,.mayor-pass,.stepper button,.settings-number-control button,.target):active:not(:disabled):not(.hold-button) {
+  transform: translateY(1px);
+  filter: brightness(.94);
+}
+.app .target.selected { box-shadow: inset 0 0 0 1px #ffb36b60; }
+/* One mandatory two-second hold, not a cosmetic delay. Progress is decorative. */
+.app .hold-button { overflow: hidden; isolation: isolate; transition: none; }
+.app .hold-button::before {
+  content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background: #ffdc9d45; transform: scaleX(0); transform-origin: left center;
+}
+.app .hold-button.holding { background: #c75a10; transition: none; outline: 2px solid #ffd9a3; outline-offset: -3px; }
+.app .hold-button.holding::before { animation: ww-hold-progress 2000ms linear forwards; }
+.app .hold-button :is(.hold-label,small) { position: relative; }
+.app .hold-button small { min-height: 1.3em; }
+
+/* OS reduction always wins. Device preference can only reduce motion further.
+   Do not remove layout transforms (for example the fixed role-start bar). */
+.app[data-motion='reduced'],.app[data-motion='reduced'] *,
+.app[data-motion='reduced']::before,.app[data-motion='reduced']::after,
+.app[data-motion='reduced'] *::before,.app[data-motion='reduced'] *::after,
+.app[data-motion='reduced'] dialog::backdrop {
+  animation: none !important; transition: none !important; scroll-behavior: auto !important;
+}
+.app[data-motion='reduced'] :is(.primary,.secondary,.home-button,.home-feedback,.feedback-preview,.feedback-done,.feedback-mute,.mayor-declare,.mayor-pass,.stepper button,.settings-number-control button,.target):active { transform: none !important; }
+.app[data-motion='reduced'] .hold-button::before { visibility: hidden; }
+@media (prefers-reduced-motion: reduce) {
+  .app,.app *, .app::before,.app::after,.app *::before,.app *::after,.app dialog::backdrop {
+    animation: none !important; transition: none !important; scroll-behavior: auto !important;
+  }
+  .app :is(.primary,.secondary,.home-button,.home-feedback,.feedback-preview,.feedback-done,.feedback-mute,.mayor-declare,.mayor-pass,.stepper button,.settings-number-control button,.target):active { transform: none !important; }
+  .app .hold-button::before { visibility: hidden; }
+}

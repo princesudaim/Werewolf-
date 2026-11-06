@@ -1,0 +1,232 @@
+{
+  "edition": "nightfall-shared-wins-20261104",
+  "sampleRate": 24000,
+  "music": {},
+  "cues": {
+    "tap": {
+      "file": "./werewolf/audio/v3/cues-tap.wav",
+      "seconds": 0.1,
+      "peak": 0.071873,
+      "rms": 0.032,
+      "sha256": "1f16eae86ef6a5ec603ea52ce7a2a67bd0ea92d7703794d1bba745e4d4240562",
+      "bytes": 4844
+    },
+    "confirm": {
+      "file": "./werewolf/audio/v3/cues-confirm.wav",
+      "seconds": 0.2,
+      "peak": 0.10426,
+      "rms": 0.038,
+      "sha256": "179079e08d7a2d1680bd4aea5a4ae3f83e5e3c4caadc1d8888ffc5848f8c3e4b",
+      "bytes": 9644
+    },
+    "invalid": {
+      "file": "./werewolf/audio/v3/cues-invalid.wav",
+      "seconds": 0.17,
+      "peak": 0.094841,
+      "rms": 0.038,
+      "sha256": "5f084737e41e03eb1bb60ca0a276313c2b0b15d83ec15332f6c700303633f231",
+      "bytes": 8204
+    },
+    "select": {
+      "file": "./werewolf/audio/v3/cues-select.wav",
+      "seconds": 0.12,
+      "peak": 0.067562,
+      "rms": 0.032,
+      "sha256": "a11a71c0b8291668459004e70b51ae4fb370aa542d1a2646872b1ce9cdfde361",
+      "bytes": 5804
+    },
+    "add": {
+      "file": "./werewolf/audio/v3/cues-add.wav",
+      "seconds": 0.19,
+      "peak": 0.105727,
+      "rms": 0.038,
+      "sha256": "bec30e950a16d684a45bfc6a0f1db1d0ebe9d3d4c447eef17d4b4d3e3f92da2c",
+      "bytes": 9164
+    },
+    "remove": {
+      "file": "./werewolf/audio/v3/cues-remove.wav",
+      "seconds": 0.19,
+      "peak": 0.104899,
+      "rms": 0.038,
+      "sha256": "a44a261e2210abf29ab5fc74f5dd9b909ef3ea2200381632a767a9cceb8d7ab5",
+      "bytes": 9164
+    },
+    "randomize": {
+      "file": "./werewolf/audio/v3/cues-randomize.wav",
+      "seconds": 0.3,
+      "peak": 0.109356,
+      "rms": 0.038,
+      "sha256": "bb58b4fc28a43041951268307950367f70d70d78527ec28ceeb04ca6c2285166",
+      "bytes": 14444
+    },
+    "navigate": {
+      "file": "./werewolf/audio/v3/cues-navigate.wav",
+      "seconds": 0.15,
+      "peak": 0.092464,
+      "rms": 0.032,
+      "sha256": "e22e846cfefc64cdf0f6ceec0ed4ce034b71413465ad36e23ddc223bb144b87e",
+      "bytes": 7244
+    },
+    "start": {
+      "file": "./werewolf/audio/v3/cues-start.wav",
+      "seconds": 0.65,
+      "peak": 0.113005,
+      "rms": 0.038,
+      "sha256": "6197723328428d13f5315ac6dda18adeb8d0f99a1a9f77500a655469b0766e01",
+      "bytes": 31244
+    },
+    "handoff": {
+      "file": "./werewolf/audio/v3/cues-handoff.wav",
+      "seconds": 0.15,
+      "peak": 0.074807,
+      "rms": 0.038,
+      "sha256": "bb265330aa9ae4f15a846c459281772b5cb143c38860af546ac8cd83a0d7bc8e",
+      "bytes": 7244
+    },
+    "reveal": {
+      "file": "./werewolf/audio/v3/cues-reveal.wav",
+      "seconds": 0.2,
+      "peak": 0.105668,
+      "rms": 0.038,
+      "sha256": "5abc2b4e4a00f5662de78c38dbd2851632b4a23751c37bbf21bea9459c7f4ec2",
+      "bytes": 9644
+    },
+    "discussion": {
+      "file": "./werewolf/audio/v3/cues-discussion.wav",
+      "seconds": 0.3,
+      "peak": 0.101429,
+      "rms": 0.038,
+      "sha256": "a7bed648e589c6e0f316c2cf3dce71f792bf204f83f83fa13ce351d9db5fec7b",
+      "bytes": 14444
+    },
+    "warning": {
+      "file": "./werewolf/audio/v3/cues-warning.wav",
+      "seconds": 0.25,
+      "peak": 0.078798,
+      "rms": 0.038,
+      "sha256": "5d173339e3160f8daea1965c55be745b2330f026263be9ffd774fb494b98dc8e",
+      "bytes": 12044
+    },
+    "time-up": {
+      "file": "./werewolf/audio/v3/cues-time-up.wav",
+      "seconds": 0.4,
+      "peak": 0.11343,
+      "rms": 0.038,
+      "sha256": "a9e3edfa362666c458a215035cc214e889ef4ab152d470ac0cd5ef8daeda75da",
+      "bytes": 19244
+    },
+    "vote-open": {
+      "file": "./werewolf/audio/v3/cues-vote-open.wav",
+      "seconds": 0.32,
+      "peak": 0.102127,
+      "rms": 0.038,
+      "sha256": "be417ad82b8fb5904ac314e705db226d2d3100fbf030d4fa042f67ca969402ee",
+      "bytes": 15404
+    },
+    "elimination": {
+      "file": "./werewolf/audio/v3/cues-elimination.wav",
+      "seconds": 0.42,
+      "peak": 0.10174,
+      "rms": 0.038,
+      "sha256": "440f863faf7563d0ec84f70f9ddb5b3ec931da5860896a3a3c00c1af18f87028",
+      "bytes": 20204
+    },
+    "divided": {
+      "file": "./werewolf/audio/v3/cues-divided.wav",
+      "seconds": 0.32,
+      "peak": 0.095757,
+      "rms": 0.038,
+      "sha256": "af6723e32121c21b1ea886d521e9f0ed4a18b9252b2ec2f90ba41529d0161649",
+      "bytes": 15404
+    },
+    "mvp": {
+      "file": "./werewolf/audio/v3/cues-mvp.wav",
+      "seconds": 0.55,
+      "peak": 0.103196,
+      "rms": 0.038,
+      "sha256": "f6d3729a5ddcbf9b5ef5bcf10d796b4c118a30221ba09f8b5ee13bb571361b9f",
+      "bytes": 26444
+    },
+    "win-wolf": {
+      "file": "./werewolf/audio/v3/cues-win-wolf.wav",
+      "seconds": 1.2,
+      "peak": 0.138706,
+      "rms": 0.038,
+      "sha256": "58f41e5bbc4b19563027c4c56c8e8322ff3b324c8b5c42300fe36f71dc75b024",
+      "bytes": 57644
+    },
+    "win-village": {
+      "file": "./werewolf/audio/v3/cues-win-village.wav",
+      "seconds": 1.2,
+      "peak": 0.135919,
+      "rms": 0.038,
+      "sha256": "ebd14b7ac570b8347cc48d60a234bec0573a2391cdeb1cf129b570220ab086d9",
+      "bytes": 57644
+    },
+    "win-jester": {
+      "file": "./werewolf/audio/v3/cues-win-jester.wav",
+      "seconds": 1.2,
+      "peak": 0.157847,
+      "rms": 0.038,
+      "sha256": "7499440ac2b659ff85f0e14fa60df10c90915ae6c58c0c35c3c67467e623904e",
+      "bytes": 57644
+    },
+    "win-serialkiller": {
+      "file": "./werewolf/audio/v3/cues-win-serialkiller.wav",
+      "seconds": 1.2,
+      "peak": 0.15281,
+      "rms": 0.038,
+      "sha256": "32a9300ac1ebf9727411594cd12f36010fae7a4e9579e079cb825724a3f62e86",
+      "bytes": 57644
+    },
+    "win-raven": {
+      "file": "./werewolf/audio/v3/cues-win-raven.wav",
+      "seconds": 1.2,
+      "peak": 0.153928,
+      "rms": 0.038,
+      "sha256": "7fd9a5dd9092f3cdbaee60458230b23a058d503a49011ff25acb6ee8f0bd8f99",
+      "bytes": 57644
+    },
+    "win-whitewolf": {
+      "file": "./werewolf/audio/v3/cues-win-whitewolf.wav",
+      "seconds": 1.2,
+      "peak": 0.138524,
+      "rms": 0.038,
+      "sha256": "7b043a96d16edb47904cd472578de4c68e3d0fedcc6ddae82b115731a4ff1218",
+      "bytes": 57644
+    },
+    "win-mindflayer": {
+      "file": "./werewolf/audio/v3/cues-win-mindflayer.wav",
+      "seconds": 1.2,
+      "peak": 0.143558,
+      "rms": 0.038,
+      "sha256": "595366d10e48b8c4f21a16a3ba0da0099500ecf5b686cab945327a8eaef51ff9",
+      "bytes": 57644
+    },
+    "win-friends": {
+      "file": "./werewolf/audio/v3/cues-win-friends.wav",
+      "seconds": 1.2,
+      "peak": 0.149189,
+      "rms": 0.038,
+      "sha256": "6ff50e6f9b42c92717beeafa1ccdf662d5ee02f1ce5bfd616bdbe63f8d9702ec",
+      "bytes": 57644
+    },
+    "win-wolf-friends": {
+      "file": "./werewolf/audio/v3/cues-win-wolf-friends.wav",
+      "seconds": 1.2,
+      "peak": 0.120303,
+      "rms": 0.038,
+      "sha256": "63ed6ff5a37567785d127faa7c43e1baa8a73688d9f5da10c6bf8d3d8cacce3a",
+      "bytes": 57644
+    },
+    "win-draw": {
+      "file": "./werewolf/audio/v3/cues-win-draw.wav",
+      "seconds": 0.7,
+      "peak": 0.127977,
+      "rms": 0.038,
+      "sha256": "c0a29eca5f4e0339ce79668e6dcd2722231e85976dd31f015218f4c57cb74044",
+      "bytes": 33644
+    }
+  },
+  "provenance": "Original short interaction, event, winner and MVP effects. No animal sounds, background music or ambience."
+}

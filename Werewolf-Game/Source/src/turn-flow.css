@@ -1,0 +1,3 @@
+/* Plain private guidance, with no animation, announcement or new action control. */
+.action .turn-help { color: #d8e1ed; border-left: 3px solid #879bb2; font-size: .875rem; line-height: 1.5; overflow-wrap: anywhere; }
+.morning-footer .morning-next-step { margin: 0 0 8px; color: #d8e1ed; font-size: .8125rem; line-height: 1.4; text-align: center; overflow-wrap: anywhere; }

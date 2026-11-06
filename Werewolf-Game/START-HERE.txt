@@ -1,0 +1,10 @@
+FULL GAME BACKUP — 922fb159607f
+
+Website/ is complete and ready to host.
+Before editing/building Source/, run:
+  node Werewolf-Game/RESTORE-SOURCE-ASSETS.mjs
+from the extraction parent (or node RESTORE-SOURCE-ASSETS.mjs inside Werewolf-Game).
+Shared assets are stored once in Website to stay below Drive's upload limit.
+The restore copies exact verified original bytes into Source/public.
+Read GITHUB-PAGES-HANDOFF.md. The separate launch ZIP is easier for Pages.
+No private browser/match data is included.

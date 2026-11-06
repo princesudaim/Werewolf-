@@ -1,0 +1,71 @@
+{
+  "edition": "button-only-3x-v1",
+  "gain": 3,
+  "gain_db": 9.542425094393248,
+  "cues": {
+    "tap": {
+      "file": "./werewolf/audio/buttons/v1/button-tap.wav",
+      "seconds": 0.1,
+      "source_sha256": "1f16eae86ef6a5ec603ea52ce7a2a67bd0ea92d7703794d1bba745e4d4240562",
+      "sha256": "518d93e5ef0b4e86da8c5053f438d4e3f519ddb7c12e14ae101ec3fb6b742451",
+      "bytes": 4844,
+      "peak": 0.215607
+    },
+    "confirm": {
+      "file": "./werewolf/audio/buttons/v1/button-confirm.wav",
+      "seconds": 0.2,
+      "source_sha256": "179079e08d7a2d1680bd4aea5a4ae3f83e5e3c4caadc1d8888ffc5848f8c3e4b",
+      "sha256": "c4c916dbeb22ed46a847bfcb6c1bd8051b27f2f6977e61a946d2a0533f4199b7",
+      "bytes": 9644,
+      "peak": 0.312744
+    },
+    "invalid": {
+      "file": "./werewolf/audio/buttons/v1/button-invalid.wav",
+      "seconds": 0.17,
+      "source_sha256": "5f084737e41e03eb1bb60ca0a276313c2b0b15d83ec15332f6c700303633f231",
+      "sha256": "4a0c088bfd2c6a7f947a2f4365141e3ba9eca3c1d28c4424dee427c4b07260bf",
+      "bytes": 8204,
+      "peak": 0.284546
+    },
+    "select": {
+      "file": "./werewolf/audio/buttons/v1/button-select.wav",
+      "seconds": 0.12,
+      "source_sha256": "a11a71c0b8291668459004e70b51ae4fb370aa542d1a2646872b1ce9cdfde361",
+      "sha256": "fb9cd576875ddc20d0fd2afc89c4607fbaecae5dfb2a25fbbb9da34a2388a5ab",
+      "bytes": 5804,
+      "peak": 0.202698
+    },
+    "add": {
+      "file": "./werewolf/audio/buttons/v1/button-add.wav",
+      "seconds": 0.19,
+      "source_sha256": "bec30e950a16d684a45bfc6a0f1db1d0ebe9d3d4c447eef17d4b4d3e3f92da2c",
+      "sha256": "3b78371400329a1d6b5951247e1ad69bcb4fdbc34ec4a20c6cac31bbdc3d3627",
+      "bytes": 9164,
+      "peak": 0.317139
+    },
+    "remove": {
+      "file": "./werewolf/audio/buttons/v1/button-remove.wav",
+      "seconds": 0.19,
+      "source_sha256": "a44a261e2210abf29ab5fc74f5dd9b909ef3ea2200381632a767a9cceb8d7ab5",
+      "sha256": "fc25456b6ef02a5a5e3d4d5eaa68a224475d71bacce0adde1cf8478cbfa6aecf",
+      "bytes": 9164,
+      "peak": 0.314667
+    },
+    "randomize": {
+      "file": "./werewolf/audio/buttons/v1/button-randomize.wav",
+      "seconds": 0.3,
+      "source_sha256": "bb58b4fc28a43041951268307950367f70d70d78527ec28ceeb04ca6c2285166",
+      "sha256": "dc2d22798c505e1e5253f01f2eec427589da208edd4216e9386aa833fdcbf1b7",
+      "bytes": 14444,
+      "peak": 0.328033
+    },
+    "navigate": {
+      "file": "./werewolf/audio/buttons/v1/button-navigate.wav",
+      "seconds": 0.15,
+      "source_sha256": "e22e846cfefc64cdf0f6ceec0ed4ce034b71413465ad36e23ddc223bb144b87e",
+      "sha256": "2c7bb20697830d3bdd6bd9df612a01d68ab63b3e2562746c95da5ea5f0ddc5c0",
+      "bytes": 7244,
+      "peak": 0.277405
+    }
+  }
+}

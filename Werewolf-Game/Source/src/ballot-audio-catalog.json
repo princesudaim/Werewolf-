@@ -1,0 +1,74 @@
+{
+  "edition": "drive-ballot-confirmations-20261106-v1",
+  "sample_rate": 48000,
+  "channels": 2,
+  "policy": "One random nonrepeating prepared cue per committed VOTE/SKIP VOTE, same pool for both. Final elimination keeps voted-out sound instead. No loop, delay, recovery replay or overlapping confirmations. Leading dead air removed, remaining full recording preserved.",
+  "cues": {
+    "ballot-enderman": {
+      "file": "./werewolf/audio/ballot/v1/ballot-enderman.wav",
+      "source": "enderman.mp3",
+      "source_md5": "a320295f09f67311cca26de951bb997d",
+      "source_sha256": "03a951cfcd62a4c5549ad47f610d110c94b574512acc968fb989092644a4eeed",
+      "frames": 45193,
+      "source_frames": 46394,
+      "leading_frames_removed": 1201,
+      "playback_offset_seconds": 0,
+      "seconds": 0.9415208333333334,
+      "loop": false,
+      "bytes": 180816,
+      "sha256": "e2076e74886e47d58b33abf2c4ef5f88803e6a71d171688e4eda8b1a65191460",
+      "target_active_p90": -14.0,
+      "output_stats": {
+        "active_p90": -14.001,
+        "active_p50": -17.053,
+        "max_100ms": -13.573,
+        "integrated": -16.108
+      },
+      "true_peak_db": -1.94
+    },
+    "ballot-notifi": {
+      "file": "./werewolf/audio/ballot/v1/ballot-notifi.wav",
+      "source": "notifi.mp3",
+      "source_md5": "626224ccc787b9538506cf5e9596432b",
+      "source_sha256": "cb0707581503d709f317980cd3460e1662a060b08d3efa3c6ee58bfd207f011e",
+      "frames": 78012,
+      "source_frames": 85821,
+      "leading_frames_removed": 7809,
+      "playback_offset_seconds": 0,
+      "seconds": 1.62525,
+      "loop": false,
+      "bytes": 312092,
+      "sha256": "3196e31492f9441134a7d174a52a7322bb8187647a5f054c0fdd6947a3bdebe9",
+      "target_active_p90": -14.0,
+      "output_stats": {
+        "active_p90": -14.0,
+        "active_p50": -20.353,
+        "max_100ms": -12.609,
+        "integrated": -17.245
+      },
+      "true_peak_db": -2.61
+    },
+    "ballot-enemy": {
+      "file": "./werewolf/audio/ballot/v1/ballot-enemy.wav",
+      "source": "enemy.mp3",
+      "source_md5": "2f98710c373e5fe93048a761ee75e6f0",
+      "source_sha256": "a5252dbc8870a510672fb8ac22f96dd2f2454aacacf488cb747d418ba88eec25",
+      "frames": 64150,
+      "source_frames": 75790,
+      "leading_frames_removed": 11640,
+      "playback_offset_seconds": 0,
+      "seconds": 1.3364583333333333,
+      "loop": false,
+      "bytes": 256644,
+      "sha256": "b3e7e3b83549954a17f56bba99d8274d54722d23dd8e46f0fcd86f7979427616",
+      "target_active_p90": -14.0,
+      "output_stats": {
+        "active_p90": -14.0,
+        "active_p50": -15.967,
+        "max_100ms": -13.373,
+        "integrated": -16.328
+      },
+      "true_peak_db": -9.33
+    }
+  }
+}

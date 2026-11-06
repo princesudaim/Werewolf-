@@ -1,0 +1,50 @@
+{
+  "edition": "drive-phase-one-shots-20261106-v1",
+  "sample_rate": 48000,
+  "channels": 2,
+  "policy": "One predecoded shot after explicit night CONTINUE or discussion entry; no loops, recovery replay or delayed catch-up. Only leading near-silence is skipped at playback (60ms night, 20ms meeting); recordings and full remaining tails are unchanged.",
+  "cues": {
+    "night-start": {
+      "file": "./werewolf/audio/phase/v1/night-start.wav",
+      "source": "night starts.mp3",
+      "source_md5": "6d5a77e471d4d44ed761fb41666ee022",
+      "source_sha256": "90f73ab5dc921ec65f3d818d11aca52386083c3a9dde37ff51a89d06b16e2d8c",
+      "frames": 168299,
+      "source_frames": 168299,
+      "seconds": 3.5062291666666665,
+      "loop": false,
+      "bytes": 673240,
+      "sha256": "e499bdbdfe69200d4228dd3545a3b671070bc88068eb57119b46e4c4368ce9d9",
+      "target_active_p90": -14.0,
+      "output_stats": {
+        "active_p90": -14.001,
+        "active_p50": -20.247,
+        "max_100ms": -11.359,
+        "integrated": -17.104
+      },
+      "true_peak_db": -1.94,
+      "playback_offset_seconds": 0.06
+    },
+    "meeting-start": {
+      "file": "./werewolf/audio/phase/v1/meeting-start.wav",
+      "source": "meeting.mp3",
+      "source_md5": "36a2fc74dd6b7e130706eed17ce8c0ea",
+      "source_sha256": "37eb9fee799a6841f105b3f6ee17df4a14d41907114d5281882b9411c4504019",
+      "frames": 149909,
+      "source_frames": 149909,
+      "seconds": 3.123104166666667,
+      "loop": false,
+      "bytes": 599680,
+      "sha256": "8610d763f3c6e491369b11565eed2aec0ca98f264a4570d7faf9b00a960508ea",
+      "target_active_p90": -14.0,
+      "output_stats": {
+        "active_p90": -14.001,
+        "active_p50": -24.581,
+        "max_100ms": -13.607,
+        "integrated": -16.905
+      },
+      "true_peak_db": -7.15,
+      "playback_offset_seconds": 0.02
+    }
+  }
+}

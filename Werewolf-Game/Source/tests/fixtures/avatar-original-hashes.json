@@ -1,0 +1,74 @@
+{
+  "replacements": [
+    {
+      "position": 1,
+      "old": "./werewolf/avatars/player1.webp",
+      "path": "./werewolf/avatars/photo-01-20261106.png",
+      "original": "image-8.png",
+      "bytes": 30026,
+      "sha256": "f1716152ffa08f26c1bc4ddb754f11ff9bac3f276385d66c48f5dc90a2685f8b"
+    },
+    {
+      "position": 2,
+      "old": "./werewolf/avatars/player2.webp",
+      "path": "./werewolf/avatars/photo-02-20261106.png",
+      "original": "image-9.png",
+      "bytes": 40909,
+      "sha256": "4651d429a4248d54c3ea2ca34fd7820656ffd356b280ac2bda3bf5670edc2355"
+    },
+    {
+      "position": 3,
+      "old": "./werewolf/avatars/player3.webp",
+      "path": "./werewolf/avatars/photo-03-20261106.jpg",
+      "original": "434393482_1871613659928432_8426288221371325188_n.jpg",
+      "bytes": 3486,
+      "sha256": "efb5de3ade0d9a51f9396ac8985045d36f8a3cf8088471655e0760489f02806a"
+    },
+    {
+      "position": 5,
+      "old": "./werewolf/avatars/player5.webp",
+      "path": "./werewolf/avatars/photo-05-20261106.jpg",
+      "original": "786944556_17953628265209536_9031587733587423338_n.jpg",
+      "bytes": 6353,
+      "sha256": "68a252b41288c574fee1ad20a898d7543e60a9452e3c5bb455b0bf45674d71ad"
+    },
+    {
+      "position": 6,
+      "old": "./werewolf/avatars/player7.webp",
+      "path": "./werewolf/avatars/photo-06-20261106.png",
+      "original": "this one.png",
+      "bytes": 1771454,
+      "sha256": "712cc31b5b0a8ff5d78f24b54bdf1f4a0ce2dbb554da91beb994547683776e65"
+    },
+    {
+      "position": 7,
+      "old": "./werewolf/avatars/player8.webp",
+      "path": "./werewolf/avatars/photo-07-20261106.png",
+      "original": "image-10.png",
+      "bytes": 21868,
+      "sha256": "862efa147d9e4694ccaad41018afff789d2525f288b5d337cff60e0d4cae5f97"
+    },
+    {
+      "position": 8,
+      "old": "./werewolf/avatars/player9.webp",
+      "path": "./werewolf/avatars/photo-08-20261106.jpg",
+      "original": "791143523_18010802381933223_2286477951539705360_n.jpg",
+      "bytes": 2784,
+      "sha256": "dd28c8ce674ed1dcebaa4bc304f1ca15d5ecde5aa2eeccf44062eac5b62fb812"
+    }
+  ],
+  "preserved": {
+    "werewolf/avatars/player11.webp": "98f4a557442b029cda5a44e17f8eebedd97924d2acaa195c4ce5c7e560b940c7",
+    "werewolf/avatars/player13.webp": "e9c1a01525847bad7c8a0755281312c2dbced0f7a520eb7f6462bf788e0b37b2",
+    "werewolf/avatars/player15.webp": "ae01abb8b645f62ea1f0c9ca653ffc972a77ff1061aab45a6325d40a281fe86b",
+    "werewolf/avatars/player16.webp": "d5753ec01efacbf222314c03d3d7171aac1eb99465945cee8d1bb28ee7ca9adb",
+    "werewolf/avatars/player17.webp": "a511925fee16e01562a86ab8f27bd9af45667267cfaf20a58d4604da9971c227",
+    "werewolf/avatars/player18.webp": "95048fd01e363bf54ad9ec53f5849bd3bcd1a821fc1aa18dc65c70251787c31d",
+    "werewolf/avatars/player19.webp": "4620bf0a0e8d255520b0347c421ac3077d1e2f39850a10bfd336cfa11e863439",
+    "werewolf/avatars/player20.webp": "9ea77dfa4a623b9f6a228b13008f5a50ceb712d78b6cc819e19f03f46525cce2",
+    "werewolf/avatars/player21.webp": "d31cbbc03105e3cd08c37604205be67d29743fe15f4c4504ac042241608b740e",
+    "werewolf/avatars/player23.webp": "28f3db86ed610874d59f9e6354d3b0a05ac259448b984aa7679b69b6b1a76955",
+    "werewolf/avatars/player24.webp": "b3512d44ae4121b379180356bc8b1f4149430825c150dd232e897c5832f98bdd",
+    "werewolf/avatars/player4.webp": "2f2eaedc89cff9b469bc442ad8dcc42f21bb54034348adaf0a1cce73a9d72d57"
+  }
+}

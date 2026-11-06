@@ -1,0 +1,8 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {defaults} from '../src/werewolf-engine.ts';
+import {RANDOM_DEFAULT_KEYS,RANDOM_DEFAULTS_KEY,randomSetupPreferences,persistSetupPreferences} from '../src/random-default-preferences.ts';
+test('all four requested randomization defaults are ON',()=>{for(const key of RANDOM_DEFAULT_KEYS)assert.equal(defaults[key],true);});
+for(const version of [undefined,null,0,'1',false,2,{}])test('unversioned/invalid setup preference marker gets requested ON defaults: '+JSON.stringify(version),()=>{const before={...defaults,...Object.fromEntries(RANDOM_DEFAULT_KEYS.map(k=>[k,false])),discussionMinutes:0.5,roleChances:{doctor:25}};const next=randomSetupPreferences(before,version);for(const key of RANDOM_DEFAULT_KEYS)assert.equal(next[key],true);assert.equal(next.discussionMinutes,0.5);assert.deepEqual(next.roleChances,{doctor:25});assert.equal(before.randomUniqueRoles,false);});
+test('subsequent explicit OFF choices survive reload',()=>{const off={...defaults,...Object.fromEntries(RANDOM_DEFAULT_KEYS.map(k=>[k,false]))},map=new Map();persistSetupPreferences({setItem:(k,v)=>map.set(k,v)},off);const loaded=randomSetupPreferences(JSON.parse(map.get('werewolf.settings')),JSON.parse(map.get(RANDOM_DEFAULTS_KEY)));for(const key of RANDOM_DEFAULT_KEYS)assert.equal(loaded[key],false);});
+test('failed settings write cannot mark default migration done',()=>{const writes=[];assert.throws(()=>persistSetupPreferences({setItem:(k)=>{writes.push(k);throw Error('Storage unavailable');}},defaults));assert.deepEqual(writes,['werewolf.settings']);});

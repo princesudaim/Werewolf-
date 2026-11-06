@@ -1,0 +1,15 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {defaults,limitedCelebrityReveals,roleDescription} from '../src/werewolf-engine.ts';
+import {rolePower} from '../src/role-power.ts';
+const p=(id,role='villager',extra={})=>({id,name:'Player '+id,role,alive:true,...extra});
+const players=[p(0,'celebrity'),p(1,'werewolf'),p(2),p(3)];
+const reveal=(used={},limit=1,blocked=[],corrupted=[],roster=players,audience=1)=>limitedCelebrityReveals(roster,blocked,corrupted,()=>0,audience,limit,used);
+for(const limit of [1,2])test('automatic Celebrity exhausts exactly '+limit+' successful fame nights',()=>{let used={};for(let n=1;n<=limit+2;n++){const r=reveal(used,limit);assert.equal(Object.keys(r.fame).length,n<=limit?1:0);assert.equal(r.used[0],Math.min(n,limit));used=r.used;}});
+for(const blocked of [true,false])test((blocked?'Police':'corruption')+' does not spend a fame night; later retry succeeds',()=>{const r=reveal({},1,blocked?[0]:[],blocked?[]:[0]);assert.deepEqual(r,{fame:{},used:{}});const next=reveal(r.used);assert.deepEqual(next.used,{0:1});});
+test('audience 3 spends one night, not three',()=>{const r=reveal({},2,[],[],players,3);assert.equal(Object.keys(r.fame).length,3);assert.deepEqual(r.used,{0:1});});
+test('multiple Celebrities have independent allowances',()=>{const roster=[...players,p(4,'celebrity')],r=reveal({0:1},1,[],[],roster);assert.deepEqual(r.used,{0:1,4:1});assert.deepEqual(Object.values(r.fame).flat(),['Player 4']);});
+test('dead star or no recipient never spends fame; revival retains spent quota',()=>{assert.deepEqual(reveal({},1,[],[],[p(0,'celebrity',{alive:false}),p(1)]).used,{});assert.deepEqual(reveal({},1,[],[],[p(0,'celebrity')]).used,{});assert.deepEqual(reveal({0:1},1).fame,{});});
+test('legacy settings without a limit retain repeated automatic fame',()=>{const legacy={...defaults};delete legacy.celebrityFameNights;const a=limitedCelebrityReveals(players,[],[],()=>0,1,undefined,{}),b=limitedCelebrityReveals(players,[],[],()=>0,1,undefined,a.used);assert.equal(Object.keys(b.fame).length,1);assert.deepEqual(b.used,{});assert.match(roleDescription('celebrity',legacy),/Each night/);assert.equal(rolePower('celebrity',legacy),3);});
+test('source ledger is immutable; newly inherited Celebrity has its own empty allowance',()=>{const used={0:1};const r=reveal(used,1,[],[],[p(0,'villager'),p(1,'celebrity'),p(2)]);assert.deepEqual(used,{0:1});assert.deepEqual(r.used,{0:1,1:1});});
+test('Celebrity descriptions stay simple for default, two-night and spent fame',()=>{assert.equal(defaults.celebrityFameNights,1);assert.equal(rolePower('celebrity',defaults),2);assert.equal(rolePower('celebrity',{...defaults,celebrityFameNights:2}),3);for(const limit of [1,2])for(const left of [undefined,0,1,2]){const text=roleDescription('celebrity',{...defaults,celebrityFameNights:limit},{celebrityFameLeft:left});assert.ok(text.split(/\s+/).length<=70);assert.ok([...text].length<=440);assert.match(text,/one person knows you because of your fame/i);assert.equal(text.split('\n').length,2);assert.doesNotMatch(text,/used up|successful|pick anyone|Blocked nights/);}});

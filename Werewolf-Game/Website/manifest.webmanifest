@@ -1,0 +1,26 @@
+{
+  "name": "WEREWOLF — Offline Party Game",
+  "short_name": "WEREWOLF",
+  "description": "Offline pass-and-play werewolf for 4–24 players.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07060d",
+  "theme_color": "#07060d",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "icons/werewolf-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/werewolf-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

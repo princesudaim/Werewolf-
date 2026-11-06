@@ -1,0 +1,7 @@
+.offline-notice{width:min(100%,368px);margin:0 auto 20px;padding:14px;text-align:left;background:#0b1520f5;border:1px solid #63758a;color:#e7edf5;overflow-wrap:anywhere;font:1rem/1.5 Barlow,system-ui,sans-serif;letter-spacing:normal}
+.offline-notice h2{margin:0;font:700 1rem/1.4 Barlow,system-ui,sans-serif;letter-spacing:.025em;color:#f5debb}
+.offline-notice p{margin:.6rem 0;font-size:.875rem;line-height:1.5}
+.offline-notice .offline-update{border-left:3px solid #f5debb;padding-left:.75rem}
+.offline-notice summary{min-height:44px;display:list-item;padding:.65rem 0;cursor:pointer;font:700 .875rem/1.5 Barlow,system-ui,sans-serif;color:#e7edf5;letter-spacing:normal}
+.offline-notice button{width:100%;min-height:44px;padding:.65rem .5rem;border:1px solid #b59668;background:#1b2c3d;color:#f5debb;font:700 .875rem/1.4 Barlow,system-ui,sans-serif;white-space:normal}
+.offline-notice :is(button,summary):focus-visible{outline:3px solid #f7d299;outline-offset:3px}

@@ -1,0 +1,28 @@
+/* Public setup guidance: no private-game styles or additional motion. */
+.setup-guidance,.setup-quick-guide {
+  color: #d0dae3;
+  font-size: .875rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.setup-guidance { margin: 0 0 1rem; }
+.setup-quick-guide { margin: 0 0 1rem; padding: .75rem; background: #101b27; border: 1px solid #64758a; border-radius: 6px; }
+.setup-quick-guide summary { min-height: 44px; align-content: center; cursor: pointer; font-weight: 700; color: #fff; }
+.setup-quick-guide ol { padding-left: 1.5em; margin: .5rem 0; }
+.setup-quick-guide li + li { margin-top: .75em; }
+.setup-quick-guide p { margin: .75em 0 0; }
+.setup-count-help { margin: 0 0 .5rem; color: #d0dae3; font-size: .8125rem; line-height: 1.4; overflow-wrap: anywhere; text-align: center; }
+
+/* Leave room to correct the lineup even when an error wraps at large text sizes. */
+.role-start-button { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .25rem .5rem; padding: 10px 12px; }
+.role-start-button .role-start-count { font-size: .8125rem; }
+.role-start-bar .warning { max-height: 20dvh; overflow-y: auto; overscroll-behavior: contain; }
+@media (max-height:480px) { .screen-roles .role-page-header { position: static; } }
+/* Native focus/scroll-into-view must account for the fixed action bar too. */
+.role-page .role-section button,.role-settings-panel :is(button,input,summary),.setup-quick-guide summary {
+  scroll-margin-bottom: calc(var(--fixed-footer-space,120px) + 16px);
+  scroll-margin-top: calc(4rem + 4px + env(safe-area-inset-top));
+}
+@media (max-height:480px) {
+  .role-page .role-section button,.role-settings-panel :is(button,input,summary),.setup-quick-guide summary { scroll-margin-top: 1rem; }
+}

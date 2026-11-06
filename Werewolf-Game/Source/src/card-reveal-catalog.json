@@ -1,0 +1,369 @@
+{
+  "edition": "card-reveal-drive-20261106-v3",
+  "sample_rate": 48000,
+  "channels": 2,
+  "maximum_seconds": 4,
+  "delay_ms": 250,
+  "selection": "random-no-immediate-repeat",
+  "loudness_method": "100ms K-weighted windows at 25ms hop; active P90, gate max(-60, peak-window minus 25) dB",
+  "target_active_p90": -12.0,
+  "compression": {
+    "ratio": 2,
+    "attack_ms": 8,
+    "release_ms": 100,
+    "stereo_link": "maximum"
+  },
+  "normalization": "Match louder audible sections, not whole-clip average. Gentle compression and oversampled peak protection; no time padding or leading-silence removal. Subjective equality across timbres/devices is not guaranteed.",
+  "clips": [
+    {
+      "file": "./werewolf/audio/card-reveal/v3/reveal-01.wav",
+      "source": "ahhh.mp3",
+      "source_sha256": "4455939979104e4253146973a62c329dc253b121ee114270ff5d56a9e0ffccac",
+      "source_frames": 147122,
+      "frames": 147122,
+      "seconds": 3.0650416666666667,
+      "bytes": 588532,
+      "sha256": "883485ec046cae7e5d1ddc09241856da61db630e2e3cc815ee096b30ddaeebf0",
+      "initial_gain_db": -2.944,
+      "makeup_gain_db": 4.108,
+      "input_stats": {
+        "active_p90": -9.056,
+        "active_p50": -10.815,
+        "max_100ms": -7.795,
+        "integrated": -10.696
+      },
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -13.275,
+        "max_100ms": -11.064,
+        "integrated": -13.465
+      },
+      "true_peak_db": -8.22
+    },
+    {
+      "file": "./werewolf/audio/card-reveal/v3/reveal-02.wav",
+      "source": "among us.mp3",
+      "source_sha256": "44880dea81cf21ac7d7c130ad1e0a7973fc4b937baf669089032cb7ef7448304",
+      "source_frames": 215667,
+      "frames": 192000,
+      "seconds": 4.0,
+      "bytes": 768044,
+      "sha256": "bd30530d4185f4642d24c1de621236922234dc78d008ed7c129bf4593fcb2cda",
+      "initial_gain_db": 4.54,
+      "makeup_gain_db": 6.711,
+      "input_stats": {
+        "active_p90": -16.54,
+        "active_p50": -23.293,
+        "max_100ms": -12.566,
+        "integrated": -19.69
+      },
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -16.869,
+        "max_100ms": -10.243,
+        "integrated": -14.747
+      },
+      "true_peak_db": -1.94
+    },
+    {
+      "file": "./werewolf/audio/card-reveal/v3/reveal-03.wav",
+      "source": "boooo.mp3",
+      "source_sha256": "37fabeb18092529eac081d9b821ff9a0cf3663b428d1d34e6184ecbd35083c4b",
+      "source_frames": 192262,
+      "frames": 192000,
+      "seconds": 4.0,
+      "bytes": 768044,
+      "sha256": "2d82e7022a9aca8ef20d4f2a0c5786c43057aa294764cda325211a26be38d85e",
+      "initial_gain_db": -10.663,
+      "makeup_gain_db": 4.709,
+      "input_stats": {
+        "active_p90": -1.337,
+        "active_p50": -5.614,
+        "max_100ms": -0.024,
+        "integrated": -4.509
+      },
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -15.834,
+        "max_100ms": -10.734,
+        "integrated": -14.962
+      },
+      "true_peak_db": -9.17
+    },
+    {
+      "file": "./werewolf/audio/card-reveal/v3/reveal-04.wav",
+      "source": "bruh.mp3",
+      "source_sha256": "8cc584ec8103bd770fcef353cf1127cb2f474f5d87e576f5f10ad6eabff9891f",
+      "source_frames": 27637,
+      "frames": 27637,
+      "seconds": 0.5757708333333333,
+      "bytes": 110592,
+      "sha256": "1d60282278c4ad5a242fa16d41777d6a5e64a4979c7879eb0f5111ae62cf0a81",
+      "initial_gain_db": 0.383,
+      "makeup_gain_db": 4.909,
+      "input_stats": {
+        "active_p90": -12.383,
+        "active_p50": -14.447,
+        "max_100ms": -11.827,
+        "integrated": -14.345
+      },
+      "output_stats": {
+        "active_p90": -12.001,
+        "active_p50": -13.25,
+        "max_100ms": -11.578,
+        "integrated": -13.685
+      },
+      "true_peak_db": -5.39
+    },
+    {
+      "file": "./werewolf/audio/card-reveal/v3/reveal-05.wav",
+      "source": "dun dun duuuuun.mp3",
+      "source_sha256": "dc75b05dc779f058bc18e193b82797a80ae777c9bb73fc8201a2f95cf958bd9a",
+      "source_frames": 183903,
+      "frames": 183903,
+      "seconds": 3.8313125,
+      "bytes": 735656,
+      "sha256": "0b909ca54dca78046077b823b3c85f8a280fd6713dcbab169516c93228e9c763",
+      "initial_gain_db": 0.582,
+      "makeup_gain_db": 5.06,
+      "input_stats": {
+        "active_p90": -12.582,
+        "active_p50": -14.112,
+        "max_100ms": -10.811,
+        "integrated": -14.092
+      },
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -12.798,
+        "max_100ms": -10.989,
+        "integrated": -13.069
+      },
+      "true_peak_db": -2.73
+    },
+    {
+      "file": "./werewolf/audio/card-reveal/v3/reveal-06.wav",
+      "source": "emotional.mp3",
+      "source_sha256": "8a9eafb89b4f3bf34e63677ecd5ff743e2fa03f378d3d64ed627d5728ab45d76",
+      "source_frames": 159382,
+      "frames": 159382,
+      "seconds": 3.3204583333333333,
+      "bytes": 637572,
+      "sha256": "fc0bc9098437c77de97e347b01cbfb260fa19013edec748d65df19a7f3391787",
+      "initial_gain_db": -5.934,
+      "makeup_gain_db": 3.872,
+      "input_stats": {
+        "active_p90": -6.066,
+        "active_p50": -8.041,
+        "max_100ms": -4.62,
+        "integrated": -7.832
+      },
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -13.508,
+        "max_100ms": -10.742,
+        "integrated": -13.496
+      },
+      "true_peak_db": -2.98
+    },
+    {
+      "file": "./werewolf/audio/card-reveal/v3/reveal-07.wav",
+      "source": "fahh.mp3",
+      "source_sha256": "c8b03ff0adacaf75b504b46e505f70af70a76d234cedaeb80eef9ee7ef6d909a",
+      "source_frames": 92509,
+      "frames": 92509,
+      "seconds": 1.9272708333333333,
+      "bytes": 370080,
+      "sha256": "9f6cad31ad399ef6236cca087ac850e4416f10f9a8d487f6b276ad100732a0c8",
+      "initial_gain_db": -4.224,
+      "makeup_gain_db": 4.575,
+      "input_stats": {
+        "active_p90": -7.776,
+        "active_p50": -19.8,
+        "max_100ms": -6.254,
+        "integrated": -11.544
+      },
+      "output_stats": {
+        "active_p90": -12.001,
+        "active_p50": -19.613,
+        "max_100ms": -11.067,
+        "integrated": -15.908
+      },
+      "true_peak_db": -4.33
+    },
+    {
+      "file": "./werewolf/audio/card-reveal/v3/reveal-08.wav",
+      "source": "huh.mp3",
+      "source_sha256": "97b17825c0d29d30fd0de077e96bebcb6335177b7f4c88bb6112e65805591dc4",
+      "source_frames": 52385,
+      "frames": 52385,
+      "seconds": 1.0913541666666666,
+      "bytes": 209584,
+      "sha256": "c668ae683d17559a372c28bb035ec60ad1369127b991750688d881b6b4e94816",
+      "initial_gain_db": -2.731,
+      "makeup_gain_db": 3.786,
+      "input_stats": {
+        "active_p90": -9.269,
+        "active_p50": -13.739,
+        "max_100ms": -9.089,
+        "integrated": -12.078
+      },
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -15.547,
+        "max_100ms": -11.887,
+        "integrated": -14.448
+      },
+      "true_peak_db": -10.17
+    },
+    {
+      "file": "./werewolf/audio/card-reveal/v3/reveal-09.wav",
+      "source": "metal.mp3",
+      "source_sha256": "76e90c9f225825a8a6bceea580e97811f36abcb850ef985eb4bca0c3c7ed6f94",
+      "source_frames": 139320,
+      "frames": 139320,
+      "seconds": 2.9025,
+      "bytes": 557324,
+      "sha256": "f8d038f50f6b472213550b9d43c54a7d16f7a13fd91b7aa44c68406327fc2585",
+      "initial_gain_db": 1.158,
+      "makeup_gain_db": 3.658,
+      "input_stats": {
+        "active_p90": -13.158,
+        "active_p50": -15.496,
+        "max_100ms": -12.113,
+        "integrated": -15.065
+      },
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -14.08,
+        "max_100ms": -11.464,
+        "integrated": -14.019
+      },
+      "true_peak_db": -4.37
+    },
+    {
+      "file": "./werewolf/audio/card-reveal/v3/reveal-10.wav",
+      "source": "shock.mp3",
+      "source_sha256": "6f0adc0448a2caed410d4494c22b2982558929716486cf1765c8827cacc3a8ab",
+      "source_frames": 216225,
+      "frames": 192000,
+      "seconds": 4.0,
+      "bytes": 768044,
+      "sha256": "30109b2a82a4289a7ff36cee586fd13a1b0dcfbd13148638c53b8dd9b77e5f4a",
+      "initial_gain_db": -3.692,
+      "makeup_gain_db": 6.893,
+      "input_stats": {
+        "active_p90": -8.308,
+        "active_p50": -16.481,
+        "max_100ms": -7.236,
+        "integrated": -11.462
+      },
+      "output_stats": {
+        "active_p90": -12.001,
+        "active_p50": -16.098,
+        "max_100ms": -11.203,
+        "integrated": -14.873
+      },
+      "true_peak_db": -1.94
+    },
+    {
+      "file": "./werewolf/audio/card-reveal/v3/reveal-11.wav",
+      "source": "spider.mp3",
+      "source_sha256": "fc73f6fe089022f5abf51829f809b4be5059a1db65d9ca02e95e4c358fede55d",
+      "source_frames": 687683,
+      "frames": 192000,
+      "seconds": 4.0,
+      "bytes": 768044,
+      "sha256": "6d26c3dd8f2ca85cdd32e666ae216d8bac56446f34e12f5130d30b86d3c3a1fc",
+      "initial_gain_db": -2.612,
+      "makeup_gain_db": 5.777,
+      "input_stats": {
+        "active_p90": -9.388,
+        "active_p50": -11.15,
+        "max_100ms": -7.142,
+        "integrated": -11.29
+      },
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -12.943,
+        "max_100ms": -10.918,
+        "integrated": -13.08
+      },
+      "true_peak_db": -2.61
+    },
+    {
+      "file": "./werewolf/audio/card-reveal/v3/reveal-12.wav",
+      "source": "woow.mp3",
+      "source_sha256": "ded5f6d55e743c3a11b535f0a970be69bc4d2eb04f19cc651a6f80ec545fc305",
+      "source_frames": 195048,
+      "frames": 192000,
+      "seconds": 4.0,
+      "bytes": 768044,
+      "sha256": "e53230713a7a0bfc70bd268ddb3273e2e472e116ff11b6c51e1c83af87b07cd2",
+      "initial_gain_db": 10.192,
+      "makeup_gain_db": 4.221,
+      "input_stats": {
+        "active_p90": -22.192,
+        "active_p50": -30.143,
+        "max_100ms": -21.353,
+        "integrated": -25.451
+      },
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -17.862,
+        "max_100ms": -11.177,
+        "integrated": -14.856
+      },
+      "true_peak_db": -5.01
+    },
+    {
+      "file": "./werewolf/audio/card-reveal/v3/reveal-13.wav",
+      "source": "wop wop.mp3",
+      "source_sha256": "6b1be1dea35ffc888f80d6be5e605c1af6b852856a663412e4040746f76cc77b",
+      "source_frames": 200672,
+      "frames": 192000,
+      "seconds": 4.0,
+      "bytes": 768044,
+      "sha256": "1460e0f44e942f0f39c3b460dab6140e2517110023ce34275dafeaff41b50ce3",
+      "initial_gain_db": -5.261,
+      "makeup_gain_db": 4.972,
+      "input_stats": {
+        "active_p90": -6.739,
+        "active_p50": -10.265,
+        "max_100ms": -4.438,
+        "integrated": -9.203
+      },
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -14.291,
+        "max_100ms": -10.574,
+        "integrated": -13.983
+      },
+      "true_peak_db": -5.6
+    },
+    {
+      "file": "./werewolf/audio/card-reveal/v3/reveal-14.wav",
+      "source": "yippe.mp3",
+      "source_sha256": "7c05387d74ee214d81076743c077c80c5fd2df7f6e2e26973a4e9807c49b6fc1",
+      "source_frames": 89026,
+      "frames": 89026,
+      "seconds": 1.8547083333333334,
+      "bytes": 356148,
+      "sha256": "b8a27ffc9683c259e14b78ba7b9a0a97017ab4b6cbf277a815e4a5b716d9675e",
+      "initial_gain_db": -1.289,
+      "makeup_gain_db": 3.27,
+      "input_stats": {
+        "active_p90": -10.711,
+        "active_p50": -13.766,
+        "max_100ms": -10.322,
+        "integrated": -13.524
+      },
+      "output_stats": {
+        "active_p90": -12.001,
+        "active_p50": -14.111,
+        "max_100ms": -11.323,
+        "integrated": -14.36
+      },
+      "true_peak_db": -8.71
+    }
+  ]
+}

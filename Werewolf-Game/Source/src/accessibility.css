@@ -1,0 +1,127 @@
+/* Setup and shared dialogs: resizable type, real touch targets and visible focus.
+   Never apply a transform/zoom to a screen containing fixed or private controls. */
+.app :is(button,input,select,textarea,summary,[tabindex]):focus-visible {
+  outline: 3px solid #ffe1b8;
+  outline-offset: -4px !important; /* Angular clip paths must not cut the ring off. */
+}
+.app .setting-check input:focus-visible + .setting-check-visual {
+  outline: 3px solid #fff; outline-offset: -4px; filter: none;
+}
+.app :is(button,label,summary) > svg { flex-shrink: 0; }
+.home-start { background: #a6531d; }
+.setup-primary { background: linear-gradient(#b74706,#963409); }
+.library-tabs button.active { background: linear-gradient(90deg,#b74706,#963409); }
+.home-content {
+  padding-left: max(22px,env(safe-area-inset-left));
+  padding-right: max(22px,env(safe-area-inset-right));
+  padding-bottom: max(4vh,calc(16px + env(safe-area-inset-bottom)));
+}
+.setup-header,.role-page-header {
+  height: auto; min-height: 64px;
+  padding-top: max(8px,env(safe-area-inset-top)); padding-bottom: 8px;
+  padding-left: max(13px,env(safe-area-inset-left)); padding-right: max(13px,env(safe-area-inset-right));
+}
+.setup-heading h2,.role-page-header > span { overflow-wrap: anywhere; }
+.setup-header .setup-heading { min-width: 0; }
+.role-page-header .back { width: 44px; height: 44px; flex: 0 0 44px; }
+.setup {
+  padding-left: max(13px,env(safe-area-inset-left)); padding-right: max(13px,env(safe-area-inset-right));
+}
+.setup .roster-grid {
+  grid-template-columns: repeat(auto-fit,minmax(min(100%,max(6rem,calc((100% - 18px)/3))),1fr));
+}
+.roster-edit strong { white-space: normal; overflow-wrap: anywhere; font-size: .8125rem; line-height: 1.3; }
+.setup .roster-add-slot { min-width: 0; }
+.setup .roster-add,.setup .random-player-button { min-height: 44px; }
+.setup .remove-roster,.setup .remove,.setup .delete-banner button { min-width: 44px; min-height: 44px; }
+.name-field input { min-width: 0; font-size: 1rem; }
+.setup .remember { gap: 10px; }
+.setup .remember > span:first-child { min-width: 0; overflow-wrap: anywhere; }
+.setup .remember small { font-size: .75rem; line-height: 1.5; }
+.library-tabs { flex-wrap: wrap; }
+.library-tabs button { flex: 1 1 8rem; min-height: 44px; padding: 10px 6px; }
+.library-select { min-width: 0; }
+.library-select strong { min-width: 0; overflow-wrap: anywhere; }
+.role-page .role-grid {
+  grid-template-columns: repeat(auto-fit,minmax(min(100%,max(7rem,calc((100% - 16px)/3))),1fr));
+}
+.role-page .role-info-button strong { overflow-wrap: anywhere; }
+.role-page .setting-copy { min-width: 0; }
+.role-page .setting-copy strong,.role-page .setting-copy small { overflow-wrap: anywhere; }
+.role-page .distribution-button { white-space: normal; text-align: left; }
+.distribution-modes { flex-wrap: wrap; }
+.distribution-mode { min-width: 0; overflow-wrap: anywhere; }
+.role-page .number-setting,.role-options .role-option-row { flex-wrap: wrap; }
+.role-page .number-setting .setting-copy,.role-options .role-option-row > span:first-child { flex: 1 1 9rem; }
+.settings-number-control { margin-left: auto; max-width: 100%; }
+.app .settings-number-control button { width: 44px; height: auto; min-width: 44px; min-height: max(44px,2.25rem); }
+.app .settings-number-control .number-control-glyph { margin: auto; min-height: max(30px,1.75rem); height: auto; }
+:is(.role-options,.role-settings-list) .settings-number-control input[type=number] {
+  width: 3.5rem; flex: 0 1 3.5rem; min-width: 0; height: auto; min-height: 44px; font-size: 1rem;
+}
+.role-options select { min-height: 44px; font-size: 1rem; }
+.role-details-description h3 { flex-wrap: wrap; }
+.role-details .role-detail-frame h2 { overflow-wrap: anywhere; }
+.role-rulebook,.feedback-dialog {
+  max-height: calc(100dvh - 24px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  max-width: calc(100% - 24px - env(safe-area-inset-left) - env(safe-area-inset-right));
+}
+.role-rulebook-inner { max-height: calc(100dvh - 28px - env(safe-area-inset-top) - env(safe-area-inset-bottom)); }
+.role-rulebook-content { min-height: 0; scroll-padding-block: 12px; }
+.role-rulebook-search input { min-height: 44px; height: auto; padding-block: 10px; font-size: 1rem; }
+.role-rulebook-team h3 { flex-wrap: wrap; gap: 6px; }
+/* Only the middle scrolls. Keyboard focus cannot hide under sticky chrome. */
+.feedback-dialog { overflow: hidden; }
+.feedback-dialog[open] { display: flex; flex-direction: column; }
+.feedback-heading,.feedback-footer { position: static; flex-shrink: 0; }
+.feedback-content { min-height: 0; overflow-y: auto; overscroll-behavior: contain; scroll-padding-block: 12px; }
+.feedback-group { min-width: 0; }
+.feedback-group h3,.feedback-heading h2 { overflow-wrap: anywhere; }
+.feedback-volume > span { flex-wrap: wrap; gap: 4px; }
+.feedback-intensity select { font-size: 1rem; }
+.feedback-footer button { overflow-wrap: anywhere; }
+.avatar-sheet { max-height: calc(100dvh - env(safe-area-inset-top)); }
+.picker-heading { flex-wrap: wrap; }
+.picker-heading h2 { min-width: 0; overflow-wrap: anywhere; }
+@media (max-height:480px) {
+  .feedback-heading { min-height: 60px; padding: 8px 12px; gap: 8px; }
+  .feedback-heading > svg,.feedback-heading small { display: none; }
+  .feedback-heading h2 { font-size: 1.25rem; }
+  .feedback-footer { padding-top: 8px; padding-bottom: max(8px,env(safe-area-inset-bottom)); }
+}
+@media (forced-colors:active) {
+  .app .setting-check-visual { border: 2px solid ButtonText; }
+  .app .setting-check-visual::before { background: Canvas; }
+  .app .setting-check input:checked + .setting-check-visual { color: Highlight; border-color: Highlight; }
+  .app :is(button,input,select,textarea,summary,[tabindex]):focus-visible { outline-color: Highlight; }
+}
+
+.setup,.role-page { padding-bottom: calc(var(--fixed-footer-space,calc(100px + env(safe-area-inset-bottom))) + 16px); }
+.role-start-bar .warning { font-size: .8125rem; }
+.role-start-button:not(:disabled) { background: linear-gradient(#b74706,#963409); }
+.distribution-modes { grid-template-columns: repeat(auto-fit,minmax(min(100%,7rem),1fr)); }
+.setup .warning,.setup .muted,.role-page .muted { font-size: .8125rem; }
+.role-hold-hint,.player-form .avatar-caption { font-size: .75rem; }
+.role-power-card { font-size: .8125rem; min-height: 25px; height: auto; padding-block: .25em; }
+.role-power-detail { font-size: .75rem; }
+.avatar-sheet .avatar-number { font-size: .625rem; }
+.avatar-sheet .avatar-owner { font-size: .6875rem; }
+.setup .avatar { font-size: 1.5rem; }
+.roster-top { min-height: 23px; height: auto; padding-block: 4px; }
+@media (max-width:360px) {
+  .feedback-heading > svg,.role-rulebook-header > svg { display: none; }
+}
+.setup-empty h3 { font-size: 1.125rem; }
+/* Native dialogs must use the device viewport, not mobile overflow's wider layout. */
+.role-details { width: 100dvw; max-width: 100dvw; min-width: 0; }
+.chance-heading { flex-wrap: wrap; }
+.chance-heading label { flex: 1 1 7rem; min-width: 0; overflow-wrap: anywhere; }
+.chance-heading output { flex: 0 0 auto; min-width: 3.5em; margin-left: auto; }
+.role-settings-list,.role-options { grid-template-columns: minmax(0,1fr); min-width: 0; }
+.role-page .distribution-button { min-width: 0; flex-wrap: wrap; overflow-wrap: anywhere; }
+.role-page .section-title { flex-wrap: wrap; gap: 8px; }
+.role-page .section-title > span { min-width: 0; overflow-wrap: anywhere; }
+.role-details[open] { display: flex; flex-direction: column; overflow: hidden; }
+.role-details .role-detail-top { position: static; flex-shrink: 0; }
+.role-details .role-detail-body { width: 100%; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scroll-padding-block: 12px; margin: 0 auto; }
+.role-rulebook-header { flex-shrink: 0; }

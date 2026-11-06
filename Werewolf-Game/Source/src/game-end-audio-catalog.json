@@ -1,0 +1,123 @@
+{
+  "edition": "drive-game-end-20261106-v1",
+  "sample_rate": 48000,
+  "channels": 2,
+  "policy": "One random nonrepeating shot only for a new final-results screen. Leading dead air removed with a 10ms onset safety margin; first <=7s of remaining recording, no padding, no intentional delay, no looping, no old victory/MVP overlap or recovery replay.",
+  "cues": {
+    "game-end-01": {
+      "file": "./werewolf/audio/game-end/v1/game-end-01.wav",
+      "source": "boop.mp3",
+      "source_md5": "02727bb6f35a7feb581fc0a3a998df11",
+      "source_sha256": "e4d8d24bb18fc477c5275699fae7a8b3a7ffb4e1e57855a5df3b86a174992e0a",
+      "frames": 142368,
+      "source_frames": 142368,
+      "source_start_frame": 0,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 2.966,
+      "loop": false,
+      "bytes": 569516,
+      "sha256": "888cb206f44348889d9587f5eef3714dddde2754f182ab98748f06dd2de88b7e",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -12.706,
+        "max_100ms": -11.703,
+        "integrated": -12.744
+      },
+      "true_peak_db": -6.42
+    },
+    "game-end-02": {
+      "file": "./werewolf/audio/game-end/v1/game-end-02.wav",
+      "source": "game ends.mp3",
+      "source_md5": "5899263378e12d8152f44c02cd9b9a3f",
+      "source_sha256": "7a294df817e78a038f5781a4045dbbd7b0fafed363c56b546694acbb5538285a",
+      "frames": 336000,
+      "source_frames": 524160,
+      "source_start_frame": 789,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 7.0,
+      "loop": false,
+      "bytes": 1344044,
+      "sha256": "5999eba2149919b73ae0363157d4b39ac6c19d7283623c36d6524066fbd60bc1",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.001,
+        "active_p50": -14.131,
+        "max_100ms": -9.745,
+        "integrated": -14.083
+      },
+      "true_peak_db": -1.94
+    },
+    "game-end-03": {
+      "file": "./werewolf/audio/game-end/v1/game-end-03.wav",
+      "source": "meow meow.MP3",
+      "source_md5": "182b51a64e1a1231c1f654b65a8ff7b8",
+      "source_sha256": "1093833c3830eae266a25db4ec557346fa6d83185e662a0a301b4ae187fce372",
+      "frames": 336000,
+      "source_frames": 2784863,
+      "source_start_frame": 2398,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 7.0,
+      "loop": false,
+      "bytes": 1344044,
+      "sha256": "e0e976106a602e74d856bb606c2b881be55f13ddc67bec3378f5fd4c04eed270",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.001,
+        "active_p50": -13.277,
+        "max_100ms": -10.276,
+        "integrated": -13.361
+      },
+      "true_peak_db": -4.99
+    },
+    "game-end-04": {
+      "file": "./werewolf/audio/game-end/v1/game-end-04.wav",
+      "source": "prowl goku.mp3",
+      "source_md5": "c314edefbba059065513488340d246da",
+      "source_sha256": "88d7b18a6af2a56af61713629abbd8d9321791f4cf2c37093139b116bb7f825b",
+      "frames": 242952,
+      "source_frames": 248832,
+      "source_start_frame": 5880,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 5.0615,
+      "loop": false,
+      "bytes": 971852,
+      "sha256": "32bf4b9df41bd6189525a938d60b5c952c08b928b28383bed301118363646c76",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -14.721,
+        "max_100ms": -11.129,
+        "integrated": -14.024
+      },
+      "true_peak_db": -4.55
+    },
+    "game-end-05": {
+      "file": "./werewolf/audio/game-end/v1/game-end-05.wav",
+      "source": "skele rosting.mp3",
+      "source_md5": "771b92fb7fad83e5ab72a60a8cf32dd5",
+      "source_sha256": "d2f046c40b3055b5fa39c9c802cb234e5b73719dae8a559981fedc048139877a",
+      "frames": 336000,
+      "source_frames": 354430,
+      "source_start_frame": 2035,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 7.0,
+      "loop": false,
+      "bytes": 1344044,
+      "sha256": "d543ce1b04a84dbeca19f6ee7140d279f3307447cc96cdb36cdb56aca22042a6",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -14.293,
+        "max_100ms": -11.438,
+        "integrated": -14.057
+      },
+      "true_peak_db": -4.64
+    }
+  }
+}

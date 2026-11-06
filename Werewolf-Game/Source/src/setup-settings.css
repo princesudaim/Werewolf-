@@ -1,0 +1,7 @@
+/* Public preferences only. Existing checkbox/number/focus styling is shared. */
+.role-page .setup-settings-group { display: grid; grid-template-columns: minmax(0,1fr); gap: 6px; min-width: 0; padding: 10px 0; border-top: 1px solid #38485b; }
+.role-page .setup-settings-group > h3 { margin: 0 4px 4px; color: #fff; font: 700 1rem/1.4 system-ui,sans-serif; overflow-wrap: anywhere; }
+.role-page .setup-settings-note { margin: 4px; color: #c4d0de; font: .8125rem/1.5 system-ui,sans-serif; overflow-wrap: anywhere; }
+.role-page .setup-wait-duration { display: grid; grid-template-columns: minmax(0,1fr); gap: 6px; min-width: 0; }
+.role-page .setup-wait-duration > span { white-space: normal; max-width: 100%; overflow-wrap: anywhere; justify-self: start; }
+.role-page .setup-wait-duration > input { width: 100%; min-width: 0; min-height: 44px; margin: 0; }

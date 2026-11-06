@@ -1,0 +1,192 @@
+{
+  "edition": "drive-voted-out-20261106-v2",
+  "sample_rate": 48000,
+  "channels": 2,
+  "policy": "One random nonrepeating shot only for a real voted-out victim. Leading dead air removed with a 10ms onset safety margin; first <=4s of remaining recording, no padding, no intentional delay, no looping or recovery replay.",
+  "cues": {
+    "voted-out-01": {
+      "file": "./werewolf/audio/voted-out/v2/voted-out-01.wav",
+      "source": "anime punch.mp3",
+      "source_md5": "7ebb21275f4ba90817e422015de46002",
+      "source_sha256": "2514884004ba204975e7476822d90bf038cfa8dea31b1f213e5d65b5df91124b",
+      "frames": 84554,
+      "source_frames": 99196,
+      "source_start_frame": 14642,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 1.7615416666666666,
+      "loop": false,
+      "bytes": 338260,
+      "sha256": "e7a055119d520239685abb2496b93950a2e19300ccfa1ec918b20df63f8c41fa",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.001,
+        "active_p50": -13.61,
+        "max_100ms": -11.937,
+        "integrated": -13.658
+      },
+      "true_peak_db": -10.04
+    },
+    "voted-out-02": {
+      "file": "./werewolf/audio/voted-out/v2/voted-out-02.wav",
+      "source": "bye.mp3",
+      "source_md5": "07f2c7414808d40fc60b7835c2a489e2",
+      "source_sha256": "010d5edc0cdeddf1600790278216aa1013823516e43a8fdf8562a9c44c855623",
+      "frames": 151537,
+      "source_frames": 192819,
+      "source_start_frame": 41282,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 3.157020833333333,
+      "loop": false,
+      "bytes": 606192,
+      "sha256": "09e4bfd1d8394c25a9654d66b1e5fb9e4441c32f392b5eb9fa3eb65860929bb8",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -13.688,
+        "max_100ms": -11.417,
+        "integrated": -13.485
+      },
+      "true_peak_db": -4.51
+    },
+    "voted-out-03": {
+      "file": "./werewolf/audio/voted-out/v2/voted-out-03.wav",
+      "source": "get out.mp3",
+      "source_md5": "ade342b0596cd4013677419931aaa74a",
+      "source_sha256": "b2427377ef4c4a1a084a866156e5eb683f1058ffab3e00fe0c77a83f7c127e10",
+      "frames": 73654,
+      "source_frames": 84707,
+      "source_start_frame": 11053,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 1.5344583333333333,
+      "loop": false,
+      "bytes": 294660,
+      "sha256": "79bca34e5efdb8152cb758609b7f6e43051f0b264e47c8e70e0cbb14ff3990e3",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -12.888,
+        "max_100ms": -11.826,
+        "integrated": -13.016
+      },
+      "true_peak_db": -5.76
+    },
+    "voted-out-04": {
+      "file": "./werewolf/audio/voted-out/v2/voted-out-04.wav",
+      "source": "gta wasted.mp3",
+      "source_md5": "a67804325fffe0b5ff00f92f6b0d5f26",
+      "source_sha256": "ec11dc83abec99865de64d28134ae20c7f87e92c5ea1c5caefad4c13fe41ffd2",
+      "frames": 192000,
+      "source_frames": 374492,
+      "source_start_frame": 9585,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 4.0,
+      "loop": false,
+      "bytes": 768044,
+      "sha256": "8215a542fda201cc730a2e43a6007170df0d2736535d575921e38c21b04fc4f6",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.001,
+        "active_p50": -18.441,
+        "max_100ms": -9.606,
+        "integrated": -16.165
+      },
+      "true_peak_db": -1.94
+    },
+    "voted-out-05": {
+      "file": "./werewolf/audio/voted-out/v2/voted-out-05.wav",
+      "source": "helecopter.mp3",
+      "source_md5": "757393f02729c70c1ab6c66382da31f3",
+      "source_sha256": "fa29827355b7a5cd515962f3c6811576ba43d7b092f459f7b64af153e416875a",
+      "frames": 192000,
+      "source_frames": 376720,
+      "source_start_frame": 5608,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 4.0,
+      "loop": false,
+      "bytes": 768044,
+      "sha256": "bce98adf7d7e1b28f0eb0bdc2b2beaa1fd8c56063e5d0f9cdb3e10b17c7bde98",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -16.128,
+        "max_100ms": -11.039,
+        "integrated": -14.642
+      },
+      "true_peak_db": -4.33
+    },
+    "voted-out-06": {
+      "file": "./werewolf/audio/voted-out/v2/voted-out-06.wav",
+      "source": "offf.mp3",
+      "source_md5": "9f841113772d2616391dc25eb0947719",
+      "source_sha256": "c81ba39c5997f222fbf220b8d006dd5264a209d6e0191561d1160d3de4580722",
+      "frames": 25911,
+      "source_frames": 27864,
+      "source_start_frame": 1953,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 0.5398125,
+      "loop": false,
+      "bytes": 103688,
+      "sha256": "20ee0e864429e9cea9e0c300d051adc00687a5d3e6c8762f10f610f908be5eae",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -15.338,
+        "max_100ms": -11.926,
+        "integrated": -14.541
+      },
+      "true_peak_db": -9.23
+    },
+    "voted-out-07": {
+      "file": "./werewolf/audio/voted-out/v2/voted-out-07.wav",
+      "source": "riz.mp3",
+      "source_md5": "7d20bf532abaa4ba236ebf3348d25493",
+      "source_sha256": "a82c17fb07389267c4139029431ef1d89bd6035f51a2df173fa79ffafefbe927",
+      "frames": 132179,
+      "source_frames": 188361,
+      "source_start_frame": 56182,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 2.7537291666666666,
+      "loop": false,
+      "bytes": 528760,
+      "sha256": "317c27201c5f0ce99299cb6cad5ef54b42c0198ec4a55a71b82d53689c1b8641",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.001,
+        "active_p50": -20.35,
+        "max_100ms": -10.973,
+        "integrated": -15.775
+      },
+      "true_peak_db": -6.68
+    },
+    "voted-out-08": {
+      "file": "./werewolf/audio/voted-out/v2/voted-out-08.wav",
+      "source": "sad voilen.mp3",
+      "source_md5": "f7a68c94257bf765b31dca0f8200d931",
+      "source_sha256": "3498c87f5264c35dec62896d7ea3423bda26f5e9dc97c27a6e48d3bac9410f26",
+      "frames": 192000,
+      "source_frames": 1074992,
+      "source_start_frame": 28403,
+      "onset_lead_frames": 480,
+      "onset_threshold_dbfs": -55,
+      "seconds": 4.0,
+      "loop": false,
+      "bytes": 768044,
+      "sha256": "ea66ab7fde654794aad06a806ec867aa214cfb954abd0e4ccce2f107753f1482",
+      "target_active_p90": -12.0,
+      "output_stats": {
+        "active_p90": -12.0,
+        "active_p50": -13.894,
+        "max_100ms": -10.232,
+        "integrated": -13.755
+      },
+      "true_peak_db": -3.17
+    }
+  }
+}

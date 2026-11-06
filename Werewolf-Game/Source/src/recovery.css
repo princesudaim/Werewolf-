@@ -1,0 +1,19 @@
+.recovery-options,.recovery-status,.recovery-card,.recovery-dialog { overflow-wrap:anywhere; color:#e4eaf2; }
+.recovery-options h3 { margin:0 0 .75rem; font-size:1rem; }
+.recovery-options label { display:flex; gap:.75rem; align-items:center; min-height:44px; font-weight:700; }
+.recovery-options input { min-width:24px; min-height:24px; }
+.recovery-options p,.recovery-status p { font-size:.875rem; line-height:1.5; }
+.recovery-options p:last-child { margin-bottom:0; }
+.recovery-notice { border-left:3px solid #d6ad71; padding-left:.75rem; }
+.recovery-screen { min-height:100svh; padding:max(1rem,env(safe-area-inset-top)) max(1rem,env(safe-area-inset-right)) max(1rem,env(safe-area-inset-bottom)) max(1rem,env(safe-area-inset-left)); display:grid; align-content:center; }
+.recovery-card { width:min(100%,38rem); margin:auto; padding:1.25rem; background:#0b1520f5; border:1px solid #9c7b48; }
+.recovery-card h1 { font-size:1.5rem; line-height:1.3; }
+.recovery-card p,.recovery-dialog p { font-size:1rem; line-height:1.5; }
+.recovery-card button,.recovery-dialog button,.recovery-status button { min-height:44px; white-space:normal; margin-top:.75rem; }
+.recovery-status { margin:1rem 0; padding:.75rem; background:#0b1520ee; border:1px solid #758597; }
+.recovery-status p { margin:.25rem 0; }
+.recovery-dialog-backdrop { position:fixed; inset:0; z-index:400; }
+.recovery-dialog { width:min(calc(100% - 2rem),36rem); max-height:calc(100svh - 2rem); overflow:auto; padding:1.25rem; background:#0b1520; border:1px solid #9c7b48; }
+.recovery-dialog::backdrop { background:#000b; }
+
+.recovery-options input:disabled + .setting-check-visual { opacity:.5; }
