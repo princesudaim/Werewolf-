@@ -1,0 +1,598 @@
+{
+  "revision": "4349872f30bb",
+  "offline_entries": 142,
+  "website_files": {
+    "avatars/crew-12.jpg": {
+      "size": 5152,
+      "sha256": "fd03872182537a0958bd3d8411faa2af45416ccd7da641a97b11a5628d7c626f"
+    },
+    "avatars/crew-13.jpg": {
+      "size": 6353,
+      "sha256": "68a252b41288c574fee1ad20a898d7543e60a9452e3c5bb455b0bf45674d71ad"
+    },
+    "avatars/crew-14.jpg": {
+      "size": 2784,
+      "sha256": "dd28c8ce674ed1dcebaa4bc304f1ca15d5ecde5aa2eeccf44062eac5b62fb812"
+    },
+    "avatars/crew-15.png": {
+      "size": 1771454,
+      "sha256": "712cc31b5b0a8ff5d78f24b54bdf1f4a0ce2dbb554da91beb994547683776e65"
+    },
+    "icons/icon-512.png": {
+      "size": 840591,
+      "sha256": "88e79d5d6a58baa01a5ec18e7912dd982b456f0b1ab1da64a9bdbba599795a54"
+    },
+    "icons/werewolf-512.png": {
+      "size": 287462,
+      "sha256": "3d1d6e8ab0b46d72ed1a8ada60e3165363ae89ebea5ea3998e001b7def49dd89"
+    },
+    "index.html": {
+      "size": 1529468,
+      "sha256": "4a246502786b7cb797d434f61ec08b375370d3e76096c66959c4bd5c4b3c166a"
+    },
+    "manifest.webmanifest": {
+      "size": 624,
+      "sha256": "38fa605b11a58925cce86316a4781867c187307a482cb678d81c847b1f1b23b7"
+    },
+    "sw.js": {
+      "size": 33805,
+      "sha256": "2d6e038f0964d9b51ab6bfa863cab17c3e9548a35775ce651df88388e4f2b56a"
+    },
+    "werewolf/audio/ballot/v1/ballot-enderman.wav": {
+      "size": 180816,
+      "sha256": "e2076e74886e47d58b33abf2c4ef5f88803e6a71d171688e4eda8b1a65191460"
+    },
+    "werewolf/audio/ballot/v1/ballot-enemy.wav": {
+      "size": 256644,
+      "sha256": "b3e7e3b83549954a17f56bba99d8274d54722d23dd8e46f0fcd86f7979427616"
+    },
+    "werewolf/audio/ballot/v1/ballot-notifi.wav": {
+      "size": 312092,
+      "sha256": "3196e31492f9441134a7d174a52a7322bb8187647a5f054c0fdd6947a3bdebe9"
+    },
+    "werewolf/audio/buttons/v2/button-add.wav": {
+      "size": 9644,
+      "sha256": "fe0ddb1b5a0c9839735d0af788ab47168beb44e2e6f9f934bc087385c9e1cc69"
+    },
+    "werewolf/audio/buttons/v2/button-confirm.wav": {
+      "size": 10604,
+      "sha256": "367c1cf1869985c0bc551684d8d501d5697f187afb9d6b3b6c361649936ac48e"
+    },
+    "werewolf/audio/buttons/v2/button-invalid.wav": {
+      "size": 9644,
+      "sha256": "5c2f0aae5d94a00e45fd049513a33c90e796ab8543646f25f8aff3fc4d2426a5"
+    },
+    "werewolf/audio/buttons/v2/button-navigate.wav": {
+      "size": 8204,
+      "sha256": "b5e9f60c71bda4bd8af919eb2251b6c93505a4ec44af07165363220786ba5eb3"
+    },
+    "werewolf/audio/buttons/v2/button-randomize.wav": {
+      "size": 12524,
+      "sha256": "1310159c42f5978aa30483646d46e71da35634620f1c2d0fc9fa8741485bd930"
+    },
+    "werewolf/audio/buttons/v2/button-remove.wav": {
+      "size": 9644,
+      "sha256": "f6f1bb6d888258a2a3b31e7a9494844c8ba17a4e1dc21681693e5028ce33d437"
+    },
+    "werewolf/audio/buttons/v2/button-select.wav": {
+      "size": 8204,
+      "sha256": "249a51a246a593edfc1292bc50d51a3215d986a3d2ecca8b8a45262a2ded9d26"
+    },
+    "werewolf/audio/buttons/v2/button-tap.wav": {
+      "size": 8684,
+      "sha256": "89057ebc1633b2544ce3e42c0824db547c60f12ec4606a64fcabec8baf5010ee"
+    },
+    "werewolf/audio/card-reveal/v3/reveal-01.wav": {
+      "size": 588532,
+      "sha256": "883485ec046cae7e5d1ddc09241856da61db630e2e3cc815ee096b30ddaeebf0"
+    },
+    "werewolf/audio/card-reveal/v3/reveal-02.wav": {
+      "size": 768044,
+      "sha256": "bd30530d4185f4642d24c1de621236922234dc78d008ed7c129bf4593fcb2cda"
+    },
+    "werewolf/audio/card-reveal/v3/reveal-03.wav": {
+      "size": 768044,
+      "sha256": "2d82e7022a9aca8ef20d4f2a0c5786c43057aa294764cda325211a26be38d85e"
+    },
+    "werewolf/audio/card-reveal/v3/reveal-04.wav": {
+      "size": 110592,
+      "sha256": "1d60282278c4ad5a242fa16d41777d6a5e64a4979c7879eb0f5111ae62cf0a81"
+    },
+    "werewolf/audio/card-reveal/v3/reveal-05.wav": {
+      "size": 735656,
+      "sha256": "0b909ca54dca78046077b823b3c85f8a280fd6713dcbab169516c93228e9c763"
+    },
+    "werewolf/audio/card-reveal/v3/reveal-06.wav": {
+      "size": 637572,
+      "sha256": "fc0bc9098437c77de97e347b01cbfb260fa19013edec748d65df19a7f3391787"
+    },
+    "werewolf/audio/card-reveal/v3/reveal-07.wav": {
+      "size": 370080,
+      "sha256": "9f6cad31ad399ef6236cca087ac850e4416f10f9a8d487f6b276ad100732a0c8"
+    },
+    "werewolf/audio/card-reveal/v3/reveal-08.wav": {
+      "size": 209584,
+      "sha256": "c668ae683d17559a372c28bb035ec60ad1369127b991750688d881b6b4e94816"
+    },
+    "werewolf/audio/card-reveal/v3/reveal-09.wav": {
+      "size": 557324,
+      "sha256": "f8d038f50f6b472213550b9d43c54a7d16f7a13fd91b7aa44c68406327fc2585"
+    },
+    "werewolf/audio/card-reveal/v3/reveal-10.wav": {
+      "size": 768044,
+      "sha256": "30109b2a82a4289a7ff36cee586fd13a1b0dcfbd13148638c53b8dd9b77e5f4a"
+    },
+    "werewolf/audio/card-reveal/v3/reveal-11.wav": {
+      "size": 768044,
+      "sha256": "6d26c3dd8f2ca85cdd32e666ae216d8bac56446f34e12f5130d30b86d3c3a1fc"
+    },
+    "werewolf/audio/card-reveal/v3/reveal-12.wav": {
+      "size": 768044,
+      "sha256": "e53230713a7a0bfc70bd268ddb3273e2e472e116ff11b6c51e1c83af87b07cd2"
+    },
+    "werewolf/audio/card-reveal/v3/reveal-13.wav": {
+      "size": 768044,
+      "sha256": "1460e0f44e942f0f39c3b460dab6140e2517110023ce34275dafeaff41b50ce3"
+    },
+    "werewolf/audio/card-reveal/v3/reveal-14.wav": {
+      "size": 356148,
+      "sha256": "b8a27ffc9683c259e14b78ba7b9a0a97017ab4b6cbf277a815e4a5b716d9675e"
+    },
+    "werewolf/audio/game-end/v1/game-end-01.wav": {
+      "size": 569516,
+      "sha256": "888cb206f44348889d9587f5eef3714dddde2754f182ab98748f06dd2de88b7e"
+    },
+    "werewolf/audio/game-end/v1/game-end-02.wav": {
+      "size": 1344044,
+      "sha256": "5999eba2149919b73ae0363157d4b39ac6c19d7283623c36d6524066fbd60bc1"
+    },
+    "werewolf/audio/game-end/v1/game-end-03.wav": {
+      "size": 1344044,
+      "sha256": "e0e976106a602e74d856bb606c2b881be55f13ddc67bec3378f5fd4c04eed270"
+    },
+    "werewolf/audio/game-end/v1/game-end-04.wav": {
+      "size": 971852,
+      "sha256": "32bf4b9df41bd6189525a938d60b5c952c08b928b28383bed301118363646c76"
+    },
+    "werewolf/audio/game-end/v1/game-end-05.wav": {
+      "size": 1344044,
+      "sha256": "d543ce1b04a84dbeca19f6ee7140d279f3307447cc96cdb36cdb56aca22042a6"
+    },
+    "werewolf/audio/morning-death/v1/morning-death-01.wav": {
+      "size": 220676,
+      "sha256": "3ea89456c4d3f38718b582c9b06550a27e74d211fc023a2ac0a8afe8946e6782"
+    },
+    "werewolf/audio/morning-death/v1/morning-death-02.wav": {
+      "size": 335944,
+      "sha256": "e947ddf3cbe37fcd05b160cf4f8f1b0d203f274e9d2744eef4c4c95530efd54d"
+    },
+    "werewolf/audio/morning-death/v1/morning-death-03.wav": {
+      "size": 183440,
+      "sha256": "0d08ef74fabefeae8d5bb29a183f7782a465ad6bd9c92a086ff0c82d5211ee62"
+    },
+    "werewolf/audio/phase/v1/meeting-start.wav": {
+      "size": 599680,
+      "sha256": "8610d763f3c6e491369b11565eed2aec0ca98f264a4570d7faf9b00a960508ea"
+    },
+    "werewolf/audio/phase/v1/night-start.wav": {
+      "size": 673240,
+      "sha256": "e499bdbdfe69200d4228dd3545a3b671070bc88068eb57119b46e4c4368ce9d9"
+    },
+    "werewolf/audio/v3/cues-add.wav": {
+      "size": 9164,
+      "sha256": "bec30e950a16d684a45bfc6a0f1db1d0ebe9d3d4c447eef17d4b4d3e3f92da2c"
+    },
+    "werewolf/audio/v3/cues-confirm.wav": {
+      "size": 9644,
+      "sha256": "179079e08d7a2d1680bd4aea5a4ae3f83e5e3c4caadc1d8888ffc5848f8c3e4b"
+    },
+    "werewolf/audio/v3/cues-discussion.wav": {
+      "size": 14444,
+      "sha256": "a7bed648e589c6e0f316c2cf3dce71f792bf204f83f83fa13ce351d9db5fec7b"
+    },
+    "werewolf/audio/v3/cues-divided.wav": {
+      "size": 15404,
+      "sha256": "af6723e32121c21b1ea886d521e9f0ed4a18b9252b2ec2f90ba41529d0161649"
+    },
+    "werewolf/audio/v3/cues-elimination.wav": {
+      "size": 20204,
+      "sha256": "440f863faf7563d0ec84f70f9ddb5b3ec931da5860896a3a3c00c1af18f87028"
+    },
+    "werewolf/audio/v3/cues-handoff.wav": {
+      "size": 7244,
+      "sha256": "bb265330aa9ae4f15a846c459281772b5cb143c38860af546ac8cd83a0d7bc8e"
+    },
+    "werewolf/audio/v3/cues-invalid.wav": {
+      "size": 8204,
+      "sha256": "5f084737e41e03eb1bb60ca0a276313c2b0b15d83ec15332f6c700303633f231"
+    },
+    "werewolf/audio/v3/cues-mvp.wav": {
+      "size": 26444,
+      "sha256": "f6d3729a5ddcbf9b5ef5bcf10d796b4c118a30221ba09f8b5ee13bb571361b9f"
+    },
+    "werewolf/audio/v3/cues-navigate.wav": {
+      "size": 7244,
+      "sha256": "e22e846cfefc64cdf0f6ceec0ed4ce034b71413465ad36e23ddc223bb144b87e"
+    },
+    "werewolf/audio/v3/cues-randomize.wav": {
+      "size": 14444,
+      "sha256": "bb58b4fc28a43041951268307950367f70d70d78527ec28ceeb04ca6c2285166"
+    },
+    "werewolf/audio/v3/cues-remove.wav": {
+      "size": 9164,
+      "sha256": "a44a261e2210abf29ab5fc74f5dd9b909ef3ea2200381632a767a9cceb8d7ab5"
+    },
+    "werewolf/audio/v3/cues-reveal.wav": {
+      "size": 9644,
+      "sha256": "5abc2b4e4a00f5662de78c38dbd2851632b4a23751c37bbf21bea9459c7f4ec2"
+    },
+    "werewolf/audio/v3/cues-select.wav": {
+      "size": 5804,
+      "sha256": "a11a71c0b8291668459004e70b51ae4fb370aa542d1a2646872b1ce9cdfde361"
+    },
+    "werewolf/audio/v3/cues-start.wav": {
+      "size": 31244,
+      "sha256": "6197723328428d13f5315ac6dda18adeb8d0f99a1a9f77500a655469b0766e01"
+    },
+    "werewolf/audio/v3/cues-tap.wav": {
+      "size": 4844,
+      "sha256": "1f16eae86ef6a5ec603ea52ce7a2a67bd0ea92d7703794d1bba745e4d4240562"
+    },
+    "werewolf/audio/v3/cues-time-up.wav": {
+      "size": 19244,
+      "sha256": "a9e3edfa362666c458a215035cc214e889ef4ab152d470ac0cd5ef8daeda75da"
+    },
+    "werewolf/audio/v3/cues-vote-open.wav": {
+      "size": 15404,
+      "sha256": "be417ad82b8fb5904ac314e705db226d2d3100fbf030d4fa042f67ca969402ee"
+    },
+    "werewolf/audio/v3/cues-warning.wav": {
+      "size": 12044,
+      "sha256": "5d173339e3160f8daea1965c55be745b2330f026263be9ffd774fb494b98dc8e"
+    },
+    "werewolf/audio/v3/cues-win-draw.wav": {
+      "size": 33644,
+      "sha256": "c0a29eca5f4e0339ce79668e6dcd2722231e85976dd31f015218f4c57cb74044"
+    },
+    "werewolf/audio/v3/cues-win-friends.wav": {
+      "size": 57644,
+      "sha256": "6ff50e6f9b42c92717beeafa1ccdf662d5ee02f1ce5bfd616bdbe63f8d9702ec"
+    },
+    "werewolf/audio/v3/cues-win-jester.wav": {
+      "size": 57644,
+      "sha256": "7499440ac2b659ff85f0e14fa60df10c90915ae6c58c0c35c3c67467e623904e"
+    },
+    "werewolf/audio/v3/cues-win-mindflayer.wav": {
+      "size": 57644,
+      "sha256": "595366d10e48b8c4f21a16a3ba0da0099500ecf5b686cab945327a8eaef51ff9"
+    },
+    "werewolf/audio/v3/cues-win-raven.wav": {
+      "size": 57644,
+      "sha256": "7fd9a5dd9092f3cdbaee60458230b23a058d503a49011ff25acb6ee8f0bd8f99"
+    },
+    "werewolf/audio/v3/cues-win-serialkiller.wav": {
+      "size": 57644,
+      "sha256": "32a9300ac1ebf9727411594cd12f36010fae7a4e9579e079cb825724a3f62e86"
+    },
+    "werewolf/audio/v3/cues-win-village.wav": {
+      "size": 57644,
+      "sha256": "ebd14b7ac570b8347cc48d60a234bec0573a2391cdeb1cf129b570220ab086d9"
+    },
+    "werewolf/audio/v3/cues-win-whitewolf.wav": {
+      "size": 57644,
+      "sha256": "7b043a96d16edb47904cd472578de4c68e3d0fedcc6ddae82b115731a4ff1218"
+    },
+    "werewolf/audio/v3/cues-win-wolf-friends.wav": {
+      "size": 57644,
+      "sha256": "63ed6ff5a37567785d127faa7c43e1baa8a73688d9f5da10c6bf8d3d8cacce3a"
+    },
+    "werewolf/audio/v3/cues-win-wolf.wav": {
+      "size": 57644,
+      "sha256": "58f41e5bbc4b19563027c4c56c8e8322ff3b324c8b5c42300fe36f71dc75b024"
+    },
+    "werewolf/audio/voted-out/v2/voted-out-01.wav": {
+      "size": 338260,
+      "sha256": "e7a055119d520239685abb2496b93950a2e19300ccfa1ec918b20df63f8c41fa"
+    },
+    "werewolf/audio/voted-out/v2/voted-out-02.wav": {
+      "size": 606192,
+      "sha256": "09e4bfd1d8394c25a9654d66b1e5fb9e4441c32f392b5eb9fa3eb65860929bb8"
+    },
+    "werewolf/audio/voted-out/v2/voted-out-03.wav": {
+      "size": 294660,
+      "sha256": "79bca34e5efdb8152cb758609b7f6e43051f0b264e47c8e70e0cbb14ff3990e3"
+    },
+    "werewolf/audio/voted-out/v2/voted-out-04.wav": {
+      "size": 768044,
+      "sha256": "8215a542fda201cc730a2e43a6007170df0d2736535d575921e38c21b04fc4f6"
+    },
+    "werewolf/audio/voted-out/v2/voted-out-05.wav": {
+      "size": 768044,
+      "sha256": "bce98adf7d7e1b28f0eb0bdc2b2beaa1fd8c56063e5d0f9cdb3e10b17c7bde98"
+    },
+    "werewolf/audio/voted-out/v2/voted-out-06.wav": {
+      "size": 103688,
+      "sha256": "20ee0e864429e9cea9e0c300d051adc00687a5d3e6c8762f10f610f908be5eae"
+    },
+    "werewolf/audio/voted-out/v2/voted-out-07.wav": {
+      "size": 528760,
+      "sha256": "317c27201c5f0ce99299cb6cad5ef54b42c0198ec4a55a71b82d53689c1b8641"
+    },
+    "werewolf/audio/voted-out/v2/voted-out-08.wav": {
+      "size": 768044,
+      "sha256": "ea66ab7fde654794aad06a806ec867aa214cfb954abd0e4ccce2f107753f1482"
+    },
+    "werewolf/avatars/photo-01-20261106.png": {
+      "size": 30026,
+      "sha256": "f1716152ffa08f26c1bc4ddb754f11ff9bac3f276385d66c48f5dc90a2685f8b"
+    },
+    "werewolf/avatars/photo-02-20261106.png": {
+      "size": 40909,
+      "sha256": "4651d429a4248d54c3ea2ca34fd7820656ffd356b280ac2bda3bf5670edc2355"
+    },
+    "werewolf/avatars/photo-03-20261106.jpg": {
+      "size": 3486,
+      "sha256": "efb5de3ade0d9a51f9396ac8985045d36f8a3cf8088471655e0760489f02806a"
+    },
+    "werewolf/avatars/photo-05-20261106.jpg": {
+      "size": 6353,
+      "sha256": "68a252b41288c574fee1ad20a898d7543e60a9452e3c5bb455b0bf45674d71ad"
+    },
+    "werewolf/avatars/photo-06-20261106.png": {
+      "size": 1771454,
+      "sha256": "712cc31b5b0a8ff5d78f24b54bdf1f4a0ce2dbb554da91beb994547683776e65"
+    },
+    "werewolf/avatars/photo-07-20261106.png": {
+      "size": 21868,
+      "sha256": "862efa147d9e4694ccaad41018afff789d2525f288b5d337cff60e0d4cae5f97"
+    },
+    "werewolf/avatars/photo-08-20261106.jpg": {
+      "size": 2784,
+      "sha256": "dd28c8ce674ed1dcebaa4bc304f1ca15d5ecde5aa2eeccf44062eac5b62fb812"
+    },
+    "werewolf/avatars/player11.webp": {
+      "size": 3244,
+      "sha256": "98f4a557442b029cda5a44e17f8eebedd97924d2acaa195c4ce5c7e560b940c7"
+    },
+    "werewolf/avatars/player13.webp": {
+      "size": 4868,
+      "sha256": "e9c1a01525847bad7c8a0755281312c2dbced0f7a520eb7f6462bf788e0b37b2"
+    },
+    "werewolf/avatars/player15.webp": {
+      "size": 4916,
+      "sha256": "ae01abb8b645f62ea1f0c9ca653ffc972a77ff1061aab45a6325d40a281fe86b"
+    },
+    "werewolf/avatars/player16.webp": {
+      "size": 4984,
+      "sha256": "d5753ec01efacbf222314c03d3d7171aac1eb99465945cee8d1bb28ee7ca9adb"
+    },
+    "werewolf/avatars/player17.webp": {
+      "size": 4638,
+      "sha256": "a511925fee16e01562a86ab8f27bd9af45667267cfaf20a58d4604da9971c227"
+    },
+    "werewolf/avatars/player18.webp": {
+      "size": 5390,
+      "sha256": "95048fd01e363bf54ad9ec53f5849bd3bcd1a821fc1aa18dc65c70251787c31d"
+    },
+    "werewolf/avatars/player19.webp": {
+      "size": 4882,
+      "sha256": "4620bf0a0e8d255520b0347c421ac3077d1e2f39850a10bfd336cfa11e863439"
+    },
+    "werewolf/avatars/player20.webp": {
+      "size": 56474,
+      "sha256": "9ea77dfa4a623b9f6a228b13008f5a50ceb712d78b6cc819e19f03f46525cce2"
+    },
+    "werewolf/avatars/player21.webp": {
+      "size": 49180,
+      "sha256": "d31cbbc03105e3cd08c37604205be67d29743fe15f4c4504ac042241608b740e"
+    },
+    "werewolf/avatars/player23.webp": {
+      "size": 65572,
+      "sha256": "28f3db86ed610874d59f9e6354d3b0a05ac259448b984aa7679b69b6b1a76955"
+    },
+    "werewolf/avatars/player24.webp": {
+      "size": 66772,
+      "sha256": "b3512d44ae4121b379180356bc8b1f4149430825c150dd232e897c5832f98bdd"
+    },
+    "werewolf/avatars/player4.webp": {
+      "size": 5952,
+      "sha256": "2f2eaedc89cff9b469bc442ad8dcc42f21bb54034348adaf0a1cce73a9d72d57"
+    },
+    "werewolf/barlow.ttf": {
+      "size": 108348,
+      "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5"
+    },
+    "werewolf/bodyguard.webp": {
+      "size": 833652,
+      "sha256": "b3e3ef426f268bc97d68e28bf5fa813bc61336cf642187e5252dc896d23d6c4d"
+    },
+    "werewolf/celebrity-gala.webp": {
+      "size": 125308,
+      "sha256": "888bf2ffa2de74a199b2eacb6395bc014bb07ae2f79f0a4ba79909534c708264"
+    },
+    "werewolf/celebrity-new.webp": {
+      "size": 391650,
+      "sha256": "85366aa0efb156c82ebfa4409a7da97a367b958c385c327a9527f114c58c313e"
+    },
+    "werewolf/celebrity-spotlight.webp": {
+      "size": 914766,
+      "sha256": "361b41e20f45de58111dfd992287118786c251045a3cefdb800bf45c819ee014"
+    },
+    "werewolf/celebrity.webp": {
+      "size": 391650,
+      "sha256": "85366aa0efb156c82ebfa4409a7da97a367b958c385c327a9527f114c58c313e"
+    },
+    "werewolf/charmer-moonlight.webp": {
+      "size": 110744,
+      "sha256": "4ad30af9fa43181b3aea691b27052188cc7c5429ed78c0da97f6bc56f21ab122"
+    },
+    "werewolf/charmer-new.webp": {
+      "size": 555944,
+      "sha256": "2a0c362e23b6b036f5f21e4618a2aee68ae12c4efc40f64c9c9d60366a787f0a"
+    },
+    "werewolf/charmer-sapphire.webp": {
+      "size": 105056,
+      "sha256": "2e7fbb7005f8992d7999ff91f0449e1d5a554572ff1ffe913320acd9244b080a"
+    },
+    "werewolf/charmer-starlight.webp": {
+      "size": 131992,
+      "sha256": "44af7163d0e395182d2c3a275a5c9d020ee7414ea05e90e715c9106b489c9afa"
+    },
+    "werewolf/charmer-sunrise.webp": {
+      "size": 64932,
+      "sha256": "2f52d0196214ae54ef36dac2d0b22971d65a471e267103c071c2e723a7991de7"
+    },
+    "werewolf/charmer.webp": {
+      "size": 131992,
+      "sha256": "44af7163d0e395182d2c3a275a5c9d020ee7414ea05e90e715c9106b489c9afa"
+    },
+    "werewolf/chef.webp": {
+      "size": 1017646,
+      "sha256": "5389c94a6a9ba679e8b697fa1cf3683fdb37c7dd04ab0c785835980f48704484"
+    },
+    "werewolf/condensed.ttf": {
+      "size": 110828,
+      "sha256": "e74b750df582c608f35db467b711b2b60d2217618e85e60b72b42dfd00446cab"
+    },
+    "werewolf/day.png": {
+      "size": 1793383,
+      "sha256": "e317075fd8fc58af67299402f5c18396b516ba55d248bf78022a288b9f966e54"
+    },
+    "werewolf/detective.webp": {
+      "size": 989148,
+      "sha256": "0ca42504df0c9f6f161e6a3c58c604474276365d7a2c333135abc1b24c960f3a"
+    },
+    "werewolf/doctor.webp": {
+      "size": 969932,
+      "sha256": "11fbc9d608af15ca7e3b4d150a15b647e82a41cfeed73546cbe997b1dbc84f89"
+    },
+    "werewolf/gambler.webp": {
+      "size": 1086080,
+      "sha256": "d0c3693e98ba92af62bbbfbb2100f16ad35c70f4f6fd2798ca0b318c943f430f"
+    },
+    "werewolf/home.png": {
+      "size": 1489236,
+      "sha256": "0dad68c7588ca04dad15394b4337da4215ca842d013f1a3a30d08627450070f3"
+    },
+    "werewolf/hypnowolf.webp": {
+      "size": 995278,
+      "sha256": "c00e48e6d46223ef1022295f74c28ff7b0b260807bd7eb173b5b872a589fd0f8"
+    },
+    "werewolf/instigator.webp": {
+      "size": 1027874,
+      "sha256": "6591635b6a25da799f219a5e471c7d6eb1b18e18adac570ee5e5be81a4c77b87"
+    },
+    "werewolf/intelligence.webp": {
+      "size": 940054,
+      "sha256": "e9c0c5b453b6070c2b9425e2cd54874464f6abe5176effcfa1200a6626b55c08"
+    },
+    "werewolf/jester.webp": {
+      "size": 989708,
+      "sha256": "e46212ba1927ec55a378476dc2578c2457fd2c71ef15b8ca41cc786e1d5fb97b"
+    },
+    "werewolf/journalist.webp": {
+      "size": 1002300,
+      "sha256": "554e914977bc818986f048048c45673e302c291f2eeca87892097a9d8d1de9c2"
+    },
+    "werewolf/lonewolf.webp": {
+      "size": 79372,
+      "sha256": "4f10a368e15ef21958f6f7ccc2115827d0fb1f2af799543046ecfc43bd7966df"
+    },
+    "werewolf/madman.webp": {
+      "size": 962180,
+      "sha256": "00debe50fc4b49790218f98270b6c5a24a4a4424f00ad313acd161f7ec3ee31c"
+    },
+    "werewolf/mayor.webp": {
+      "size": 977478,
+      "sha256": "074a708f2c169c248596efca7fc88969ba4123b4f4de5c0afb2a9aad442b4ed9"
+    },
+    "werewolf/mindflayer.webp": {
+      "size": 1060820,
+      "sha256": "ddd91b726d62366927889ba8b9b8699349726a5a2121c3c68e07d101961ce2d6"
+    },
+    "werewolf/muted.webp": {
+      "size": 940108,
+      "sha256": "8fdaef071523fb06d0609fcca6a572330b96f7ab00d512364607761647f5afa1"
+    },
+    "werewolf/necromancer.webp": {
+      "size": 983858,
+      "sha256": "3d3c7013e0ce7c7d979abcf9e9b6930c60fbe7b5196f8fd3ed820ee3822994cc"
+    },
+    "werewolf/night.png": {
+      "size": 1689981,
+      "sha256": "59472006ee4b4d80384c27fbd1d49c3da0c1f49a812ff0d9362000e9fe5ec929"
+    },
+    "werewolf/police.webp": {
+      "size": 1081528,
+      "sha256": "6549862d274ff27bfb8a6beeb830e569b642bed521b6b79a5a78713e9ae0c47a"
+    },
+    "werewolf/psychic.webp": {
+      "size": 981766,
+      "sha256": "67be227b95ef2ae13b06174198cceb31d4fef391d9341ec42de2e266dcd39b15"
+    },
+    "werewolf/rabidwolf.webp": {
+      "size": 1044492,
+      "sha256": "1877c50b8b979c7993b76c3144885c27c7160f2de94d768ec191945ae1da76b9"
+    },
+    "werewolf/raven.webp": {
+      "size": 1039680,
+      "sha256": "411e0303d7307b64fe991521c01d98b1a826c0ed44023b2fc08cbb44f220acf1"
+    },
+    "werewolf/seer.webp": {
+      "size": 1006222,
+      "sha256": "03035c1b90e967923cc496b491110aad33aa8c29928217691c0fd78ba75caf6c"
+    },
+    "werewolf/serialkiller.webp": {
+      "size": 938592,
+      "sha256": "c6e96988b19a03b448729e5accb6c8f48757625c31ede5534707326721c0a6e7"
+    },
+    "werewolf/sheriff.webp": {
+      "size": 980856,
+      "sha256": "19683e619f0cc5e4c7c82afd1dcee3d5db597148b31f24a770be9e6e34c6ff00"
+    },
+    "werewolf/sickman.webp": {
+      "size": 994216,
+      "sha256": "3d6b1a1e714b764c70d01f937f2ee69258ecb57ff1dd1ae3288e947ac4a412c1"
+    },
+    "werewolf/strongwolf.webp": {
+      "size": 986432,
+      "sha256": "fb642b3172e24996f14aebc9e1e60640ca06c12145d2c3401f78fb85c215969e"
+    },
+    "werewolf/survivor.webp": {
+      "size": 962736,
+      "sha256": "bbf82c87d0a0ea95ba45dfe9f7c7f303f3cbadd3f7ed692e9e7e7425f7607647"
+    },
+    "werewolf/templar.webp": {
+      "size": 1014288,
+      "sha256": "14da6d2b13d5973339dbe9395d989797f3a47432483d49243c186cf5c8f03823"
+    },
+    "werewolf/thief.webp": {
+      "size": 968208,
+      "sha256": "527887a40e461cdd0d5ca1c3ce697ef47c7f905d3842b1c9980cebc14f77b324"
+    },
+    "werewolf/villager.webp": {
+      "size": 1015448,
+      "sha256": "c5a0c34062cd7c725e98ca253609da5e726f9d88b16b94ab42ab0b5eb6f5aaba"
+    },
+    "werewolf/visitor.webp": {
+      "size": 1025312,
+      "sha256": "a0ee53e56a4f8b4132cb80a6df3a0dff2fde96cc21c1bc8d5937f246787fc2ec"
+    },
+    "werewolf/werewolf.webp": {
+      "size": 898502,
+      "sha256": "db596c558c787af2713ea06651071e5a1e45935bbab4c5a047644624884348fb"
+    },
+    "werewolf/whitewolf.webp": {
+      "size": 1039022,
+      "sha256": "a75426f8deff0db3c1f59e19c4c94eafecbd7a4bcc8777c5f48027bb3821a36c"
+    },
+    "werewolf/wolfpup.webp": {
+      "size": 978178,
+      "sha256": "eb305e59b89130348fff32a7bc34bcf9b6b0a257a03ae2bb62eded7d91590d7e"
+    }
+  },
+  "github_deployment_performed": false,
+  "private_browser_data_included": false,
+  "launch_layout": "index.html and assets at ZIP root; Pages deploy-from-branch /(root)",
+  "full_backup_shared_assets": "Run node Werewolf-Game/RESTORE-SOURCE-ASSETS.mjs before building Source"
+}
